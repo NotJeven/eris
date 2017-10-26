@@ -25,7 +25,7 @@ function eris:30 if @e[type=armor_stand,name=vTime,score_var_min=-600,score_var=
 function eris:0 if @e[type=armor_stand,name=vTime,score_var_min=0,score_var=0]
 function eris:25p if @e[type=armor_stand,name=vTime,score_var_min=4500,score_var=4500]
 function eris:50p if @e[type=armor_stand,name=vTime,score_var_min=9000,score_var=9000]
-function eris:75p if @e[type=armor_stand,name=vTime,score_var_min=13500,score_var=13500]
+function eris:75p if @e[type=armor_stand,name=vTime,score_var_min=1t3500,score_var=13500]
 function eris:100p if @e[type=armor_stand,name=vTime,score_var_min=18000,score_var=18000]
 
 # detect if core blocks are destroyed

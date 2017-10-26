@@ -1,0 +1,3 @@
+clear @a[score_playerRespawn_min=0,score_playerInGame_min=1,score_playerRespawn=0,score_playerSinceDeath=0]
+scoreboard players reset @a[score_playerSinceDeath=0,score_playerInGame_min=1,score_playerInGame=1,score_playerRespawn_min=0,score_playerRespawn=0,score_playerSinceDeath=0,score_inVoid_min=1,score_inVoid=2] inVoid
+scoreboard players set @a[score_playerSinceDeath=0,score_playerSinceDeath=0,score_playerInGame_min=1,score_playerInGame=1,score_playerRespawn_min=0,score_playerRespawn=0] playerRespawn 1

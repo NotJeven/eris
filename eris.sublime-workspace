@@ -1,0 +1,2090 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"score_in",
+				"score_inGame"
+			],
+			[
+				"score_",
+				"score_admin_min"
+			],
+			[
+				"score_admin",
+				"score_admin_min"
+			],
+			[
+				"tr",
+				"title\treset"
+			],
+			[
+				"title",
+				"title\treset"
+			],
+			[
+				"op",
+				"scoreboard players operation"
+			],
+			[
+				"score_te",
+				"score_test_min"
+			],
+			[
+				"score",
+				"scoreboard players"
+			],
+			[
+				"make",
+				"make_edits"
+			],
+			[
+				"edit",
+				"edit_from_functions"
+			],
+			[
+				"dum",
+				"parse_from_dumps"
+			],
+			[
+				"s",
+				"s"
+			],
+			[
+				"parse",
+				"parse_from_dumps"
+			],
+			[
+				"DIRE",
+				"DIRECTORY_IN"
+			],
+			[
+				"direc",
+				"directory_in"
+			],
+			[
+				"new",
+				"new_c"
+			],
+			[
+				"in",
+				"input_commands"
+			],
+			[
+				"function",
+				"function_names"
+			],
+			[
+				"ed",
+				"edited_commands"
+			],
+			[
+				"c",
+				"c"
+			],
+			[
+				"misc",
+				"miscfindreplace"
+			],
+			[
+				"tag",
+				"TAG_ORDER"
+			],
+			[
+				"selector",
+				"selectorxyz"
+			],
+			[
+				"w",
+				"while\tWhile Loop"
+			],
+			[
+				"command",
+				"command"
+			],
+			[
+				"love",
+				"love.timer.getAverageDelta"
+			],
+			[
+				"functio",
+				"function\tfunction"
+			],
+			[
+				"nodenode",
+				"nodeNodeMatARP"
+			],
+			[
+				"m_node",
+				"m_nodeMaterial"
+			],
+			[
+				"m_seg",
+				"m_segmentMaterial"
+			],
+			[
+				"segseg",
+				"segSegMatARP"
+			],
+			[
+				"text",
+				"Texture2D"
+			],
+			[
+				"nodl",
+				"nodeLod"
+			],
+			[
+				"Texture",
+				"Texture2D"
+			],
+			[
+				"RailsE",
+				"RailsE"
+			],
+			[
+				"Onlevel",
+				"OnLevelUnloading ()\tInvoked when the level is unloading (typically when going back to the main menu or prior to loading a new level)"
+			],
+			[
+				"Onleve",
+				"OnLevelLoaded (LoadMode mode)\tInvoked when a level has completed the loading process. The mode defines what kind of level was just loaded"
+			],
+			[
+				"I",
+				"ILoadingExtension"
+			],
+			[
+				"void",
+				"void OnUpdate ()\tCalled once per frame."
+			],
+			[
+				"voidon",
+				"void OnCreated\tInvoked when the extension initializes"
+			],
+			[
+				"se",
+				"senderID\tCitizen id of the sender"
+			],
+			[
+				"Iload",
+				"ILoadingExtension"
+			],
+			[
+				"set",
+				"simulationTime\tCurrent simulation date/time"
+			],
+			[
+				"Ic",
+				"IChipperMessage\t3"
+			],
+			[
+				"random",
+				"randomChange"
+			],
+			[
+				"gra",
+				"graphics"
+			],
+			[
+				"score_laser_",
+				"score_laser_inGame"
+			],
+			[
+				"laser_player",
+				"laser_playerEnter"
+			],
+			[
+				"score_laser",
+				"score_laser_inGame"
+			],
+			[
+				"laser_in",
+				"laser_inGame"
+			],
+			[
+				"laser_rechar",
+				"laser_recharged"
+			],
+			[
+				"score_las",
+				"score_laser_inGame"
+			],
+			[
+				"score_ar",
+				"score_art_p"
+			],
+			[
+				"score_art",
+				"score_art_p"
+			],
+			[
+				"art_qu",
+				"art_queueArea"
+			],
+			[
+				"art_q",
+				"art_qTrigger"
+			],
+			[
+				"art_",
+				"art_qTrigger"
+			],
+			[
+				"art_player",
+				"art_playerCount"
+			],
+			[
+				"score_stella_var",
+				"score_stella_var_min"
+			],
+			[
+				"stella_feed",
+				"stella_feedCounter"
+			],
+			[
+				"stella_fee",
+				"stella_feedCounter"
+			],
+			[
+				"stella_an",
+				"stella_answered"
+			],
+			[
+				"score_ste",
+				"score_stella_qora"
+			],
+			[
+				"score_stella_q",
+				"score_stella_qora_min"
+			],
+			[
+				"random_e",
+				"random_e"
+			],
+			[
+				"score_stella",
+				"score_stella_qora"
+			],
+			[
+				"score_stella_",
+				"score_stella_giveText"
+			],
+			[
+				"food_dia",
+				"food_diaIntro"
+			],
+			[
+				"food_foodde",
+				"food_foodDetect"
+			],
+			[
+				"score_food_dia",
+				"score_food_dialogProg"
+			],
+			[
+				"food_vend",
+				"food_vendPotato"
+			],
+			[
+				"score_food_fa",
+				"score_food_foodBread_min"
+			],
+			[
+				"score_food",
+				"score_food_dialogProg1_min"
+			],
+			[
+				"score_food_",
+				"score_food_foodHas"
+			],
+			[
+				"food",
+				"food_complete"
+			],
+			[
+				"food_carr",
+				"food_foodCarrot"
+			],
+			[
+				"score_food_v",
+				"score_food_v_min"
+			],
+			[
+				"food_foodPo",
+				"food_foodPotato"
+			],
+			[
+				"food_food",
+				"food_foodSteak"
+			],
+			[
+				"food_foo",
+				"food_foodPotato"
+			],
+			[
+				"food_intro",
+				"food_introVoicePass"
+			],
+			[
+				"foo",
+				"food_v"
+			],
+			[
+				"food_",
+				"food_introVoice"
+			],
+			[
+				"conn",
+				"connectCount"
+			],
+			[
+				"con",
+				"connectCount"
+			],
+			[
+				"try",
+				"try\tTry/Except"
+			],
+			[
+				"dsscap",
+				"dssCaptainAmount"
+			],
+			[
+				"dssLost",
+				"dssLostAmount"
+			],
+			[
+				"value",
+				"value"
+			],
+			[
+				"dssSail",
+				"dssSailAmount"
+			],
+			[
+				"dsssail",
+				"dssSailAmount"
+			],
+			[
+				"dss",
+				"dssSailAmount"
+			],
+			[
+				"shi",
+				"shipHP"
+			],
+			[
+				"dssCap",
+				"dssCaptainSucc"
+			],
+			[
+				"dssLos",
+				"dssLostSucc"
+			],
+			[
+				"dsslo",
+				"dssLostSucc"
+			],
+			[
+				"dssH",
+				"dssHullSucc"
+			],
+			[
+				"dssh",
+				"dssHullAmount"
+			],
+			[
+				"score_value",
+				"score_value_min"
+			],
+			[
+				"sore_",
+				"score_dssCaptaining_min"
+			],
+			[
+				"score_inGame",
+				"score_inGame_min"
+			],
+			[
+				"score_va",
+				"score_value"
+			],
+			[
+				"score_valu",
+				"score_value_min"
+			],
+			[
+				"dsssai",
+				"dssSailAmount"
+			],
+			[
+				"init",
+				"initPlayer"
+			],
+			[
+				"redston",
+				"redstone_block"
+			],
+			[
+				"gameloop",
+				"gameLoopOn"
+			],
+			[
+				"battle",
+				"battleAICannon5"
+			],
+			[
+				"aica",
+				"AICannon1"
+			],
+			[
+				"score_battle",
+				"score_battleCooldown"
+			],
+			[
+				"ship",
+				"shipAIHP"
+			],
+			[
+				"battleAI",
+				"battleAICooldown"
+			],
+			[
+				"AI",
+				"AICannon1"
+			],
+			[
+				"interfa",
+				"interfaceCannonLoop"
+			],
+			[
+				"interfacecanon",
+				"interfaceCannonLoop"
+			],
+			[
+				"shipCa",
+				"shipCalcHP"
+			],
+			[
+				"tick",
+				"tickcounter"
+			],
+			[
+				"battleaica",
+				"battleAICannonSelect"
+			],
+			[
+				"battlecannon",
+				"battleCannonLight"
+			],
+			[
+				"counter",
+				"counter"
+			],
+			[
+				"inter",
+				"interfaceCannon1"
+			],
+			[
+				"interfaceCann",
+				"interfaceCannon1"
+			],
+			[
+				"battleplayercann",
+				"battlePlayerCannonSelect"
+			],
+			[
+				"batt",
+				"battlePlayerCannon2"
+			],
+			[
+				"object",
+				"objectType"
+			],
+			[
+				"obje",
+				"objectType"
+			],
+			[
+				"ob",
+				"objectType"
+			],
+			[
+				"current",
+				"currentObject"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "# module clocks\nfunction mcmenu:clock\nfunction playerhandler:clock\nfunction gamehandler:clock\n\n# game timer\nscoreboard players add @e[type=armor_stand,name=vTime,score_var_min=-901] var 1\n\n# countdowns\nfunction mcmenu:countdown_start_ready\nfunction eris:15 if @e[type=armor_stand,name=vTime,score_var_min=-300,score_var=-300]\nfunction eris:10 if @e[type=armor_stand,name=vTime,score_var_min=-200,score_var=-200]\nfunction eris:5 if @e[type=armor_stand,name=vTime,score_var_min=-100,score_var=-100]\nfunction eris:3 if @e[type=armor_stand,name=vTime,score_var_min=-60,score_var=-60]\nfunction eris:2 if @e[type=armor_stand,name=vTime,score_var_min=-40,score_var=-40]\nfunction eris:1 if @e[type=armor_stand,name=vTime,score_var_min=-20,score_var=-20]\nfunction eris:startreset if @a[score_admin_min=7,score_admin=7]\nfunction eris:45 if @e[type=armor_stand,name=vTime,score_var_min=-900,score_var=-900]\nfunction eris:40 if @e[type=armor_stand,name=vTime,score_var_min=-800,score_var=-800]\nfunction eris:35 if @e[type=armor_stand,name=vTime,score_var_min=-700,score_var=-700]\nfunction eris:33 if @e[type=armor_stand,name=vTime,score_var_min=-660,score_var=-660]\nfunction eris:32 if @e[type=armor_stand,name=vTime,score_var_min=-640,score_var=-640]\nfunction eris:31 if @e[type=armor_stand,name=vTime,score_var_min=-620,score_var=-620]\nfunction eris:30 if @e[type=armor_stand,name=vTime,score_var_min=-600,score_var=-600]\nfunction eris:0 if @e[type=armor_stand,name=vTime,score_var_min=0,score_var=0]\nfunction eris:25p if @e[type=armor_stand,name=vTime,score_var_min=4500,score_var=4500]\nfunction eris:50p if @e[type=armor_stand,name=vTime,score_var_min=9000,score_var=9000]\nfunction eris:75p if @e[type=armor_stand,name=vTime,score_var_min=13500,score_var=13500]\nfunction eris:100p if @e[type=armor_stand,name=vTime,score_var_min=18000,score_var=18000]\n\n# detect if core blocks are destroyed\nexecute @e[type=armor_stand,name=vCoreBlock,score_var_min=1] ~ ~ ~ detect 1170 14 0 minecraft:air 0 scoreboard players set @e[type=armor_stand,name=vCoreBlock] var -1\nexecute @e[type=armor_stand,name=vCoreBlock,score_var_min=2] ~ ~ ~ detect 1170 15 0 minecraft:air 0 scoreboard players set @e[type=armor_stand,name=vCoreBlock] var -1\nexecute @e[type=armor_stand,name=vCoreBlock,score_var_min=3] ~ ~ ~ detect 1170 16 0 minecraft:air 0 scoreboard players set @e[type=armor_stand,name=vCoreBlock] var -1\nexecute @e[type=armor_stand,name=vCoreBlock,score_var_min=4] ~ ~ ~ detect 1170 17 0 minecraft:air 0 scoreboard players set @e[type=armor_stand,name=vCoreBlock] var -1\n\n# win conditions\nfunction eris:defencewin if @e[type=armor_stand,name=vTime,score_var_min=18020,score_var=18020]\nfunction eris:invaderwin if @e[type=armor_stand,name=vCoreBlock,score_var_min=-1,score_var=-1]\n\n# end display stats\nscoreboard players add @e[type=armor_stand,name=vEndDisplayTimer,score_var_min=0,score_var=100] var 1\nfunction eris:enddisplay if @e[type=armor_stand,name=vEndDisplayTimer,score_var_min=101,score_var=101]\n\nscoreboard players set @a[score_left_min=1,score_inGame_min=-2,score_inGame=-2] inGame -1\n\n# item spawners\nscoreboard players set @e[type=armor_stand,name=vSpawnerActive1,score_var_min=1,score_var=1] var 0\nexecute @e[type=armor_stand,name=vSpawnerActive1,score_var_min=0] ~ ~ ~ detect 1023 8 10 minecraft:redstone_block 0 scoreboard players set @e[type=armor_stand,name=vSpawnerActive1] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive1,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount1,score_var_min=391,score_var=399] var 1\nfunction eris:spawner1 if @e[type=armor_stand,name=vSpawnerCount1,score_var_min=400]\nscoreboard players set @e[type=armor_stand,name=vSpawnerActive2,score_var_min=1,score_var=1] var 0\nexecute @e[type=armor_stand,name=vSpawnerActive2,score_var_min=0] ~ ~ ~ detect 1038 17 -9 minecraft:redstone_block 0 scoreboard players set @e[type=armor_stand,name=vSpawnerActive2] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive2,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount2,score_var_min=1791,score_var=1799] var 1\nfunction eris:spawner2 if @e[type=armor_stand,name=vSpawnerCount2,score_var_min=1800]\nscoreboard players set @e[type=armor_stand,name=vSpawnerActive3,score_var_min=1,score_var=1] var 0\nexecute @e[type=armor_stand,name=vSpawnerActive3,score_var_min=0] ~ ~ ~ detect 1053 8 -7 minecraft:redstone_block 0 scoreboard players set @e[type=armor_stand,name=vSpawnerActive3] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive3,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount3,score_var_min=391,score_var=399] var 1\nfunction eris:spawner3 if @e[type=armor_stand,name=vSpawnerCount3,score_var_min=400]\nscoreboard players set @e[type=armor_stand,name=vSpawnerActive4,score_var_min=1,score_var=1] var 0\nexecute @e[type=armor_stand,name=vSpawnerActive4,score_var_min=0] ~ ~ ~ detect 1063 13 13 minecraft:redstone_block 0 scoreboard players set @e[type=armor_stand,name=vSpawnerActive4] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive4,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount4,score_var_min=391,score_var=399] var 1\nfunction eris:spawner4 if @e[type=armor_stand,name=vSpawnerCount4,score_var_min=400]\nscoreboard players set @e[type=armor_stand,name=vSpawnerActive5,score_var_min=1,score_var=1] var 0\nexecute @e[type=armor_stand,name=vSpawnerActive5,score_var_min=0] ~ ~ ~ detect 1074 17 -14 minecraft:redstone_block 0 scoreboard players set @e[type=armor_stand,name=vSpawnerActive5] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive5,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount5,score_var_min=391,score_var=399] var 1\nfunction eris:spawner5 if @e[type=armor_stand,name=vSpawnerCount5,score_var_min=400]\nscoreboard players set @e[type=armor_stand,name=vSpawnerActive6,score_var_min=1,score_var=1] var 0\nexecute @e[type=armor_stand,name=vSpawnerActive6,score_var_min=0] ~ ~ ~ detect 1074 8 13 minecraft:redstone_block 0 scoreboard players set @e[type=armor_stand,name=vSpawnerActive6] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive6,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount6,score_var_min=391,score_var=399] var 1\nfunction eris:spawner6 if @e[type=armor_stand,name=vSpawnerCount6,score_var_min=400]\nscoreboard players set @e[type=armor_stand,name=vSpawnerActive7,score_var_min=1,score_var=1] var 0\nexecute @e[type=armor_stand,name=vSpawnerActive7,score_var_min=0] ~ ~ ~ detect 1079 23 14 minecraft:redstone_block 0 scoreboard players set @e[type=armor_stand,name=vSpawnerActive7] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive7,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount7,score_var_min=1791,score_var=1799] var 1\nfunction eris:spawner7 if @e[type=armor_stand,name=vSpawnerCount7,score_var_min=1800]\nscoreboard players set @e[type=armor_stand,name=vSpawnerActive8,score_var_min=1,score_var=1] var 0\nexecute @e[type=armor_stand,name=vSpawnerActive8,score_var_min=0] ~ ~ ~ detect 1083 8 -8 minecraft:redstone_block 0 scoreboard players set @e[type=armor_stand,name=vSpawnerActive8] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive8,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount8,score_var_min=391,score_var=399] var 1\nfunction eris:spawner8 if @e[type=armor_stand,name=vSpawnerCount8,score_var_min=400]\nscoreboard players set @e[type=armor_stand,name=vSpawnerActive9,score_var_min=1,score_var=1] var 0\nexecute @e[type=armor_stand,name=vSpawnerActive9,score_var_min=0] ~ ~ ~ detect 1103 12 14 minecraft:redstone_block 0 scoreboard players set @e[type=armor_stand,name=vSpawnerActive9] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive9,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount9,score_var_min=1791,score_var=1799] var 1\nfunction eris:spawner9 if @e[type=armor_stand,name=vSpawnerCount9,score_var_min=1800]\nscoreboard players set @e[type=armor_stand,name=vSpawnerActive10,score_var_min=1,score_var=1] var 0\nexecute @e[type=armor_stand,name=vSpawnerActive10,score_var_min=0] ~ ~ ~ detect 1103 12 -14 minecraft:redstone_block 0 scoreboard players set @e[type=armor_stand,name=vSpawnerActive10] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive10,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount10,score_var_min=1791,score_var=1799] var 1\nfunction eris:spawner10 if @e[type=armor_stand,name=vSpawnerCount10,score_var_min=1800]\nscoreboard players set @e[type=armor_stand,name=vSpawnerActive11,score_var_min=1,score_var=1] var 0\nexecute @e[type=armor_stand,name=vSpawnerActive11,score_var_min=0] ~ ~ ~ detect 1110 23 12 minecraft:redstone_block 0 scoreboard players set @e[type=armor_stand,name=vSpawnerActive11] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive11,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount11,score_var_min=1791,score_var=1799] var 1\nfunction eris:spawner11 if @e[type=armor_stand,name=vSpawnerCount11,score_var_min=1800]\nscoreboard players set @e[type=armor_stand,name=vSpawnerActive12,score_var_min=1,score_var=1] var 0\nexecute @e[type=armor_stand,name=vSpawnerActive12,score_var_min=0] ~ ~ ~ detect 1130 12 13 minecraft:redstone_block 0 scoreboard players set @e[type=armor_stand,name=vSpawnerActive12] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive12,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount12,score_var_min=391,score_var=399] var 1\nfunction eris:spawner12 if @e[type=armor_stand,name=vSpawnerCount12,score_var_min=400]\nscoreboard players set @e[type=armor_stand,name=vSpawnerActive13,score_var_min=1,score_var=1] var 0\nexecute @e[type=armor_stand,name=vSpawnerActive13,score_var_min=0] ~ ~ ~ detect 1130 13 -2 minecraft:redstone_block 0 scoreboard players set @e[type=armor_stand,name=vSpawnerActive13] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive13,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount13,score_var_min=391,score_var=399] var 1\nfunction eris:spawner13 if @e[type=armor_stand,name=vSpawnerCount13,score_var_min=400]\nscoreboard players set @e[type=armor_stand,name=vSpawnerActive14,score_var_min=1,score_var=1] var 0\nexecute @e[type=armor_stand,name=vSpawnerActive14,score_var_min=0] ~ ~ ~ detect 1134 12 -13 minecraft:redstone_block 0 scoreboard players set @e[type=armor_stand,name=vSpawnerActive14] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive14,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount14,score_var_min=391,score_var=399] var 1\nfunction eris:spawner14 if @e[type=armor_stand,name=vSpawnerCount14,score_var_min=400]\nscoreboard players set @e[type=armor_stand,name=vSpawnerActive15,score_var_min=1,score_var=1] var 0\nexecute @e[type=armor_stand,name=vSpawnerActive15,score_var_min=0] ~ ~ ~ detect 1152 37 9 minecraft:redstone_block 0 scoreboard players set @e[type=armor_stand,name=vSpawnerActive15] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive15,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount15,score_var_min=1791,score_var=1799] var 1\nfunction eris:spawner15 if @e[type=armor_stand,name=vSpawnerCount15,score_var_min=1800]\nscoreboard players set @e[type=armor_stand,name=vSpawnerActive16,score_var_min=1,score_var=1] var 0\nexecute @e[type=armor_stand,name=vSpawnerActive16,score_var_min=0] ~ ~ ~ detect 1154 25 -4 minecraft:redstone_block 0 scoreboard players set @e[type=armor_stand,name=vSpawnerActive16] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive16,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount16,score_var_min=391,score_var=399] var 1\nfunction eris:spawner16 if @e[type=armor_stand,name=vSpawnerCount16,score_var_min=400]\nscoreboard players set @e[type=armor_stand,name=vSpawnerActive17,score_var_min=1,score_var=1] var 0\nexecute @e[type=armor_stand,name=vSpawnerActive17,score_var_min=0] ~ ~ ~ detect 1158 26 7 minecraft:redstone_block 0 scoreboard players set @e[type=armor_stand,name=vSpawnerActive17] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive17,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount17,score_var_min=391,score_var=399] var 1\nfunction eris:spawner17 if @e[type=armor_stand,name=vSpawnerCount17,score_var_min=400]\nscoreboard players set @e[type=armor_stand,name=vSpawnerActive18,score_var_min=1,score_var=1] var 0\nexecute @e[type=armor_stand,name=vSpawnerActive18,score_var_min=0] ~ ~ ~ detect 1165 27 -8 minecraft:redstone_block 0 scoreboard players set @e[type=armor_stand,name=vSpawnerActive18] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive18,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount18,score_var_min=391,score_var=399] var 1\nfunction eris:spawner18 if @e[type=armor_stand,name=vSpawnerCount18,score_var_min=400]\nscoreboard players set @e[type=armor_stand,name=vSpawnerActive19,score_var_min=1,score_var=1] var 0\nexecute @e[type=armor_stand,name=vSpawnerActive19,score_var_min=0] ~ ~ ~ detect 1170 12 14 minecraft:redstone_block 0 scoreboard players set @e[type=armor_stand,name=vSpawnerActive19] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive19,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount19,score_var_min=391,score_var=399] var 1\nfunction eris:spawner19 if @e[type=armor_stand,name=vSpawnerCount19,score_var_min=400]\nscoreboard players set @e[type=armor_stand,name=vSpawnerActive20,score_var_min=1,score_var=1] var 0\nexecute @e[type=armor_stand,name=vSpawnerActive20,score_var_min=0] ~ ~ ~ detect 1170 12 -14 minecraft:redstone_block 0 scoreboard players set @e[type=armor_stand,name=vSpawnerActive20] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive20,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount20,score_var_min=391,score_var=399] var 1\nfunction eris:spawner20 if @e[type=armor_stand,name=vSpawnerCount20,score_var_min=400]\nfunction eris:spawnerblock if @e[type=armor_stand,name=vSpawnerCountBlock,score_var_min=1800]\n# timers for spawners\nexecute @e[type=armor_stand,name=vSpawnerActive1,score_var_min=0] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount1,score_var=390] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive1,score_var_min=0] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount2,score_var=1790] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive1,score_var_min=0] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount3,score_var=390] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive1,score_var_min=0] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount4,score_var=390] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive1,score_var_min=0] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount5,score_var=390] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive1,score_var_min=0] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount6,score_var=390] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive1,score_var_min=0] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount7,score_var=1790] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive1,score_var_min=0] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount8,score_var=390] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive1,score_var_min=0] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount9,score_var=1790] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive1,score_var_min=0] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount10,score_var=1790] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive1,score_var_min=0] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount11,score_var=1790] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive1,score_var_min=0] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount12,score_var=390] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive1,score_var_min=0] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount13,score_var=390] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive1,score_var_min=0] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount14,score_var=390] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive1,score_var_min=0] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount15,score_var=1790] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive1,score_var_min=0] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount16,score_var=390] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive1,score_var_min=0] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount17,score_var=390] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive1,score_var_min=0] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount18,score_var=390] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive1,score_var_min=0] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount19,score_var=390] var 1\nexecute @e[type=armor_stand,name=vSpawnerActive1,score_var_min=0] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCount20,score_var=390] var 1\nexecute @e[type=armor_stand,name=vSpawnerActiveBlock,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vSpawnerCountBlock] var 1\n\n\n# clear beside the core\nfill 1169 14 -1 1169 18 0 minecraft:air 0 replace\nfill 1169 14 1 1170 18 1 minecraft:air 0 replace\nfill 1171 14 0 1171 18 0 minecraft:air 0 replace\nfill 1170 14 -1 1171 18 -1 minecraft:air 0 replace\n\n# weaken players where they shouldnt be\neffect @a[x=1166,y=10,z=-4,dx=8,dy=12,dz=8,team=team1,score_inGame_min=1,score_inGame=1] minecraft:poison 1 4\neffect @a[x=1000,y=0,z=-15,dx=85,dy=50,dz=31,team=team1,score_inGame_min=1,score_inGame=1] minecraft:weakness 1 10\neffect @a[x=1000,y=0,z=-15,dx=55,dy=50,dz=31,team=team1,score_inGame_min=1,score_inGame=1] minecraft:slowness 1 0\neffect @a[x=1000,y=50,z=-15,dx=198,dy=50,dz=31,score_inGame_min=1,score_inGame=1] minecraft:wither 1 16\n\n# detect if players are over the void\nexecute @a[x=1000,y=0,z=-19,dx=198,dy=100,dz=4,score_inGame_min=1,score_inGame=1] ~ ~ ~ detect ~ ~ ~-30.7 minecraft:barrier 0 scoreboard players set @p inVoid 1\nexecute @a[x=1000,y=0,z=15,dx=198,dy=100,dz=4,score_inGame_min=1,score_inGame=1] ~ ~ ~ detect ~ ~ ~30.7 minecraft:barrier 0 scoreboard players set @p inVoid 1\nexecute @a[x=996,y=0,z=-15,dx=5,dy=100,dz=31,score_inGame_min=1,score_inGame=1] ~ ~ ~ detect ~-30.7 ~ ~ minecraft:barrier 0 scoreboard players set @p inVoid 1\nexecute @a[x=1197,y=0,z=-15,dx=5,dy=100,dz=31,score_inGame_min=1,score_inGame=1] ~ ~ ~ detect ~30.7 ~ ~ minecraft:barrier 0 scoreboard players set @p inVoid 1\nscoreboard players set @a[score_inVoid_min=1,score_inVoid=1,score_respawn=0] inVoid 2 {OnGround:1b}\nkill @a[score_respawn=0,score_inVoid_min=2,score_inVoid=2]\nclear @a[score_respawn=0,score_inVoid_min=1,score_inVoid=2]\nfunction eris:borderclear if @a[score_inVoid_min=1]\n\n# tp spectators who fly too far away back\ntp @a[x=1100,y=30,z=0,rm=200,score_inGame_min=0,m=3] 1098 40 0\n\n# protect spawnpoints from being disrupted\nfill 1195 29 0 1195 30 0 minecraft:air 0 replace\nfill 1011 10 0 1011 11 0 minecraft:air 0 replace\nfill 1011 15 0 1011 16 0 minecraft:air 0 replace\n\nfunction eris:swapreset if @e[score_admin_min=9,score_admin=9]\n\n# Core fireworks\nexecute @a[x=1170,y=15,z=0,r=25,team=team2,score_inGame_min=1,score_inGame=1] ~ ~ ~ scoreboard players add @e[type=armor_stand,name=vFireworkCount,score_var=19] var 1\nfunction eris:firework if @e[type=armor_stand,name=vFireworkCount,score_var_min=20,score_var=20]\nscoreboard players add @e[type=armor_stand,name=vPlayerDisplayCount,score_var_min=0] var 1\n\n# show the core timer under players\nfunction eris:updateplayerdisplay if @e[type=armor_stand,name=vPlayerDisplayCount,score_var_min=200]\n\n# item spawner holograms\nscoreboard players add @e[name=vHologramCount] var 1\nfunction eris:summonhologram if @e[name=vHologramCount,score_var_min=100]\n\nfunction eris:debug if @a[x=1000,y=100,z=0,r=1,name=NotJeven]\n\n# detect if armorstands are killed\nfunction eris:armorcheck unless @e[type=armor_stand]",
+			"file": "functions/eris/clock.mcfunction",
+			"file_size": 23530,
+			"file_write_time": 131531899937469218,
+			"settings":
+			{
+				"buffer_size": 20595,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "functions/eris/spawnerblock.mcfunction",
+			"settings":
+			{
+				"buffer_size": 548,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "functions/eris/playerinit.mcfunction",
+			"settings":
+			{
+				"buffer_size": 2648,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "functions/eris/worldspawn.mcfunction",
+			"settings":
+			{
+				"buffer_size": 193,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/AAAPackageDev/Support/Convert to ....sublime-build",
+					""
+				],
+				[
+					"Packages/AAAPackageDev/Support/Convert to ....sublime-build",
+					"JSON"
+				],
+				[
+					"Packages/AAAPackageDev/Support/Convert to ....sublime-build",
+					"Property List"
+				],
+				[
+					"Packages/AAAPackageDev/Support/Convert to ....sublime-build",
+					"YAML (Block Style)"
+				],
+				[
+					"Packages/AAAPackageDev/Support/Convert to ....sublime-build",
+					"YAML (Default Style)"
+				]
+			],
+			[
+				"Packages/AAAPackageDev/Support/Convert to ....sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Lua/Lua.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Cats Everywhere Build.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/Cats Everywhere Build.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/sublime-build/java_jar.sublime-build",
+					""
+				],
+				[
+					"Packages/User/sublime-build/java_javadoc.sublime-build",
+					""
+				],
+				[
+					"Packages/User/sublime-build/java_packaged.sublime-build",
+					""
+				],
+				[
+					"Packages/User/sublime-build/love2d.sublime-build",
+					""
+				],
+				[
+					"Packages/User/sublime-build/mcfunction_project.sublime-build",
+					""
+				],
+				[
+					"Packages/User/sublime-build/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/User/sublime-build/VHDL.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/sublime-build/java_jar.sublime-build",
+					""
+				],
+				[
+					"Packages/User/sublime-build/java_javadoc.sublime-build",
+					""
+				],
+				[
+					"Packages/User/sublime-build/java_packaged.sublime-build",
+					""
+				],
+				[
+					"Packages/User/sublime-build/love2d.sublime-build",
+					""
+				],
+				[
+					"Packages/User/sublime-build/mcfunction_project.sublime-build",
+					""
+				],
+				[
+					"Packages/User/sublime-build/VHDL.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/sublime-build/mcfunction_project.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/subllualove-master/LuaLove.sublime-build",
+					""
+				],
+				[
+					"Packages/subllualove-master/LuaLove.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/subllualove-master/LuaLove.sublime-build",
+					"Love2D"
+				],
+				[
+					"Packages/subllualove-master/LuaLove.sublime-build",
+					"ldoc: File"
+				],
+				[
+					"Packages/subllualove-master/LuaLove.sublime-build",
+					"ldoc: Project"
+				]
+			],
+			[
+				"Packages/subllualove-master/LuaLove.sublime-build",
+				"Love2D"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 203.0,
+		"last_filter": "closea",
+		"selected_items":
+		[
+			[
+				"closea",
+				"File: Close All"
+			],
+			[
+				"close",
+				"File: Close"
+			],
+			[
+				"de",
+				"File: Delete"
+			],
+			[
+				"pro",
+				"Project: Open Recent"
+			],
+			[
+				"project add",
+				"Project: Add Folder"
+			],
+			[
+				"clo",
+				"File: Close All"
+			],
+			[
+				"delte",
+				"File: Delete"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"file close",
+				"File: Close"
+			],
+			[
+				"fileclose",
+				"File: Close"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"file clos",
+				"File: Close All"
+			],
+			[
+				"file clo",
+				"File: Close"
+			],
+			[
+				"file:c",
+				"File: Close"
+			],
+			[
+				"open",
+				"File Open: Whatever"
+			],
+			[
+				"book",
+				"Bookmarks: Clear All"
+			],
+			[
+				"ed",
+				"Project: Edit Project"
+			],
+			[
+				"edi",
+				"Project: Edit Project"
+			],
+			[
+				"closeall",
+				"File: Close All"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"edit",
+				"Project: Edit Project"
+			],
+			[
+				"edit pro",
+				"Project: Edit Project"
+			],
+			[
+				"file",
+				"File: Close All"
+			],
+			[
+				"project",
+				"Project: Edit Project"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"package control li",
+				"Package Control: List Packages"
+			],
+			[
+				"package control: up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"package control: list",
+				"Package Control: List Packages"
+			],
+			[
+				"package control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"set syntax: lua",
+				"Set Syntax: Lua (Love)"
+			],
+			[
+				"Snippet: ",
+				"Snippet: cities skylines api"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"add fil",
+				"Git: Add Current File"
+			],
+			[
+				"git add ",
+				"Git: Quick Add"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"git:sta",
+				"Git: Status"
+			],
+			[
+				"pu",
+				"Git: Push"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git: add",
+				"Git: Add Remote"
+			],
+			[
+				"git check",
+				"Git: Checkout New Branch"
+			],
+			[
+				"gitpus",
+				"Git: Push"
+			],
+			[
+				"gitpul",
+				"Git: Pull"
+			],
+			[
+				"git",
+				"Git: Pull"
+			],
+			[
+				"gitlog",
+				"Git: Log"
+			],
+			[
+				"gitpu",
+				"Git: Push"
+			],
+			[
+				"gitstatu",
+				"Git: Status"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 143.0,
+		"history":
+		[
+			"20*8",
+			"s",
+			"s=s.replace('cat', 'some')",
+			"s.replace('cat', 'some')",
+			"s",
+			"s.replace('thing', 'some')",
+			"s = 'some thing'",
+			"2528/2",
+			"2192 + 336",
+			"-88+136",
+			"273/2",
+			"-78-88",
+			"a.index(5)",
+			"a",
+			"a = (1,5,7,3,8)",
+			"a.index(5)",
+			"a = {1,5,7,3,8}",
+			"l[2]",
+			"l.index('a')",
+			"l",
+			"s",
+			"len(s2.split(' '))",
+			"s2 = 'playsound random.pop master @a[score_activate_min=1,score_activate=1,score_menuVis_min=0,score_menuVis=1] ~ ~ ~ .2 1.3 .2'",
+			"len(s.split(' '))",
+			"s = 'playsound random.pop @a[score_activate_min=1,score_activate=1,score_menuVis_min=0,score_menuVis=1] ~ ~ ~ .2 1.3 .2'",
+			"s.replace('g','t')",
+			"s = 'abcef'",
+			"s",
+			"l",
+			"l.insert(2,'a')",
+			"l = [5,6,7,8,9]",
+			"l",
+			"l +='efg'",
+			"len(l)",
+			"l='abcd'",
+			"os.path",
+			"import os",
+			"range(len(l))",
+			"len(l)",
+			"l = [5,2,6,6,7,2,7,2,7]",
+			"l = [a,b,c,d,e]",
+			"s2",
+			"s1",
+			"s2 = 'cat'",
+			"s2",
+			"s2 = s1.strip()",
+			"s1",
+			"s1 = \"basd basd\"",
+			"def a(cat):",
+			"a",
+			"a.remove(3)",
+			"a",
+			"a.append(5)",
+			"a",
+			"a.remove(5)",
+			"a.append(5)",
+			"a",
+			"a.append(3)",
+			"a = []",
+			"currly",
+			"currly += 1",
+			"currly",
+			"currly += 1",
+			"currly = 0",
+			"s.replace('asd','123')",
+			"s=\"asdtttttttttttttasdttttttttasdffffffasdtttt\"",
+			"s.find('\"GG\"') == -1 and s[s.find('GG')-1] in 'sd'",
+			"s.find('\"GG\"') == -1 and s[s.find('GG')-1] in 's'",
+			"s.find('\"GG\"') == -1 and s[s.find('GG')-1] not in 'd'",
+			"s.find('\"GG\"') == -1 and s[s.find('GG')-1] not in 's'",
+			"command.find('\"GG\"') == -1 and s[s.find('GG')-1] not in 's'",
+			"command.find('\"GG\"') == -1 and s[s.find('GG')-1] not in 's':",
+			"command.find('\"GG\"') == -1 and s[s.find('GG')-1] not in 's'",
+			"command.find('GG') and s[s.find('d')-1] not in ':,'",
+			"s[s.find('d')-1] not in ':,'",
+			"s[s.find('d')-1]",
+			"s.find('d')-1",
+			"s[-2]",
+			"s[-1]",
+			"s",
+			"s.lower()",
+			"s",
+			"s = \"AbsdGGas\"",
+			"s.find('a')",
+			"s.find('r')",
+			"s.index('r')",
+			"s = \"asdf\"",
+			"x.index('[',9)",
+			"x.index('[',1)",
+			"x.index('[',2)",
+			"x.index('[')",
+			"x = \"execute[asdasome tages] ~ ~ ~ ~ execute[scome tages] 123213 asdasd\"",
+			"a[:-5]",
+			"a = \"abc\"",
+			"s",
+			"s.strip()",
+			"s",
+			"s = \"asdasd asdsad \"",
+			"exit",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"-2 *16",
+			"4 - 6",
+			"math.floor(77/16)",
+			"floor(77/16)",
+			"math.floor(77/16)",
+			"math.ceil(77/16)",
+			"math.float(1.5)",
+			"import math",
+			"python"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/C/Projects/Eris/functions/eris/eggs.mcfunction",
+		"/C/Projects/Eris/functions/eris/endgame.mcfunction",
+		"/C/Projects/Eris/functions/eris/30.mcfunction",
+		"/C/Projects/Eris/functions/eris/clock.mcfunction",
+		"/C/Projects/Eris/functions/eris/playerinit.mcfunction",
+		"/C/Projects/Eris/todo.md",
+		"/C/Projects/Eris/functions/eris/test.mcfunction",
+		"/C/Users/Justin/AppData/Roaming/Sublime Text 3/Packages/DeleteCurrentFile/DeleteCurrentFile.sublime-commands",
+		"/C/Users/Justin/AppData/Roaming/Sublime Text 3/Packages/DeleteCurrentFile/DeleteCurrentFile.py",
+		"/C/Users/Justin/AppData/Roaming/Sublime Text 3/Packages/DeleteCurrentFile/DeleteCurrentFile.sublime-project",
+		"/C/Users/Justin/AppData/Roaming/Sublime Text 3/Packages/User/Default.sublime-commands",
+		"/C/Projects/Eris/functions/eris/autoresettoggle.mcfunction",
+		"/C/Projects/Eris/functions/eris/resetteam.mcfunction",
+		"/C/Users/Justin/AppData/Local/Temp/7zEBC4.tmp/README.txt",
+		"/C/Maps/WildFlower/Display.mcc",
+		"/C/Maps/Project Arrgh/todo.note",
+		"/C/Projects/Eris/functions/eris/randomteamdone.mcfunction",
+		"/C/Projects/Eris/functions/eris/spawner3.mcfunction",
+		"/C/Projects/Eris/functions/eris/spawner6.mcfunction",
+		"/C/Projects/Eris/functions/eris/spawner2.mcfunction",
+		"/C/Projects/Eris/functions/eris/loadandreset.mcfunction",
+		"/C/Projects/Eris/functions/eris/autoresetinfo.mcfunction",
+		"/C/Projects/Eris/functions/eris/activateadmin.mcfunction",
+		"/C/Projects/Eris/functions/eris/colors.mcfunction",
+		"/C/Projects/Eris/functions/eris/togglemenu.mcfunction",
+		"/C/Projects/Eris/functions/eris/enddisplay.mcfunction",
+		"/C/Projects/Eris/functions/eris/variableset.mcfunction",
+		"/C/Projects/Eris/functions/eris/objectiveinit.mcfunction",
+		"/C/Projects/Eris/functions/eris/summonvars.mcfunction",
+		"/C/Projects/Eris/functions/eris/removeadmin.mcfunction",
+		"/C/Projects/Eris/changelog",
+		"/C/Users/Justin/Desktop/playerinit.mcfunction",
+		"/C/Projects/Eris/dump/functions",
+		"/C/Projects/Eris/functions/eris/autoreset.mcfunction",
+		"/C/Projects/Eris/functions/eris/10.mcfunction",
+		"/C/Projects/Eris/functions/summonvars.mcfunction",
+		"/C/Projects/Eris/functions/eris/updateplayerdisplay.mcfunction",
+		"/C/Projects/Eris/functions/eris/0.mcfunction",
+		"/C/Projects/Eris/functions/eris/deathwhile.mcfunction",
+		"/C/Projects/Eris/functions/eris/alivewhile.mcfunction",
+		"/C/Projects/Eris/functions/eris/team0.mcfunction",
+		"/C/Projects/Eris/functions/eris/team1.mcfunction",
+		"/C/Projects/Eris/functions/eris/startreset.mcfunction",
+		"/C/Projects/Eris/functions/eris/clone.mcfunction",
+		"/C/Projects/Eris/functions/eris/randomteam.mcfunction",
+		"/C/Projects/Eris/functions/eris/swapreset.mcfunction",
+		"/C/Projects/Eris/functions/eris/scorereset.mcfunction",
+		"/C/Projects/Eris/functions/eris/teamset.mcfunction",
+		"/C/Projects/Eris/functions/eris/team2.mcfunction",
+		"/C/Projects/Eris/functions/eris/alivepre.mcfunction",
+		"/C/Projects/Eris/functions/eris/mapinit.mcfunction",
+		"/C/Projects/Eris/functions/eris/teaminit.mcfunction",
+		"/C/Projects/Eris/functions/eris/activate.mcfunction",
+		"/C/Users/Justin/Desktop/Eris 0.22/data/functions/eris/endgame.mcfunction",
+		"/C/Users/Justin/AppData/Roaming/Sublime Text 3/Packages/User/sublime-build/mcfunction_project.sublime-build",
+		"/C/Projects/Eris/functions/eris/ready.mcfunction",
+		"/C/Projects/Eris/functions/eris/togglemenut.mcfunction",
+		"/C/Projects/Eris/functions/eris/adminstart.mcfunction",
+		"/C/Projects/Eris/functions/eris/ready1.mcfunction",
+		"/C/Projects/Eris/functions/eris/summonhologram.mcfunction",
+		"/C/Projects/Eris/functions/eris/ready3.mcfunction",
+		"/C/Projects/Eris/functions/eris/team3.mcfunction",
+		"/C/Projects/Eris/functions/eris/armorcheck.mcfunction",
+		"/C/Projects/Eris/functions/eris/firework.mcfunction",
+		"/C/Projects/Eris/functions/eris/spawneroff.mcfunction",
+		"/C/Projects/Eris/functions/eris/spawneron.mcfunction",
+		"/C/Projects/Eris/functions/eris/debug.mcfunction",
+		"/C/Projects/Eris/functions/eris/invaderwin.mcfunction",
+		"/C/Projects/Eris/functions/eris/armorcheck",
+		"/C/Users/Justin/AppData/Roaming/.minecraft/saves/Eris/data/functions/eris/summonvars.mcfunction",
+		"/C/Users/Justin/Minecraft/jevenlabs/eris/index.html",
+		"/C/Users/Justin/Desktop/Nobody likes Newton/data/functions/mechanic/boss.mcfunction",
+		"/C/Projects/Eris/functions/eris/randomizer.mcfunction",
+		"/C/Users/Justin/AppData/Local/Temp/7zO1CBD.tmp/DeleteCurrentFile.py",
+		"/path/to/whatever",
+		"/C/Projects/Eris/randomtest.py",
+		"/C/Projects/Eris/erisfileparse.py",
+		"/c/Projects/Minecraft Command Tools/mccommandtools.py",
+		"/C/Projects/Eris/functions/eris/spawner7.mcfunction",
+		"/C/Projects/Eris/functions/eris/requestmenu.mcfunction",
+		"/C/Projects/Eris/dump/clock",
+		"/C/Users/Justin/AppData/Roaming/.minecraft/saves/Eris/data/functions/eris/testerino.mcfunction",
+		"/C/Projects/Eris/eris.sublime-project",
+		"/C/Projects/Eris/functions/eris/spawnerblock.mcfunction",
+		"/C/Projects/Eris/functions/eris/spawner1.mcfunction",
+		"/C/Projects/Eris/dump/clock2",
+		"/C/Users/Justin/Desktop/README.md",
+		"/C/Projects/Eris/todo.markdown",
+		"/C/Projects/Eris/functions/eris/ready0.mcfunction",
+		"/C/Projects/Eris/functions/eris/defencewin.mcfunction",
+		"/C/Users/Justin/Desktop/test.py",
+		"/C/Projects/Eris/functions/eris/15.mcfunction",
+		"/C/Projects/Eris/functions/eris/admin.mcfunction",
+		"/C/Projects/Minecraft Command Tools/gotofunction.py",
+		"/C/Users/Justin/AppData/Roaming/Sublime Text 3/Packages/User/sublime-build/Python.sublime-build",
+		"/C/Users/Justin/AppData/Roaming/Sublime Text 3/Packages/User/sublime-build/java_packaged.sublime-build",
+		"/C/Projects/Eris/functions/eris/1.mcfunction",
+		"/c/projects/Minecraft Command Tools/mccommandtools.py",
+		"/C/Projects/Minecraft Command Tools/makefunctions.py",
+		"/C/Projects/MinecraftCommandTools/__init__.py",
+		"/C/Projects/Minecraft Command Tools/mccommandtools.py",
+		"/C/Users/Justin/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Projects/Eris/eris.sublime-workspace",
+		"/C/Projects/Eris/eris 2.2.sublime-project",
+		"/C/Projects/Minecraft Parse Tools/mccommandtools.py",
+		"/C/Projects/Minecraft Parse Tools/erisfileparse.py",
+		"/C/Projects/Minecraft Parse Tools/eris file building",
+		"/C/Projects/Minecraft Parse Tools/selectorxyz.py",
+		"/C/Projects/Minecraft Parse Tools/tellrawfix.py",
+		"/C/Projects/Minecraft Parse Tools/makefunctions.py",
+		"/C/Projects/Minecraft Parse Tools/miscfindreplace.py",
+		"/C/Projects/Minecraft Parse Tools/gotofunction.py",
+		"/C/Maps/Quarry Carts/Quarry Carts",
+		"/C/Projects/Eris 2.2/src/eris/loadandreset.mcfunction",
+		"/C/Projects/Eris 2.2/src/eris/resetteam.mcfunction",
+		"/C/Users/Justin/Desktop/summonvars.mcfunction",
+		"/C/Projects/Eris 2.2/eris 2.2.sublime-project",
+		"/C/Projects/Minecraft Parse Tools/miscfindreplace/startreset.mcfunction",
+		"/C/Projects/Minecraft Parse Tools/makefunctions/output/startreset.mcfunction",
+		"/C/Projects/Minecraft Parse Tools/gotofunction/output/clock.mcfunction",
+		"/C/Projects/Minecraft Parse Tools/gotofunction/output/startreset.mcfunction",
+		"/C/Projects/Minecraft Parse Tools/miscfindreplace/output/loadandreset.mcfunction",
+		"/C/Projects/Minecraft Parse Tools/miscfindreplace/loadandreset.mcfunction",
+		"/C/Projects/Minecraft Parse Tools/functions",
+		"/C/Projects/Eris 2.2/src/eris/100p.mcfunction",
+		"/C/Projects/Minecraft Parse Tools/makefunctions/clock",
+		"/C/Users/Justin/AppData/Roaming/.minecraft/saves/Eris 0.22/data/functions/eris/supertest.mcfunction",
+		"/C/Projects/Minecraft Parse Tools/tellrawfix/activateadmin.mcfunction"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 100.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"un643",
+			"vTime",
+			"resetcount",
+			"]",
+			"title",
+			"vTime",
+			"subtellraw",
+			"subtitle",
+			"title",
+			"1",
+			"adming",
+			"tellraw",
+			"air",
+			"updateplayer",
+			"setw",
+			"randomteam",
+			"reset",
+			"vswap",
+			"var",
+			"randomteam",
+			"setdis",
+			"-78",
+			"1000",
+			"-79",
+			"1000",
+			"-80",
+			"180",
+			"200",
+			"-803",
+			"Moeshroom2",
+			"-1000",
+			"spawnerActiveB",
+			"] ~ ~ ~ detect",
+			"-1",
+			"reset",
+			"0",
+			"score_var",
+			"notjeven",
+			"objective",
+			"name",
+			"leashed_knot",
+			"hologram",
+			"NoGravity",
+			"armor_stand",
+			"Invisible",
+			"Marker",
+			"CustomNameVisible",
+			"1",
+			"leash_knot",
+			"rValue",
+			"1",
+			"scoreboard",
+			"test",
+			"var",
+			"test",
+			"tellraw",
+			"LifeTime:0",
+			"firewoks",
+			"Life",
+			"FireworksRocketEntity",
+			"firework",
+			"random",
+			"name=f",
+			"hologra",
+			"401",
+			"testforblock",
+			"truncate",
+			",r=0",
+			"1098",
+			"1098 38 0",
+			"testfo",
+			"detect",
+			"0",
+			"detect",
+			"fill",
+			"detect",
+			"fill",
+			"testforblock",
+			"Jeven",
+			"version",
+			"§7",
+			"§n",
+			"§5",
+			"§b",
+			"vResetSuccess",
+			"loadandreset",
+			"holo",
+			"summon",
+			"objectiveinit",
+			"xjevenx",
+			"\\xa7n",
+			"togglemenu",
+			"/sc",
+			"directory_in",
+			"DIRECTORY_OUT",
+			"directory_out",
+			"/",
+			"\\\\",
+			"makefunction"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"§n",
+			"notjeven"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "functions/eris/clock.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 20595,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1732,
+								1732
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MinecraftCommandCode/Minecraft Function.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "functions/eris/spawnerblock.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 548,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MinecraftCommandCode/Minecraft Function.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "functions/eris/playerinit.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2648,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MinecraftCommandCode/Minecraft Function.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "functions/eris/worldspawn.mcfunction",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 193,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MinecraftCommandCode/Minecraft Function.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 53.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-checkout":
+	{
+		"height": 142.0
+	},
+	"output.git-commit":
+	{
+		"height": 142.0
+	},
+	"output.git-pull":
+	{
+		"height": 142.0
+	},
+	"output.git-push":
+	{
+		"height": 142.0
+	},
+	"output.package_dev":
+	{
+		"height": 100.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "eris.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"spawnerblock",
+				"functions\\eris\\spawnerblock.mcfunction"
+			],
+			[
+				"pla",
+				"functions\\eris\\playerinit.mcfunction"
+			],
+			[
+				"worl",
+				"functions\\eris\\worldspawn.mcfunction"
+			],
+			[
+				"clock",
+				"functions\\eris\\clock.mcfunction"
+			],
+			[
+				"30",
+				"functions\\eris\\30.mcfunction"
+			],
+			[
+				"game",
+				"functions\\eris\\endgame.mcfunction"
+			],
+			[
+				"player",
+				"functions\\eris\\playerinit.mcfunction"
+			],
+			[
+				"todo",
+				"Eris\\todo.md"
+			],
+			[
+				"egg",
+				"functions\\eris\\eggs.mcfunction"
+			],
+			[
+				"clo",
+				"functions\\eris\\clock.mcfunction"
+			],
+			[
+				"eggs",
+				"functions\\eris\\eggs.mcfunction"
+			],
+			[
+				"random",
+				"functions\\eris\\randomteamdone.mcfunction"
+			],
+			[
+				"reset",
+				"functions\\eris\\resetteam.mcfunction"
+			],
+			[
+				"auto",
+				"functions\\eris\\autoresettoggle.mcfunction"
+			],
+			[
+				"playerin",
+				"functions\\eris\\playerinit.mcfunction"
+			],
+			[
+				"chan",
+				"updated tech to 1.12 and to mcfunctions"
+			],
+			[
+				"spawner",
+				"functions\\eris\\spawner6.mcfunction"
+			],
+			[
+				"admin",
+				"functions\\eris\\activateadmin.mcfunction"
+			],
+			[
+				"toggl",
+				"functions\\eris\\togglemenu.mcfunction"
+			],
+			[
+				"remove",
+				"functions\\eris\\removeadmin.mcfunction"
+			],
+			[
+				"ob",
+				"functions\\eris\\objectiveinit.mcfunction"
+			],
+			[
+				"endga",
+				"functions\\eris\\endgame.mcfunction"
+			],
+			[
+				"summon",
+				"functions\\eris\\summonvars.mcfunction"
+			],
+			[
+				"summ",
+				"functions\\summonvars.mcfunction"
+			],
+			[
+				"10",
+				"functions\\eris\\10.mcfunction"
+			],
+			[
+				"var",
+				"functions\\eris\\variableset.mcfunction"
+			],
+			[
+				"enddi",
+				"functions\\eris\\enddisplay.mcfunction"
+			],
+			[
+				"tea",
+				"functions\\eris\\team1.mcfunction"
+			],
+			[
+				"team0",
+				"functions\\eris\\team0.mcfunction"
+			],
+			[
+				"alive",
+				"functions\\eris\\alivewhile.mcfunction"
+			],
+			[
+				"update",
+				"functions\\eris\\updateplayerdisplay.mcfunction"
+			],
+			[
+				"0",
+				"functions\\eris\\0.mcfunction"
+			],
+			[
+				"un",
+				"functions\\eris\\updateplayerdisplay.mcfunction"
+			],
+			[
+				"left",
+				"functions\\eris\\deathwhile.mcfunction"
+			],
+			[
+				"death",
+				"functions\\eris\\deathwhile.mcfunction"
+			],
+			[
+				"startres",
+				"functions\\eris\\startreset.mcfunction"
+			],
+			[
+				"",
+				"functions\\eris\\playerinit.mcfunction"
+			],
+			[
+				"tod",
+				"Eris\\todo.md"
+			],
+			[
+				"team",
+				"functions\\eris\\teamset.mcfunction"
+			],
+			[
+				"teamset",
+				"functions\\eris\\teamset.mcfunction"
+			],
+			[
+				"score",
+				"functions\\eris\\scorereset.mcfunction"
+			],
+			[
+				"start",
+				"functions\\eris\\startreset.mcfunction"
+			],
+			[
+				"loadre",
+				"functions\\eris\\loadandreset.mcfunction"
+			],
+			[
+				"swao",
+				"functions\\eris\\swapreset.mcfunction"
+			],
+			[
+				"swap",
+				"functions\\eris\\swapreset.mcfunction"
+			],
+			[
+				"to",
+				"Eris\\todo.md"
+			],
+			[
+				"egs",
+				"functions\\eris\\eggs.mcfunction"
+			],
+			[
+				"cloc",
+				"functions\\eris\\clock.mcfunction"
+			],
+			[
+				"act",
+				"functions\\eris\\activate.mcfunction"
+			],
+			[
+				"randomteam",
+				"functions\\eris\\randomteamdone.mcfunction"
+			],
+			[
+				"o",
+				"functions\\eris\\objectiveinit.mcfunction"
+			],
+			[
+				"va",
+				"functions\\eris\\variableset.mcfunction"
+			],
+			[
+				"pl",
+				"functions\\eris\\playerinit.mcfunction"
+			],
+			[
+				"variable",
+				"functions\\eris\\variableset.mcfunction"
+			],
+			[
+				"teaminit",
+				"functions\\eris\\teaminit.mcfunction"
+			],
+			[
+				"map",
+				"functions\\eris\\mapinit.mcfunction"
+			],
+			[
+				"mapin",
+				"functions\\eris\\mapinit.mcfunction"
+			],
+			[
+				"acti",
+				"functions\\eris\\activate.mcfunction"
+			],
+			[
+				"read",
+				"functions\\eris\\ready.mcfunction"
+			],
+			[
+				"adm",
+				"functions\\eris\\adminstart.mcfunction"
+			],
+			[
+				"end",
+				"functions\\eris\\endgame.mcfunction"
+			],
+			[
+				"varia",
+				"functions\\eris\\variableset.mcfunction"
+			],
+			[
+				"load",
+				"functions\\eris\\loadandreset.mcfunction"
+			],
+			[
+				"rest",
+				"functions\\eris\\swapreset.mcfunction"
+			],
+			[
+				"rese",
+				"functions\\eris\\loadandreset.mcfunction"
+			],
+			[
+				"armor",
+				"functions\\eris\\armorcheck.mcfunction"
+			],
+			[
+				"ar",
+				"functions\\eris\\armorcheck"
+			],
+			[
+				"spawneron",
+				"functions\\eris\\spawneron.mcfunction"
+			],
+			[
+				"spawneroff",
+				"functions\\eris\\spawneroff.mcfunction"
+			],
+			[
+				"deb",
+				"functions\\eris\\debug.mcfunction"
+			],
+			[
+				"sum",
+				"functions\\eris\\summonhologram.mcfunction"
+			],
+			[
+				"inv",
+				"functions\\eris\\invaderwin.mcfunction"
+			],
+			[
+				"fire",
+				"functions\\eris\\firework.mcfunction"
+			],
+			[
+				"win",
+				"functions\\eris\\invaderwin.mcfunction"
+			],
+			[
+				"gam",
+				"functions\\eris\\endgame.mcfunction"
+			],
+			[
+				"randoi",
+				"functions\\eris\\randomizer.mcfunction"
+			],
+			[
+				"mccommand",
+				"Minecraft Command Tools\\mccommandtools.py"
+			],
+			[
+				"requ",
+				"functions\\eris\\requestmenu.mcfunction"
+			],
+			[
+				"mc",
+				"Minecraft Command Tools\\mccommandtools.py"
+			],
+			[
+				"erispar",
+				"Eris\\erisfileparse.py"
+			],
+			[
+				"alivew",
+				"functions\\eris\\alivewhile.mcfunction"
+			],
+			[
+				"menu",
+				"functions\\eris\\requestmenu.mcfunction"
+			],
+			[
+				"summonho",
+				"functions\\eris\\summonhologram.mcfunction"
+			],
+			[
+				"su",
+				"functions\\summonvars.mcfunction"
+			],
+			[
+				"cl",
+				"functions\\eris\\clock.mcfunction"
+			],
+			[
+				"holo",
+				"functions\\eris\\summonhologram.mcfunction"
+			],
+			[
+				"spa",
+				"functions\\eris\\spawner1.mcfunction"
+			],
+			[
+				"/er",
+				"functions\\eris\\clock.mcfunction"
+			],
+			[
+				"eris",
+				"Eris\\erisfileparse.py"
+			],
+			[
+				"reques",
+				"functions\\eris\\requestmenu.mcfunction"
+			],
+			[
+				"function",
+				"dump\\functions"
+			],
+			[
+				"/eris/lock",
+				"functions\\eris\\clock.mcfunction"
+			],
+			[
+				"eri",
+				"Eris\\erisfileparse.py"
+			],
+			[
+				"m",
+				"Minecraft Command Tools\\mccommandtools.py"
+			],
+			[
+				"spawner1",
+				"functions\\eris\\spawner1.mcfunction"
+			],
+			[
+				"spawn",
+				"functions\\eris\\spawneron.mcfunction"
+			],
+			[
+				"clock2",
+				"dump\\clock2"
+			],
+			[
+				"parse",
+				"Eris\\erisfileparse.py"
+			],
+			[
+				"func",
+				"dump\\functions"
+			],
+			[
+				"si",
+				"functions\\summonvars.mcfunction"
+			],
+			[
+				"clock.",
+				"functions\\eris\\clock.mcfunction"
+			],
+			[
+				"/eris/",
+				"functions\\eris\\mapinit.mcfunction"
+			],
+			[
+				"ufnctions",
+				"dump\\functions"
+			],
+			[
+				"functions",
+				"dump\\functions"
+			],
+			[
+				"erispa",
+				"Eris\\erisfileparse.py"
+			],
+			[
+				"mcco",
+				"Minecraft Command Tools\\mccommandtools.py"
+			],
+			[
+				"men",
+				"functions\\eris\\togglemenut.mcfunction"
+			],
+			[
+				"rea",
+				"functions\\eris\\ready3.mcfunction"
+			],
+			[
+				"ready",
+				"functions\\eris\\ready1.mcfunction"
+			],
+			[
+				"15",
+				"functions\\eris\\15.mcfunction"
+			],
+			[
+				"active",
+				"functions\\eris\\activateadmin.mcfunction"
+			],
+			[
+				"mcc",
+				"Minecraft Command Tools\\mccommandtools.py"
+			],
+			[
+				".py",
+				"Minecraft Command Tools\\mccommandtools.py"
+			],
+			[
+				"mccom",
+				"Minecraft Command Tools\\mccommandtools.py"
+			],
+			[
+				"mctoo",
+				"Minecraft Command Tools\\mccommandtools.py"
+			],
+			[
+				"sumn",
+				"functions\\summonvars.mcfunction"
+			],
+			[
+				"pro",
+				"C:\\Projects\\Eris\\eris.sublime-project"
+			],
+			[
+				"py",
+				"Minecraft Parse Tools\\makefunctions.py"
+			],
+			[
+				"misc",
+				"Minecraft Parse Tools\\miscfindreplace.py"
+			],
+			[
+				"goto",
+				"Minecraft Parse Tools\\gotofunction.py"
+			],
+			[
+				"loadand",
+				"eris\\loadandreset.mcfunction"
+			],
+			[
+				"tell",
+				"Minecraft Parse Tools\\tellrawfix.py"
+			],
+			[
+				"selec",
+				"Minecraft Parse Tools\\selectorxyz.py"
+			],
+			[
+				"make",
+				"Minecraft Parse Tools\\makefunctions.py"
+			],
+			[
+				"functi",
+				"Minecraft Parse Tools\\functions"
+			],
+			[
+				"tellraw",
+				"Minecraft Parse Tools\\tellrawfix.py"
+			],
+			[
+				"f",
+				"Minecraft Parse Tools\\functions"
+			],
+			[
+				"go",
+				"Minecraft Parse Tools\\gotofunction.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "men",
+		"selected_items":
+		[
+			[
+				"men",
+				"C:\\Projects\\MCMenu\\MCMenu.sublime-project"
+			],
+			[
+				"",
+				"C:\\Projects\\MCMenu\\MCMenu.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 252.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

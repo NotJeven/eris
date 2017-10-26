@@ -1,0 +1,335 @@
+scoreboard players set @a[1098,38,0,rm=1,score_menuGiven_min=1,score_menuGiven=1] menuGiven 0
+
+execute @a[1098,38,0,0,score_activate=0,score_menuGiven=0] ~ ~ ~ execute @e[type=Item,name=fRequestMenu] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @a[score_left_min=1,score_left=1] ~ ~ ~ execute @e[type=Item,name=fLeft] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @a[score_activate_min=1,score_activate=1,score_admin=0,score_menuVis=0] ~ ~ ~ execute @e[type=Item,name=fActivate] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @a[score_triggerTeam_min=-1,score_triggerTeam=-1] ~ ~ ~ execute @e[type=Item,name=fTeam0] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @a[score_triggerTeam_min=1,score_triggerTeam=1] ~ ~ ~ execute @e[type=Item,name=fTeam1] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~1 minecraft:redstone_block
+
+execute @a[score_triggerTeam_min=2,score_triggerTeam=2] ~ ~ ~ execute @e[type=Item,name=fTeam2] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~1 minecraft:redstone_block
+
+execute @a[score_triggerTeam_min=3,score_triggerTeam=3] ~ ~ ~ execute @e[type=Item,name=fTeam3] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @a[score_triggerOption_min=1,score_triggerOption=1,team=team1] ~ ~ ~ execute @e[type=Item,name=fReady1] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~1 minecraft:redstone_block
+
+execute @a[score_triggerOption_min=1,score_triggerOption=1,team=team2] ~ ~ ~ execute @e[type=Item,name=fReady2] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~1 minecraft:redstone_block
+
+execute @a[score_triggerOption_min=1,score_triggerOption=1,team=team3] ~ ~ ~ execute @e[type=Item,name=fReady3] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~1 minecraft:redstone_block
+
+execute @a[score_admin_min=5,score_admin=5] ~ ~ ~ execute @e[type=Item,name=fResetTeam] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @a[score_admin_min=1,score_admin=1] ~ ~ ~ execute @e[type=Item,name=fAdmin] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @a[score_admin_min=6,score_admin=6] ~ ~ ~ execute @e[type=Item,name=fToggleMenuA] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @e[type=Item,name=vReady,score_var_min=3,score_var=3] ~ ~ ~ execute @e[type=Item,name=fReady] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @e[type=Item,name=vReady,score_var_min=5,score_var=5] ~ ~ ~ execute @e[type=Item,name=fReady] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @e[type=Item,name=vTime,score_var_min=-901] ~ ~ ~ scoreboard players add @e[type=Item,name=vTime] var 1
+
+execute @a[score_admin_min=4,score_admin=4] ~ ~ ~ execute @e[type=Item,name=fAdminStart] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @e[type=Item,name=vTime,score_var_min=-300,score_var=-300] ~ ~ ~ execute @e[type=Item,name=f15] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @e[type=Item,name=vTime,score_var_min=-200,score_var=-200] ~ ~ ~ execute @e[type=Item,name=f10] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @e[type=Item,name=vTime,score_var_min=-100,score_var=-100] ~ ~ ~ execute @e[type=Item,name=f5] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @e[type=Item,name=vTime,score_var_min=-60,score_var=-60] ~ ~ ~ execute @e[type=Item,name=f3] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @e[type=Item,name=vTime,score_var_min=-40,score_var=-40] ~ ~ ~ execute @e[type=Item,name=f2] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @e[type=Item,name=vTime,score_var_min=-20,score_var=-20] ~ ~ ~ execute @e[type=Item,name=f1] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @a[score_admin_min=7,score_admin=7] ~ ~ ~ execute @e[type=Item,name=fStartReset] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @a[score_activate_min=1,score_activate=1,score_admin_min=2,score_admin=2] ~ ~ ~ execute @e[type=Item,name=fActivateAdmin] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @a[16,0,-97,dx=64,dy=20,dz=195,name=!notjeven] ~ ~ ~ scoreboard players set modded var 1
+
+execute @a[score_admin_min=3,score_admin=3] ~ ~ ~ execute @e[type=Item,name=vRandomTeam,score_var_min=1] ~ ~ ~ execute @e[type=Item,name=fRandomTeam] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @a[score_admin_min=8,score_admin=8] ~ ~ ~ execute @e[type=Item,name=fRemoveAdmin] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @a[score_triggerOption_min=1,score_triggerOption=1,team=] ~ ~ ~ execute @e[type=Item,name=fReady0] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @e[type=Item,name=vTime,score_var_min=-900,score_var=-900] ~ ~ ~ execute @e[type=Item,name=f45] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @e[type=Item,name=vTime,score_var_min=-800,score_var=-800] ~ ~ ~ execute @e[type=Item,name=f40] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @e[type=Item,name=vTime,score_var_min=-700,score_var=-700] ~ ~ ~ execute @e[type=Item,name=f35] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @e[type=Item,name=vTime,score_var_min=-660,score_var=-660] ~ ~ ~ execute @e[type=Item,name=f33] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @e[type=Item,name=vTime,score_var_min=-640,score_var=-640] ~ ~ ~ execute @e[type=Item,name=f32] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @e[type=Item,name=vTime,score_var_min=-620,score_var=-620] ~ ~ ~ execute @e[type=Item,name=f31] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @e[type=Item,name=vTime,score_var_min=-600,score_var=-600] ~ ~ ~ execute @e[type=Item,name=f30] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~1 minecraft:redstone_block
+
+execute @e[type=Item,name=vTime,score_var_min=0,score_var=0] ~ ~ ~ execute @e[type=Item,name=f0] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @a[score_timeSinceDeath=0,score_inGame_min=0,score_inGame=0,score_respawn_min=0,score_respawn=0] ~ ~ ~ execute @e[type=Item,name=fDeathPre] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @a[score_timeSinceDeath_min=1,score_inGame_min=0,score_inGame=0,score_respawn_min=1,score_respawn=1] ~ ~ ~ execute @e[type=Item,name=fAlivePre] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @a[score_timeSinceDeath=0,score_inGame_min=1,score_inGame=1,score_respawn_min=0,score_respawn=0] ~ ~ ~ execute @e[type=Item,name=fDeathWhile] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~2 minecraft:redstone_block
+
+execute @a[score_timeSinceDeath_min=1,score_inGame_min=1,score_inGame=1,score_respawn_min=1,score_respawn=1] ~ ~ ~ execute @e[type=Item,name=fAliveWhile] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @a[-10,100,-10,dx=20,dy=20,dz=20] ~ ~ ~ execute @e[type=Item,name=fWorldSpawn] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @a[score_inGame_min=-1,score_inGame=-1] ~ ~ ~ execute @e[type=Item,name=fPlayerInit] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~1 minecraft:redstone_block
+
+execute @e[type=Item,name=vTime,score_var_min=4500,score_var=4500] ~ ~ ~ execute @e[type=Item,name=f25p] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @e[type=Item,name=vTime,score_var_min=9000,score_var=9000] ~ ~ ~ execute @e[type=Item,name=f50p] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @e[type=Item,name=vTime,score_var_min=13500,score_var=13500] ~ ~ ~ execute @e[type=Item,name=f75p] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @e[type=Item,name=vTime,score_var_min=18000,score_var=18000] ~ ~ ~ execute @e[type=Item,name=f100p] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @e[type=Item,name=vTime,score_var_min=18020,score_var=18020] ~ ~ ~ execute @e[type=Item,name=fDefenceWin] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @e[type=Item,name=vCoreBlock,score_var_min=1] ~ ~ ~ detect 1170 14 0 minecraft:air 0 scoreboard players set @e[type=Item,name=vCoreBlock] var -1
+
+execute @e[type=Item,name=vCoreBlock,score_var_min=2] ~ ~ ~ detect 1170 15 0 minecraft:air 0 scoreboard players set @e[type=Item,name=vCoreBlock] var -1
+
+execute @e[type=Item,name=vCoreBlock,score_var_min=3] ~ ~ ~ detect 1170 16 0 minecraft:air 0 scoreboard players set @e[type=Item,name=vCoreBlock] var -1
+
+execute @e[type=Item,name=vCoreBlock,score_var_min=4] ~ ~ ~ detect 1170 17 0 minecraft:air 0 scoreboard players set @e[type=Item,name=vCoreBlock] var -1
+
+execute @e[type=Item,name=vCoreBlock,score_var_min=-1,score_var=-1] ~ ~ ~ execute @e[type=Item,name=fInvaderWin] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~1 minecraft:redstone_block
+
+scoreboard players add @e[type=Item,name=vEndDisplayTimer,score_var_min=0,score_var=100] var 1
+
+scoreboard players set @a[score_left_min=1,score_inGame_min=-2,score_inGame=-2] inGame -1
+
+execute @e[type=Item,name=vEndDisplayTimer,score_var_min=101,score_var=101] ~ ~ ~ execute @e[type=Item,name=fEndDisplay] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+testforblock 1023 8 10 minecraft:redstone_block
+
+execute @e[type=Item,name=vSpawnerActive1,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=Item,name=vSpawnerCount1,score_var_min=391,score_var=399] var 1
+
+execute @e[type=Item,name=vSpawnerCount1,score_var_min=400] ~ ~ ~ execute @e[type=Item,name=fSpawner1] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+testforblock 1038 17 -9 minecraft:redstone_block
+
+execute @e[type=Item,name=vSpawnerActive2,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=Item,name=vSpawnerCount2,score_var_min=1791,score_var=1799] var 1
+
+execute @e[type=Item,name=vSpawnerCount2,score_var_min=1800] ~ ~ ~ execute @e[type=Item,name=fSpawner2] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+testforblock 1053 8 -7 minecraft:redstone_block
+
+execute @e[type=Item,name=vSpawnerActive3,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=Item,name=vSpawnerCount3,score_var_min=391,score_var=399] var 1
+
+execute @e[type=Item,name=vSpawnerCount3,score_var_min=400] ~ ~ ~ execute @e[type=Item,name=fSpawner3] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+testforblock 1063 13 13 minecraft:redstone_block
+
+execute @e[type=Item,name=vSpawnerActive4,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=Item,name=vSpawnerCount4,score_var_min=391,score_var=399] var 1
+
+execute @e[type=Item,name=vSpawnerCount4,score_var_min=400] ~ ~ ~ execute @e[type=Item,name=fSpawner4] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+testforblock 1074 17 -14 minecraft:redstone_block
+
+execute @e[type=Item,name=vSpawnerActive5,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=Item,name=vSpawnerCount5,score_var_min=391,score_var=399] var 1
+
+execute @e[type=Item,name=vSpawnerCount5,score_var_min=400] ~ ~ ~ execute @e[type=Item,name=fSpawner5] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+testforblock 1074 8 13 minecraft:redstone_block
+
+execute @e[type=Item,name=vSpawnerActive6,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=Item,name=vSpawnerCount6,score_var_min=391,score_var=399] var 1
+
+execute @e[type=Item,name=vSpawnerCount6,score_var_min=400] ~ ~ ~ execute @e[type=Item,name=fSpawner6] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+testforblock 1079 23 14 minecraft:redstone_block
+
+execute @e[type=Item,name=vSpawnerActive7,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=Item,name=vSpawnerCount7,score_var_min=1791,score_var=1799] var 1
+
+execute @e[type=Item,name=vSpawnerCount7,score_var_min=1800] ~ ~ ~ execute @e[type=Item,name=fSpawner7] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+testforblock 1083 8 -8 minecraft:redstone_block
+
+execute @e[type=Item,name=vSpawnerActive8,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=Item,name=vSpawnerCount8,score_var_min=391,score_var=399] var 1
+
+execute @e[type=Item,name=vSpawnerCount8,score_var_min=400] ~ ~ ~ execute @e[type=Item,name=fSpawner8] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+testforblock 1103 12 14 minecraft:redstone_block
+
+execute @e[type=Item,name=vSpawnerActive9,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=Item,name=vSpawnerCount9,score_var_min=1791,score_var=1799] var 1
+
+execute @e[type=Item,name=vSpawnerCount9,score_var_min=1800] ~ ~ ~ execute @e[type=Item,name=fSpawner9] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+testforblock 1103 12 -14 minecraft:redstone_block
+
+execute @e[type=Item,name=vSpawnerActive10,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=Item,name=vSpawnerCount10,score_var_min=1791,score_var=1799] var 1
+
+execute @e[type=Item,name=vSpawnerCount10,score_var_min=1800] ~ ~ ~ execute @e[type=Item,name=fSpawner10] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+testforblock 1110 23 12 minecraft:redstone_block
+
+execute @e[type=Item,name=vSpawnerActive11,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=Item,name=vSpawnerCount11,score_var_min=1791,score_var=1799] var 1
+
+execute @e[type=Item,name=vSpawnerCount11,score_var_min=1800] ~ ~ ~ execute @e[type=Item,name=fSpawner11] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+testforblock 1130 12 13 minecraft:redstone_block
+
+execute @e[type=Item,name=vSpawnerActive12,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=Item,name=vSpawnerCount12,score_var_min=391,score_var=399] var 1
+
+execute @e[type=Item,name=vSpawnerCount12,score_var_min=400] ~ ~ ~ execute @e[type=Item,name=fSpawner12] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+testforblock 1130 13 -2 minecraft:redstone_block
+
+execute @e[type=Item,name=vSpawnerActive13,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=Item,name=vSpawnerCount13,score_var_min=391,score_var=399] var 1
+
+execute @e[type=Item,name=vSpawnerCount13,score_var_min=400] ~ ~ ~ execute @e[type=Item,name=fSpawner13] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+testforblock 1134 12 -13 minecraft:redstone_block
+
+execute @e[type=Item,name=vSpawnerActive14,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=Item,name=vSpawnerCount14,score_var_min=391,score_var=399] var 1
+
+execute @e[type=Item,name=vSpawnerCount14,score_var_min=400] ~ ~ ~ execute @e[type=Item,name=fSpawner14] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+testforblock 1152 37 9 minecraft:redstone_block
+
+execute @e[type=Item,name=vSpawnerActive15,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=Item,name=vSpawnerCount15,score_var_min=1791,score_var=1799] var 1
+
+execute @e[type=Item,name=vSpawnerCount15,score_var_min=1800] ~ ~ ~ execute @e[type=Item,name=fSpawner15] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+testforblock 1154 25 -4 minecraft:redstone_block
+
+execute @e[type=Item,name=vSpawnerActive16,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=Item,name=vSpawnerCount16,score_var_min=391,score_var=399] var 1
+
+execute @e[type=Item,name=vSpawnerCount16,score_var_min=400] ~ ~ ~ execute @e[type=Item,name=fSpawner16] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+testforblock 1158 26 7 minecraft:redstone_block
+
+execute @e[type=Item,name=vSpawnerActive17,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=Item,name=vSpawnerCount17,score_var_min=391,score_var=399] var 1
+
+execute @e[type=Item,name=vSpawnerCount17,score_var_min=400] ~ ~ ~ execute @e[type=Item,name=fSpawner17] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+testforblock 1165 27 -8 minecraft:redstone_block
+
+execute @e[type=Item,name=vSpawnerActive18,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=Item,name=vSpawnerCount18,score_var_min=391,score_var=399] var 1
+
+execute @e[type=Item,name=vSpawnerCount18,score_var_min=400] ~ ~ ~ execute @e[type=Item,name=fSpawner18] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+testforblock 1170 12 14 minecraft:redstone_block
+
+execute @e[type=Item,name=vSpawnerActive19,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=Item,name=vSpawnerCount19,score_var_min=391,score_var=399] var 1
+
+execute @e[type=Item,name=vSpawnerCount19,score_var_min=400] ~ ~ ~ execute @e[type=Item,name=fSpawner19] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+testforblock 1170 12 -14 minecraft:redstone_block
+
+execute @e[type=Item,name=vSpawnerActive20,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=Item,name=vSpawnerCount20,score_var_min=391,score_var=399] var 1
+
+execute @e[type=Item,name=vSpawnerCount20,score_var_min=400] ~ ~ ~ execute @e[type=Item,name=fSpawner20] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+fill 1169 14 -1 1169 18 0 minecraft:air 0 replace
+
+fill 1169 14 1 1170 18 1 minecraft:air 0 replace
+
+fill 1171 14 0 1171 18 0 minecraft:air 0 replace
+
+fill 1170 14 -1 1171 18 -1 minecraft:air 0 replace
+
+effect @a[1166,10,-4,dx=8,dy=12,dz=8,team=team1,score_inGame_min=1,score_inGame=1] minecraft:poison 1 4
+
+effect @a[1000,0,-15,dx=85,dy=50,dz=31,team=team1,score_inGame_min=1,score_inGame=1] minecraft:weakness 1 10
+
+effect @a[1000,0,-15,dx=55,dy=50,dz=31,team=team1,score_inGame_min=1,score_inGame=1] minecraft:slowness 1 0
+
+effect @a[1000,50,-15,dx=198,dy=50,dz=31,score_inGame_min=1,score_inGame=1] minecraft:wither 1 16
+
+execute @a[1000,0,-19,dx=198,dy=100,dz=4,score_inGame_min=1,score_inGame=1] ~ ~ ~ detect ~ ~ ~-30.7 minecraft:barrier 0 scoreboard players set @p inVoid 1
+
+execute @a[1000,0,15,dx=198,dy=100,dz=4,score_inGame_min=1,score_inGame=1] ~ ~ ~ detect ~ ~ ~30.7 minecraft:barrier 0 scoreboard players set @p inVoid 1
+
+execute @a[996,0,-15,dx=5,dy=100,dz=31,score_inGame_min=1,score_inGame=1] ~ ~ ~ detect ~-30.7 ~ ~ minecraft:barrier 0 scoreboard players set @p inVoid 1
+
+execute @a[1197,0,-15,dx=5,dy=100,dz=31,score_inGame_min=1,score_inGame=1] ~ ~ ~ detect ~30.7 ~ ~ minecraft:barrier 0 scoreboard players set @p inVoid 1
+
+scoreboard players set @a[score_inVoid_min=1,score_inVoid=1,score_respawn=0] inVoid 2 {OnGround:1b}
+
+kill @a[score_respawn=0,score_inVoid_min=2,score_inVoid=2]
+
+clear @a[score_respawn=0,score_inVoid_min=1,score_inVoid=2]
+
+tp @a[1100,30,0,rm=200,score_inGame_min=0,m=3] 1098 40 0
+
+fill 1195 28 0 1195 29 0 minecraft:air 0 replace
+
+fill 1011 10 0 1011 11 0 minecraft:air 0 replace
+
+fill 1011 15 0 1011 16 0 minecraft:air 0 replace
+
+execute @e[score_admin_min=9,score_admin=9] ~ ~ ~ execute @e[type=Item,name=fSwapReset] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @a[1170,15,0,25,team=team2,score_inGame_min=1,score_inGame=1] ~ ~ ~ scoreboard players add @e[type=Item,name=vFireworkCount,score_var=19] var 1
+
+execute @e[type=Item,name=vFireworkCount,score_var_min=20,score_var=20] ~ ~ ~ execute @e[type=Item,name=fFirework] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+scoreboard players add @e[type=Item,name=vPlayerDisplayCount,score_var_min=0] var 1
+
+execute @e[type=Item,name=vPlayerDisplayCount,score_var_min=200] ~ ~ ~ execute @e[type=Item,name=fUpdatePlayerDisplay] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+execute @e[type=Item,name=vSpawnerActiveBlock,score_var_min=1,score_var=1] ~ ~ ~ scoreboard players add @e[type=Item,name=vSpawnerCountBlock] var 1
+
+execute @e[type=Item,name=vSpawnerCountBlock,score_var_min=1800] ~ ~ ~ execute @e[type=Item,name=fSpawnerBlock] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:redstone_block
+
+scoreboard players add @e[name=vHologramCount] var 1
+
+execute @e[name=vHologramCount,score_var_min=100] ~ ~ ~ execute @e[name=fSummonHologram] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~1 redstone_block
+
+execute @a[1000,100,0,1,name=notjeven] ~ ~ ~ execute @e[type=Item,name=fDebug] ~1 ~1 ~ fill ~14 ~ ~ ~ ~ ~ minecraft:redstone_block
+
+execute @a[score_inVoid_min=1] ~ ~ ~ execute @e[type=Item,name=fBorderClear] ~1 ~1 ~ fill ~14 ~ ~ ~ ~ ~3 minecraft:redstone_block
+
+scoreboard players add @e[type=Item,name=vSpawnerCount1,score_var=390] var 1
+
+scoreboard players add @e[type=Item,name=vSpawnerCount2,score_var=1790] var 1
+
+scoreboard players add @e[type=Item,name=vSpawnerCount3,score_var=390] var 1
+
+scoreboard players add @e[type=Item,name=vSpawnerCount4,score_var=390] var 1
+
+scoreboard players add @e[type=Item,name=vSpawnerCount5,score_var=390] var 1
+
+scoreboard players add @e[type=Item,name=vSpawnerCount6,score_var=390] var 1
+
+scoreboard players add @e[type=Item,name=vSpawnerCount7,score_var=1790] var 1
+
+scoreboard players add @e[type=Item,name=vSpawnerCount8,score_var=390] var 1
+
+scoreboard players add @e[type=Item,name=vSpawnerCount9,score_var=1790] var 1
+
+scoreboard players add @e[type=Item,name=vSpawnerCount10,score_var=1790] var 1
+
+scoreboard players add @e[type=Item,name=vSpawnerCount11,score_var=1790] var 1
+
+scoreboard players add @e[type=Item,name=vSpawnerCount12,score_var=390] var 1
+
+scoreboard players add @e[type=Item,name=vSpawnerCount13,score_var=390] var 1
+
+scoreboard players add @e[type=Item,name=vSpawnerCount14,score_var=390] var 1
+
+scoreboard players add @e[type=Item,name=vSpawnerCount15,score_var=1790] var 1
+
+scoreboard players add @e[type=Item,name=vSpawnerCount16,score_var=390] var 1
+
+scoreboard players add @e[type=Item,name=vSpawnerCount17,score_var=390] var 1
+
+scoreboard players add @e[type=Item,name=vSpawnerCount18,score_var=390] var 1
+
+scoreboard players add @e[type=Item,name=vSpawnerCount19,score_var=390] var 1
+
+scoreboard players add @e[type=Item,name=vSpawnerCount20,score_var=390] var 1
+
+execute @e[type=Item,name=fclock] ~1 ~1 ~ fill ~ ~ ~ ~14 ~ ~ minecraft:stone

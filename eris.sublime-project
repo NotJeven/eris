@@ -1,0 +1,16 @@
+{
+	"folders":
+	[
+		{
+			"path": "functions"
+		},
+		{
+			"path":"\\",
+			"file_include_patterns": ["erisfileparse.py","todo.md"]
+		},
+		{
+			"path": "c:\\Projects\\Minecraft Command Tools\\",
+			"file_include_patterns": ["mccommandtools.py"]
+		}
+	]
+}

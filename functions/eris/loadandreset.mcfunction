@@ -1,3 +1,6 @@
+function eris:spwaneroff
+scoreboard players set @e[name=vEndDisplayCount] var -1
+
 summon mooshroom 0 15 0 {CustomName:Moeshroom,Invulnerable:1b}
 spreadplayers 1000 -6 0 1 false @e[name=Moeshroom,type=mooshroom]
 execute @e[name=Moeshroom,type=mooshroom] ~ ~ ~ spreadplayers ~16 -6 0 1 false @e[name=Moeshroom,type=mooshroom]

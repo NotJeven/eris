@@ -26,6 +26,7 @@ function mcmenu:reset_teams if @a[score_menuAdmin_min=5,score_menuAdmin=5]
 function mcmenu:admin_start if @a[score_menuAdmin_min=4,score_menuAdmin=4]
 function mcmenu:reset_auto_toggle if @a[score_menuAdmin_min=10,score_menuAdmin=10]
 function mcmenu:reset_start if @a[score_menuAdmin_min=7,score_menuAdmin=7]
+function eris:swapreset if @a[score_menuAdmin_min=9,score_menuAdmin=9]
 
 # general countdowner
 function mcmenu:countdown_end if @e[type=armor_stand,name=menu_countdown,score_menuVar_min=1,score_menuVar=1]

@@ -4,5 +4,7 @@ scoreboard objectives setdisplay sidebar
 scoreboard players reset * lobbyDisplay
 scoreboard teams leave *
 function mcmenu:var_set
-
+scoreboard players set * playerInGame -1
+scoreboard players set @a playerInGame 0
 # deal with chunk loading, clone stuff, entity killing here
+function eris:loadandreset

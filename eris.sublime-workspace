@@ -523,33 +523,29 @@
 			"file": "functions/eris/clock.mcfunction",
 			"settings":
 			{
-				"buffer_size": 20596,
-				"encoding": "UTF-8",
+				"buffer_size": 19445,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "functions/eris/spawnerblock.mcfunction",
+			"contents": "# Deal with players death and respawning\nscoreboard players set @a[x=-10,y=100,z=-10,dx=10,dy=10,dz=10] playerInGame -1\nfunction playerhandle:death_pre if @a[score_playerInGame_min=0,score_playerInGame=0,score_playerSinceDeath=0,score_playerRespawn_min=0,score_playerRespawn=0]\nfunction playerhandle:death_while if @a[score_playerInGame_min=1,score_playerInGame=1,score_playerSinceDeath=0,score_playerRespawn_min=0,score_playerRespawn=0]\nfunction playerhandle:death_end if @a[score_playerInGame_min=2,score_playerInGame=2,score_playerSinceDeath_min=0,score_playerRespawn_min=0,score_playerRespawn=0]\nfunction playerhandle:alive_pre if @a[score_playerInGame_min=0,score_playerInGame=0,score_playerSinceDeath_min=1,score_playerRespawn_min=1,score_playerRespawn=1]\nfunction playerhandle:alive_while if @a[score_playerInGame_min=1,score_playerInGame=1,score_playerSinceDeath_min=1,score_playerRespawn_min=1,score_playerRespawn=1]\nfunction playerhandle:alive_end if @a[score_playerInGame_min=2,score_playerInGame=2,score_playerSinceDeath_min=1,score_playerRespawn_min=1,score_playerRespawn=1]\nfunction playerhandle:init_player if @a[score_playerInGame_min=-1,score_playerInGame=-1]\nscoreboard players set @a[score_playerSinceLeave_min=24000,score_playerInGame_min=0] playerInGame -1\nscoreboard players add @a[score_playerLeave_min=1,score_playerLeave=1] playerSinceLeave 1",
+			"file": "functions/playerhandle/clock.mcfunction",
+			"file_size": 1362,
+			"file_write_time": 131533680497767389,
 			"settings":
 			{
-				"buffer_size": 548,
+				"buffer_size": 1367,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "functions/eris/playerinit.mcfunction",
+			"contents": "tellraw @a[score_playerInGame_min=-1,score_playerInGame=-1] [{\"text\":\"A new fancy map from Jeven\"}]\nfunction mcmenu:init\nscoreboard players set @a[score_playerInGame_min=-1,score_playerInGame=-1] playerRespawn 0\nscoreboard players set @a[score_playerInGame_min=-1,score_playerInGame=-1] playerInGame 0\nscoreboard players set @a[score_playerInGame_min=-1,score_playerInGame=-1] playerSinceDeath 0\nscoreboard players set @a[score_playerInGame_min=-1,score_playerInGame=-1] playerSinceLeave 0\nscoreboard players set @a[score_playerInGame_min=-1,score_playerInGame=-1] playerLeave 0\nscoreboard players set @a[score_playerInGame_min=-1,score_playerInGame=-1] playerInGame 0\nscoreboard players set @a[score_playerInGame_min=-1,score_playerInGame=-1] playerInGame 0\nfunction eris:player_init\n",
+			"file": "functions/playerhandle/init_player.mcfunction",
+			"file_size": 796,
+			"file_write_time": 131531898148906919,
 			"settings":
 			{
-				"buffer_size": 2648,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "functions/eris/worldspawn.mcfunction",
-			"settings":
-			{
-				"buffer_size": 193,
+				"buffer_size": 785,
 				"line_ending": "Windows"
 			}
 		}
@@ -725,17 +721,29 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 170.0,
-		"last_filter": "push",
+		"height": 104.0,
+		"last_filter": "close al",
 		"selected_items":
 		[
 			[
-				"push",
-				"Git: Push Current Branch"
+				"close al",
+				"File: Close All"
+			],
+			[
+				"delete",
+				"File: Delete"
 			],
 			[
 				"close",
-				"File: Close"
+				"File: Close All"
+			],
+			[
+				"delte",
+				"File: Delete"
+			],
+			[
+				"push",
+				"Git: Push Current Branch"
 			],
 			[
 				"com",
@@ -768,14 +776,6 @@
 			[
 				"clo",
 				"File: Close All"
-			],
-			[
-				"delte",
-				"File: Delete"
-			],
-			[
-				"delete",
-				"File: Delete"
 			],
 			[
 				"file close",
@@ -961,6 +961,8 @@
 		"height": 143.0,
 		"history":
 		[
+			"30*20",
+			"20*15",
 			"20*8",
 			"s",
 			"s=s.replace('cat', 'some')",
@@ -1086,11 +1088,29 @@
 	],
 	"file_history":
 	[
+		"/C/Projects/Eris/functions/mcmenu/clock.mcfunction",
+		"/C/Projects/Eris/functions/mcmenu/game_invader_release.mcfunction",
+		"/C/Projects/Eris/functions/eris/clock.mcfunction",
+		"/C/Projects/Eris/functions/playerhandle/init_player.mcfunction",
+		"/C/Projects/Eris/functions/eris/playerinit.mcfunction",
+		"/C/Projects/Eris/functions/playerhandle/init_objectives.mcfunction",
+		"/C/Projects/Eris/functions/eris/swapreset.mcfunction",
+		"/C/Projects/Eris/functions/mcmenu/reset_start.mcfunction",
+		"/C/Projects/Eris/functions/eris/loadandreset.mcfunction",
+		"/C/Projects/Eris/functions/eris/left.mcfunction",
+		"/C/Projects/Eris/functions/mcmenu/countdown_start_ready.mcfunction",
+		"/C/Projects/Eris/functions/mcmenu/countdown_action.mcfunction",
+		"/C/Projects/Eris/functions/mcmenu/game_start.mcfunction",
+		"/C/Projects/Eris/functions/eris/worldspawn.mcfunction",
+		"/C/Projects/Eris/functions/eris/30.mcfunction",
+		"/C/Projects/Eris/functions/eris/0.mcfunction",
+		"/C/Projects/Eris/functions/playerhandle/game_start.mcfunction",
+		"/C/Projects/Eris/functions/mcmenu/countdown_start_invader.mcfunction",
+		"/C/Projects/Eris/functions/mcmenu/var_set.mcfunction",
+		"/C/Projects/Eris/functions/mcmenu/countdown_end.mcfunction",
+		"/C/Projects/Eris/functions/eris/spawnerblock.mcfunction",
 		"/C/Projects/Eris/functions/eris/eggs.mcfunction",
 		"/C/Projects/Eris/functions/eris/endgame.mcfunction",
-		"/C/Projects/Eris/functions/eris/30.mcfunction",
-		"/C/Projects/Eris/functions/eris/clock.mcfunction",
-		"/C/Projects/Eris/functions/eris/playerinit.mcfunction",
 		"/C/Projects/Eris/todo.md",
 		"/C/Projects/Eris/functions/eris/test.mcfunction",
 		"/C/Users/Justin/AppData/Roaming/Sublime Text 3/Packages/DeleteCurrentFile/DeleteCurrentFile.sublime-commands",
@@ -1106,7 +1126,6 @@
 		"/C/Projects/Eris/functions/eris/spawner3.mcfunction",
 		"/C/Projects/Eris/functions/eris/spawner6.mcfunction",
 		"/C/Projects/Eris/functions/eris/spawner2.mcfunction",
-		"/C/Projects/Eris/functions/eris/loadandreset.mcfunction",
 		"/C/Projects/Eris/functions/eris/autoresetinfo.mcfunction",
 		"/C/Projects/Eris/functions/eris/activateadmin.mcfunction",
 		"/C/Projects/Eris/functions/eris/colors.mcfunction",
@@ -1123,7 +1142,6 @@
 		"/C/Projects/Eris/functions/eris/10.mcfunction",
 		"/C/Projects/Eris/functions/summonvars.mcfunction",
 		"/C/Projects/Eris/functions/eris/updateplayerdisplay.mcfunction",
-		"/C/Projects/Eris/functions/eris/0.mcfunction",
 		"/C/Projects/Eris/functions/eris/deathwhile.mcfunction",
 		"/C/Projects/Eris/functions/eris/alivewhile.mcfunction",
 		"/C/Projects/Eris/functions/eris/team0.mcfunction",
@@ -1131,7 +1149,6 @@
 		"/C/Projects/Eris/functions/eris/startreset.mcfunction",
 		"/C/Projects/Eris/functions/eris/clone.mcfunction",
 		"/C/Projects/Eris/functions/eris/randomteam.mcfunction",
-		"/C/Projects/Eris/functions/eris/swapreset.mcfunction",
 		"/C/Projects/Eris/functions/eris/scorereset.mcfunction",
 		"/C/Projects/Eris/functions/eris/teamset.mcfunction",
 		"/C/Projects/Eris/functions/eris/team2.mcfunction",
@@ -1169,7 +1186,6 @@
 		"/C/Projects/Eris/dump/clock",
 		"/C/Users/Justin/AppData/Roaming/.minecraft/saves/Eris/data/functions/eris/testerino.mcfunction",
 		"/C/Projects/Eris/eris.sublime-project",
-		"/C/Projects/Eris/functions/eris/spawnerblock.mcfunction",
 		"/C/Projects/Eris/functions/eris/spawner1.mcfunction",
 		"/C/Projects/Eris/dump/clock2",
 		"/C/Users/Justin/Desktop/README.md",
@@ -1199,25 +1215,11 @@
 		"/C/Projects/Minecraft Parse Tools/miscfindreplace.py",
 		"/C/Projects/Minecraft Parse Tools/gotofunction.py",
 		"/C/Maps/Quarry Carts/Quarry Carts",
-		"/C/Projects/Eris 2.2/src/eris/loadandreset.mcfunction",
-		"/C/Projects/Eris 2.2/src/eris/resetteam.mcfunction",
-		"/C/Users/Justin/Desktop/summonvars.mcfunction",
-		"/C/Projects/Eris 2.2/eris 2.2.sublime-project",
-		"/C/Projects/Minecraft Parse Tools/miscfindreplace/startreset.mcfunction",
-		"/C/Projects/Minecraft Parse Tools/makefunctions/output/startreset.mcfunction",
-		"/C/Projects/Minecraft Parse Tools/gotofunction/output/clock.mcfunction",
-		"/C/Projects/Minecraft Parse Tools/gotofunction/output/startreset.mcfunction",
-		"/C/Projects/Minecraft Parse Tools/miscfindreplace/output/loadandreset.mcfunction",
-		"/C/Projects/Minecraft Parse Tools/miscfindreplace/loadandreset.mcfunction",
-		"/C/Projects/Minecraft Parse Tools/functions",
-		"/C/Projects/Eris 2.2/src/eris/100p.mcfunction",
-		"/C/Projects/Minecraft Parse Tools/makefunctions/clock",
-		"/C/Users/Justin/AppData/Roaming/.minecraft/saves/Eris 0.22/data/functions/eris/supertest.mcfunction",
-		"/C/Projects/Minecraft Parse Tools/tellrawfix/activateadmin.mcfunction"
+		"/C/Projects/Eris 2.2/src/eris/loadandreset.mcfunction"
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 41.0
 	},
 	"find_in_files":
 	{
@@ -1231,6 +1233,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"score_inGame",
 			"un643",
 			"vTime",
 			"resetcount",
@@ -1337,6 +1340,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"score_playerInGame",
 			"§n",
 			"notjeven"
 		],
@@ -1358,35 +1362,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 20596,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1060,
-								1060
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MinecraftCommandCode/Minecraft Function.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 51.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "functions/eris/spawnerblock.mcfunction",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 548,
+						"buffer_size": 19445,
 						"regions":
 						{
 						},
@@ -1405,24 +1381,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "functions/eris/playerinit.mcfunction",
+					"buffer": 1,
+					"file": "functions/playerhandle/clock.mcfunction",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2648,
+						"buffer_size": 1367,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								72,
+								72
 							]
 						],
 						"settings":
@@ -1437,20 +1413,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "functions/eris/worldspawn.mcfunction",
+					"buffer": 2,
+					"file": "functions/playerhandle/init_player.mcfunction",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 193,
+						"buffer_size": 785,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								785,
+								785
 							]
 						],
 						"settings":
@@ -1461,7 +1437,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1538,7 +1514,7 @@
 	"project": "eris.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 74.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1547,6 +1523,82 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"init_",
+				"functions\\playerhandle\\init_player.mcfunction"
+			],
+			[
+				"/playerhandle/c",
+				"functions\\playerhandle\\clock.mcfunction"
+			],
+			[
+				"clock",
+				"functions\\eris\\clock.mcfunction"
+			],
+			[
+				"reset",
+				"functions\\mcmenu\\reset_start.mcfunction"
+			],
+			[
+				"invader",
+				"functions\\mcmenu\\game_invader_release.mcfunction"
+			],
+			[
+				"player",
+				"functions\\eris\\playerinit.mcfunction"
+			],
+			[
+				"init",
+				"functions\\playerhandle\\init_player.mcfunction"
+			],
+			[
+				"/playerhandle/init",
+				"functions\\playerhandle\\init_objectives.mcfunction"
+			],
+			[
+				"load",
+				"functions\\eris\\loadandreset.mcfunction"
+			],
+			[
+				"reset_star",
+				"functions\\mcmenu\\reset_start.mcfunction"
+			],
+			[
+				"swap",
+				"functions\\eris\\swapreset.mcfunction"
+			],
+			[
+				"left",
+				"functions\\eris\\left.mcfunction"
+			],
+			[
+				"count",
+				"functions\\mcmenu\\countdown_action.mcfunction"
+			],
+			[
+				"0",
+				"functions\\eris\\0.mcfunction"
+			],
+			[
+				"30",
+				"functions\\eris\\30.mcfunction"
+			],
+			[
+				"countdown",
+				"functions\\mcmenu\\countdown_start_ready.mcfunction"
+			],
+			[
+				"vars",
+				"functions\\mcmenu\\var_set.mcfunction"
+			],
+			[
+				"game",
+				"functions\\mcmenu\\game_start.mcfunction"
+			],
+			[
+				"cound",
+				"functions\\mcmenu\\countdown_start_ready.mcfunction"
+			],
 			[
 				"spawnerblock",
 				"functions\\eris\\spawnerblock.mcfunction"
@@ -1558,22 +1610,6 @@
 			[
 				"worl",
 				"functions\\eris\\worldspawn.mcfunction"
-			],
-			[
-				"clock",
-				"functions\\eris\\clock.mcfunction"
-			],
-			[
-				"30",
-				"functions\\eris\\30.mcfunction"
-			],
-			[
-				"game",
-				"functions\\eris\\endgame.mcfunction"
-			],
-			[
-				"player",
-				"functions\\eris\\playerinit.mcfunction"
 			],
 			[
 				"todo",
@@ -1594,10 +1630,6 @@
 			[
 				"random",
 				"functions\\eris\\randomteamdone.mcfunction"
-			],
-			[
-				"reset",
-				"functions\\eris\\resetteam.mcfunction"
 			],
 			[
 				"auto",
@@ -1672,16 +1704,8 @@
 				"functions\\eris\\updateplayerdisplay.mcfunction"
 			],
 			[
-				"0",
-				"functions\\eris\\0.mcfunction"
-			],
-			[
 				"un",
 				"functions\\eris\\updateplayerdisplay.mcfunction"
-			],
-			[
-				"left",
-				"functions\\eris\\deathwhile.mcfunction"
 			],
 			[
 				"death",
@@ -1721,10 +1745,6 @@
 			],
 			[
 				"swao",
-				"functions\\eris\\swapreset.mcfunction"
-			],
-			[
-				"swap",
 				"functions\\eris\\swapreset.mcfunction"
 			],
 			[
@@ -1794,10 +1814,6 @@
 			[
 				"varia",
 				"functions\\eris\\variableset.mcfunction"
-			],
-			[
-				"load",
-				"functions\\eris\\loadandreset.mcfunction"
 			],
 			[
 				"rest",
@@ -2018,46 +2034,6 @@
 			[
 				"py",
 				"Minecraft Parse Tools\\makefunctions.py"
-			],
-			[
-				"misc",
-				"Minecraft Parse Tools\\miscfindreplace.py"
-			],
-			[
-				"goto",
-				"Minecraft Parse Tools\\gotofunction.py"
-			],
-			[
-				"loadand",
-				"eris\\loadandreset.mcfunction"
-			],
-			[
-				"tell",
-				"Minecraft Parse Tools\\tellrawfix.py"
-			],
-			[
-				"selec",
-				"Minecraft Parse Tools\\selectorxyz.py"
-			],
-			[
-				"make",
-				"Minecraft Parse Tools\\makefunctions.py"
-			],
-			[
-				"functi",
-				"Minecraft Parse Tools\\functions"
-			],
-			[
-				"tellraw",
-				"Minecraft Parse Tools\\tellrawfix.py"
-			],
-			[
-				"f",
-				"Minecraft Parse Tools\\functions"
-			],
-			[
-				"go",
-				"Minecraft Parse Tools\\gotofunction.py"
 			]
 		],
 		"width": 0.0

@@ -1,3 +1,4 @@
-function eris:teaminit
-function eris:objectiveinit
-gamerule gameloopFunction eris:
+function mcmenu:init
+function playerhandle:init
+function eris:init
+gamerule gameLoopFunction eris:clock

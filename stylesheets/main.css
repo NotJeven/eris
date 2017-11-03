@@ -1,6 +1,6 @@
 html{
   background-image: url(background.png);
-  font-family:"Courier New";
+  font-family:"Arial";
   font-weight:bold;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -103,18 +103,8 @@ a:hover{
 
 /*The stuff that James made*/
 
-.jeven{
-	text-align:center;
-	font-size: 50px;
-	font-weight:bold;
-	background-image: -webkit-linear-gradient(left, #000000 0%,#000033 40%,#000033 60%,#000000 100%);
-	-webkit-animation:rtl 3s forwards linear infinite;
-	background-size: 50% auto;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent
-}
-.jeven .title{ font-size:100px; }
-.jeven .sub{ margin-top:-50px; padding-top: 3% }
+#header{ font-size:100px; padding: 3%; font-family: Government Agent BB}
+
 
 @-webkit-keyframes rtl { 
 	from { background-position:top left; }  

@@ -1,5 +1,3 @@
 *.sublime-project
 *.sublime-workspace
-*.py
-dump/
 *.note

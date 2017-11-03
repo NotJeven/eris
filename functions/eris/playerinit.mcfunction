@@ -1,11 +1,11 @@
 tellraw @a[score_inGame_min=-1,score_inGame=-1] [{"text":"Map: "},{"text":"Eris","color":"red"}]
-tellraw @a[score_inGame_min=-1,score_inGame=-1] [{"text":"Author: "},{"text":"@NotJeven","color":"red"}]
-tellraw @a[score_inGame_min=-1,score_inGame=-1] [{"text":"Verison: "},{"text":"2.2 Release Candidate 2","color":"red"},{"text":" (Minecraft 1.12.2)"}]
+tellraw @a[score_inGame_min=-1,score_inGame=-1] [{"text":"Author: "},{"text":"Jeven","color":"red"}]
+tellraw @a[score_inGame_min=-1,score_inGame=-1] [{"text":"Verison: "},{"text":"2.2","color":"red"},{"text":" (Minecraft 1.12.2)"}]
 execute @e[type=armor_stand,name=powerEd,score_var_min=1,score_var=1] ~ ~ ~ [{"text":"Powered by "},{"text":"Vantek Labs®","color":"red"}]
 tellraw @a[score_inGame_min=-1,score_inGame=-1] {"text":""}
-#tellraw @a[score_inGame_min=-1,score_inGame=-1] [{"text":"Check out the Eris "},{"text":"trailer","underlined":"true","color":"dark_aqua","clickEvent":{"action":"open_url","value":"https://www.youtube.com/watch?v=mJm7aFCXfAA"},"hoverEvent":{"action":"show_text","value":"Youtube ->"}},{"text":"!","underlined":"false","color":"white"}]
+#tellraw @a[score_inGame_min=-1,score_inGame=-1] {"text":"Check out the Eris "},{"text":"trailer","underlined":"true","color":"dark_aqua","clickEvent":{"action":"open_url","value":"https://www.youtube.com/watch?v=mJm7aFCXfAA"},"hoverEvent":{"action":"show_text","value":"Youtube ->"}},{"text":"!","underlined":"false","color":"white"}]
 tellraw @a[score_inGame_min=-1,score_inGame=-1] [{"text":"Follow "},{"text":"@ErisUpdates","underlined":"true","color":"dark_aqua","clickEvent":{"action":"open_url","value":"http://twitter.com/ErisUpdates"},"hoverEvent":{"action":"show_text","value":"Twitter ->"}},{"text":" on Twitter for map information.","color":"white"}]
-title @a[score_inGame_min=-1,score_inGame=-1] subtitle [{"text":"A map from "},{"text":"@NotJeven","color":"red"}]
+title @a[score_inGame_min=-1,score_inGame=-1] subtitle [{"text":"Eris","color":"red"},{"text":" by "},{"text":"Jeven","color":"red"}]
 title @a[score_inGame_min=-1,score_inGame=-1] reset
 effect @a[score_inGame_min=-1,score_inGame=-1] minecraft:night_vision 999999 0 true
 effect @a[score_inGame_min=-1,score_inGame=-1] minecraft:regeneration 999999 0 true

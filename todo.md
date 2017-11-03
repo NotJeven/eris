@@ -1,14 +1,16 @@
 TODO
+	*	add in some kind of reset on armor stand deletion
+	*	scramble some more eggs if time allows
+	*	test team randomizer
+	*	figure out some method for allowing the systems to be fulling independent to be fully 
+
 	*	menu system needs to use eris text
 	*	clean up team/scoreboard/sidebar stuff
 	*	clean up eris variables
 	*	clean up extra menu files
 	*	rebuild end game stats display
-	*	probably have to look at swap team reset
-	*	scramble some more eggs if time allows
-	*	test team randomizer
-	*	add in some kind of reset on armor stand deletion
-	*	figure out some method for allowing the systems to be fulling independent to be fully 
+
+
 
 
 Fixed Today!

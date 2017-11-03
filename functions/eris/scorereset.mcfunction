@@ -13,7 +13,7 @@ scoreboard players reset * redstoneRemoved
 scoreboard teams join team1 @a[score_swapTeam_min=1,score_swapTeam=1]
 scoreboard teams join team2 @a[score_swapTeam_min=2,score_swapTeam=2]
 function eris:teamset if @a[score_swapTeam_min=1,score_swapTeam=2]
-scoreboard players set * inGame -2
+scoreboard players set * inGame -1
 scoreboard players set @a inGame 0
 scoreboard players set @a respawn 0
 scoreboard players set @a activate 1

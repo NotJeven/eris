@@ -1,2 +1,0 @@
-function eris:deathwhile
-scoreboard players set @a[score_playerSinceDeath=0,score_playerSinceDeath=0,score_playerInGame_min=1,score_playerInGame=1,score_playerRespawn_min=0,score_playerRespawn=0] playerRespawn 1

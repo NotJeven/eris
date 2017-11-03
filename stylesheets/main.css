@@ -105,8 +105,5 @@ a:hover{
 
 #header{margin-bottom: 2%; margin-left: auto; margin-right: auto; display: block; text-align: center;}
 
-
-@-webkit-keyframes rtl { 
-  from { background-position:top left; }  
-  to { background-position:top right; }  
-}
+#youtube{width: 640px; height:360px; display:block; transparent; background-image: url('youtube1.png');}
+#youtube:hover{background-image: url('youtube2.png');}

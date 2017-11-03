@@ -1,4 +1,4 @@
-html{
+  html{
   background-image: url(background.png);
   font-family:"Arial";
   font-weight:bold;
@@ -101,7 +101,6 @@ a:hover{
   padding-bottom: 3%;
 }
 
-/*The stuff that James made*/
 
 #header{ font-size:100px; padding: 3%; font-family: Government Agent BB}
 

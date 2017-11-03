@@ -1,0 +1,122 @@
+html{
+  background-image: url(/background.png);
+  font-family:"Courier New";
+  font-weight:bold;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-attachment:fixed;
+}
+
+.template{
+  font-size: 90%;
+}
+
+a{
+  color:#505050
+}
+
+a:hover{
+  color: #790000;
+}
+
+.homeTable{
+  width:50%;
+}
+
+.downlink:hover{
+  cursor: pointer;
+}
+
+#page{
+  margin: auto;
+  width: auto;
+  max-width: 1000px;
+  min-width: 935px;
+  background-color: white;
+  box-shadow: 0 0 20px 3px #0a0b13;
+
+}
+
+#main table.images td{
+  width:33%;
+  padding:0;
+}
+
+#header .menubar{
+  text-align: center;
+  font-size: 150%;
+}
+
+#header .menubar a{
+  padding: 1%;
+  margin: 0.5%;
+  box-shadow: 0 0 7px 1px #0a0b13;
+}
+
+#header .current{
+  color: #790000;
+}
+
+#main table td{
+  padding: 3%;
+  vertical-align: top;
+}
+
+#main table td.left{
+  width:75%;
+}
+
+#main table td.right{
+  padding: 0;
+  padding-right:3%;
+}
+
+#main .right div{
+  box-shadow: 0 0 7px 1px #0a0b13;
+  padding-left: 10%;
+  padding-right: 3%; 
+  padding-top: 3%;
+  padding-bottom: 3%  
+}
+
+#main .right .download{
+  margin-top: 1%;
+  margin-bottom: 10%;
+  padding-bottom: 10%
+}
+
+#main .right .youtube{
+  margin-top:10%;
+}
+
+#normal {
+  padding: 3%;
+}
+
+.localImage {
+  width:100%;
+}
+
+#main table{
+  padding-bottom: 3%;
+}
+
+/*The stuff that James made*/
+
+.jeven{
+	text-align:center;
+	font-size: 50px;
+	font-weight:bold;
+	background-image: -webkit-linear-gradient(left, #000000 0%,#000033 40%,#000033 60%,#000000 100%);
+	-webkit-animation:rtl 3s forwards linear infinite;
+	background-size: 50% auto;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent
+}
+.jeven .title{ font-size:100px; }
+.jeven .sub{ margin-top:-50px; padding-top: 3% }
+
+@-webkit-keyframes rtl { 
+	from { background-position:top left; }  
+	to { background-position:top right; }  
+}

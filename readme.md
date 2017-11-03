@@ -26,7 +26,7 @@ support gameplay for anywhere between a 3v3 to a 6v6.
 	
 	Map: Eris
 	Author: Jeven
-	Download: http://twitter.com/erisupdates	
+	Download: http://twitter.com/erisupdates
 
 I also love watching other people play Eris, tweet your videos at me!
 	http://twitter.com/notjeven

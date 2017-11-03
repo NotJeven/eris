@@ -1,5 +1,3 @@
-*All project files are currently development code for Eris v2.2 (v0.22.X)*
-
 =================================================================================
 
 	Eris
@@ -26,7 +24,7 @@ support gameplay for anywhere between a 3v3 to a 6v6.
 	
 	Map: Eris
 	Author: Jeven
-	Download: http://twitter.com/erisupdates
+	Download: https://notjeven.github.io/eris
 
 I also love watching other people play Eris, tweet your videos at me!
 	http://twitter.com/notjeven
@@ -34,40 +32,43 @@ I also love watching other people play Eris, tweet your videos at me!
 =================================================================================
 
 	Technical information:
-For installation help feel free to tweet me your questions (@NotJeven)
+To install, extract the folder "Eris 2.2" from the downloaded "Eris 2.2.zip".
+Then move the "Eris 2.2" folder into a Minecraft server directory.
+Finally set the server.properties "level-name" property to "Eris 2.2".
+	level-name=Eris 2.2
+For installation help feel free to tweet me your questions (@NotJeven).
 	
-Eris v2.1 is released for unmodified (vanilla) Minecraft 1.12.
+Eris v2.2 is released for unmodified (vanilla) Minecraft 1.12.2.
 
 When a new snapshot or release of Minecraft is published, the Twitter account 
 @ErisUpdates (http://twitter.com/erisupdates) will post whether or not the map
-is supported for the new version of Minecraft.
+is supported for the new version of Minecraft. The supported Minecraft versions 
+will also be added to the Eris webpage (http://github.com/notjeve/eris).
 
-Set announce-player-achievements to false in the server.properties.
+I recommend setting announce-player-achievements to false in server.properties.
 	announce-player-achievements=false
 
-Also set enable-command-block to true in the server.properties file.
-	enable-command-block=true
-
 Any bugs/map issues, please report them to the @ErisUpdates Twitter account
-	(http://twitter.com/erisupdates)
-
+(http://twitter.com/erisupdates) or to the project github page 
+(github.com/notjeven/eris).
 
 =================================================================================
 
 	Changelog:
 v2.2
-- updated tech to 1.12 and to mcfunctions
-- Added an Auto reset to admin options
+- Updated tech to 1.12 and to mcfunctions
+- Added 'Toggle Reset' option to admin menu
 - Health regen rules changed from 1 point/80 ticks (MC 1.8) to 1 point/50 ticks
 - Removed netherbrick fences from block spawners
 - Made the sign more readable
+- Minecraft 1.12 release support
 
 v2.1
 - Improved and updated backend performance
 - Added Autoref style void detection
-- Added 'Swap Teams' option to Admin menu
-- Added 'Start Game' option to Admin Menu
-- Removed 'Random Captains' option from Admin menu
+- Added 'Swap Teams' option to admin menu
+- Added 'Start Game' option to admin Menu
+- Removed 'Random Captains' option from admin menu
 - Minecraft 1.8 release support
 
 v2.0
@@ -90,6 +91,9 @@ v2.0
 
 	Links:
 
+Eris webpage
+	http://notjeven.github.io/eris
+
 Eris update information
 	http://twitter.com/erisupdates
 
@@ -103,12 +107,9 @@ Eris 2 map tour
 
 	Special Thanks:
 
--Moesh, for inspiring Eris, his technical and gameplay assistance
--Muffinz, for breaking the map so hard, making it more balanced
--Buikes, Zebra, Thungon, Vanman, Youngun, Gilzor and friends, 
- for countless late night beta tests
--Searge/Mojang, for introducing numerous amazing map making abilities
-
--Yeah these need to be updated from 2014 since they are now no longer relevant.
+-Vanman; for hosting and supporting my endevours
+-Anster, Buikes, Colin, Dekameter, and friends; 
+for countless late night beta tests and inspiration
+-Moesh; for inspiring Eris, and his technical and gameplay assistance
 
 =================================================================================

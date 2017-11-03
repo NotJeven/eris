@@ -23,6 +23,14 @@ Destroy The Core
 #### Minecraft Version
 Minecraft Release 1.12.2
 
+### Youtube Template
+```
+Map: Eris
+Author: Jeven
+Download: https://notjeven.github.io/eris/
+```
+
 ### Links
 [Eris Update](http://twitter.com/erisupdates/)
 [Map Tour Video](http://youtu.be/Wq3NJ_AeNyE/)
+

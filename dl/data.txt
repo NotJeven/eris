@@ -1,0 +1,7 @@
+eris2.0|/eris/downloads/Eris 2.0.zip|0
+eris2.1|/eris/downloads/Eris 2.1.zip|98
+eris2.2|/dl/files/Eris 2.2.zip|0
+msbr002|/msb/downloads/Minecraft Script Builder r002.zip|9
+msbr003|/msb/downloads/Minecraft Script Builder r003.zip|10
+msbr004|/msb/downloads/Minecraft Script Builder r004.zip|57
+msbr005|/msb/downloads/Minecraft Script Builder r005.zip|57

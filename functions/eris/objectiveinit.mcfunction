@@ -39,6 +39,7 @@ scoreboard teams join notReady §nDefenders
 scoreboard teams join notReady §nInvaders
 scoreboard teams join ready §nSpectators
 scoreboard objectives setdisplay sidebar lobbyDisplay
+summon minecraft:armor_stand 0 15 0 {Marker:1,Invulnerable:1,NoGravity:1,CustomNameVisible:1,CustomName:"powerEd"}
 scoreboard players set @e[name=vToggleMenu] var 1
 scoreboard players set @e[name=vAutoReset] var 0
 scoreboard players set @e[name=powerEd] var 0

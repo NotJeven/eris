@@ -1,3 +1,4 @@
+This webpage is at [notjeven.github.io/eris/](https://notjeven.github.io/eris/)
 
 ### Eris
 
@@ -11,7 +12,7 @@ Eris is an action packed attack/defence Minecraft PvP map where the objective as
 ![eris7](https://user-images.githubusercontent.com/15371999/32385003-18fad002-c093-11e7-9806-f3c371ca0e40.png) | ![eris8](https://user-images.githubusercontent.com/15371999/32385006-198ad8c8-c093-11e7-9584-27b60041f8fc.png) | ![eris9](https://user-images.githubusercontent.com/15371999/32385011-1ac6f898-c093-11e7-9548-da803a956436.png)
 
 ### Download
-[Eris 2.2 Release Candidate 2](https://github.com/NotJeven/eris/files/1441797/Eris.2.2.Release.Candidate.2.zip)
+[Eris 2.2](https://notjeven.github.io/eris/)
 
 ### Game Information
 #### Game Type

@@ -21,6 +21,14 @@ td{padding:0;}
   width:33%;
 }
 
+footer{
+  color: white;
+  text-align: center;
+  margin-top: 3%;
+}
+footer a{
+  color:white;
+}
 
 #sidebar div {
   box-shadow: 0 0 7px 1px #0a0b13; 
@@ -35,6 +43,7 @@ td{padding:0;}
   background-color:white;
   max-width: 75%;
   padding: 3%;
+  min-width: 890;
 }
 
 #sidebar{

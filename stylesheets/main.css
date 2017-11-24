@@ -12,6 +12,7 @@ a:hover{color: #790000;}
 
 td{padding:0;}
 
+
 #header_image{
   margin-bottom: 3%; 
   margin-left: auto; 
@@ -19,37 +20,44 @@ td{padding:0;}
   display: block;
   text-align: center;
   width:33%;
+  min-width: 312;
+}
+
+header{
+  min-width:900;
+
 }
 
 footer{
   color: white;
   text-align: center;
   margin-top: 3%;
+  min-width: 900;
 }
-footer a{
-  color:white;
-}
+
+footer a{color:white;}
 
 #sidebar div {
   box-shadow: 0 0 7px 1px #0a0b13; 
   padding:3%;
-  padding-left:10%;
   margin-bottom: 10%;
 }
+
+#sidebar p{text-align: center;}
+#sidebar h3{text-align:center;}
 
 #content{
   margin:auto;
   width:auto;
   background-color:white;
-  max-width: 75%;
   padding: 3%;
-  min-width: 890;
-  max-width: 1050;
+  min-width: 900;
+  max-width: 900;
 }
 
 #sidebar{
   float: right;
-  width:25%; 
+  width: 25%; 
 }
 
 #main{
@@ -64,3 +72,5 @@ footer a{
   max-width:640px; 
   width:100%;
 }
+
+code{padding-left: 3%; display: block;}

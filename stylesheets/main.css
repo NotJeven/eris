@@ -1,109 +1,55 @@
-  html{
+
+html{
   background-image: url(background.png);
   font-family:"Arial";
-  font-weight:bold;
   padding-top: 5%;
   padding-bottom: 5%;
   background-attachment:fixed;
 }
 
-.template{
-  font-size: 90%;
-}
+a{color:#505050;}
+a:hover{color: #790000;}
 
-a{
-  color:#505050
-}
+td{padding:0;}
 
-a:hover{
-  color: #790000;
-}
-
-.homeTable{
-  width:50%;
-}
-
-.downlink:hover{
-  cursor: pointer;
-}
-
-#page{
-  margin: auto;
-  width: auto;
-  max-width: 1000px;
-  min-width: 935px;
-  background-color: white;
-  box-shadow: 0 0 20px 3px #0a0b13;
-
-}
-
-#main table.images td{
-  width:33%;
-  padding:0;
-}
-
-#header .menubar{
+#header_image{
+  margin-bottom: 3%; 
+  margin-left: auto; 
+  margin-right: auto; 
+  display: block;
   text-align: center;
-  font-size: 150%;
 }
 
-#header .menubar a{
-  padding: 1%;
-  margin: 0.5%;
-  box-shadow: 0 0 7px 1px #0a0b13;
-}
 
-#header .current{
-  color: #790000;
-}
-
-#main table td{
-  padding: 3%;
-  vertical-align: top;
-}
-
-#main table td.left{
-  width:75%;
-}
-
-#main table td.right{
-  padding: 0;
-  padding-right:3%;
-}
-
-#main .right div{
-  box-shadow: 0 0 7px 1px #0a0b13;
-  padding-left: 10%;
-  padding-right: 3%; 
-  padding-top: 3%;
-  padding-bottom: 3%  
-}
-
-#main .right .download{
-  margin-top: 1%;
+#sidebar div {
+  box-shadow: 0 0 7px 1px #0a0b13; 
+  padding:3%;
+  padding-left:10%;
   margin-bottom: 10%;
-  padding-bottom: 10%
 }
 
-#main .right .youtube{
-  margin-top:10%;
-}
-
-#normal {
+#content{
+  margin:auto;
+  width:auto;
+  background-color:white;
+  max-width: 75%;
   padding: 3%;
 }
 
-.localImage {
+#sidebar{
+  float: right;
+  width:25%; 
+}
+
+#main{
+  width:73%;
+}
+
+#image{
   width:100%;
 }
 
-#main table{
-  padding-bottom: 3%;
-  padding-top:3%;
+#youtube{
+  max-width:640px; 
+  width:100%;
 }
-
-
-#header{margin-bottom: 2%; margin-left: auto; margin-right: auto; display: block; text-align: center;}
-
-#youtube{width: 640px; height:360px; display:block; transparent; background-image: url('youtube1.png');}
-#youtube:hover{background-image: url('youtube2.png');}

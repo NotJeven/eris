@@ -74,5 +74,6 @@ summon Item 1023 9 10 {Item:{id:tnt,Count:8},Age:-32768,PickupDelay:32767,Passen
 summon Item 1154 26 -4 {Item:{id:arrow,Count:20},Age:-32768,PickupDelay:32767}
 summon Item 1063 14 13 {Item:{id:arrow,Count:20},Age:-32768,PickupDelay:32767}
 summon Item 1098 40 0 {Item:{id:redstone_block,Count:0},Age:-32768,PickupDelay:32767}
+function eris:tooltips_on
 function eris:scorereset
 scoreboard players set @e[name=vTest] var 1

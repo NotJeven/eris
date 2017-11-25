@@ -19,20 +19,22 @@ td{padding:0;}
   margin-right: auto; 
   display: block;
   text-align: center;
+  min-width: 312px;
+  max-width: 412px;
   width:33%;
-  min-width: 312;
 }
 
-header{
-  min-width:900;
+header p{display:none;}
 
+header{
+  min-width:900px;
 }
 
 footer{
   color: white;
   text-align: center;
   margin-top: 3%;
-  min-width: 900;
+  min-width: 900px;
 }
 
 footer a{color:white;}
@@ -51,8 +53,8 @@ footer a{color:white;}
   width:auto;
   background-color:white;
   padding: 3%;
-  min-width: 900;
-  max-width: 900;
+  min-width: 900px;
+  max-width: 900px;
 }
 
 #sidebar{

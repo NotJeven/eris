@@ -1,5 +1,5 @@
-execute @e[type=armor_stand,name=vTime,score_var_min=-903,score_var=-903] ~ ~ ~ summon minecraft:leash_knot 1098 37 0 {CustomName:"Admin Menu",CustomNameVisible:1,Silent:1}
-execute @e[type=armor_stand,name=vTime,score_var_min=-902,score_var=-600] ~ ~ ~ summon minecraft:leash_knot 1098 37 0 {CustomName:Menu,CustomNameVisible:1,Silent:1}
+execute @e[type=armor_stand,name=vTime,score_var_min=-903,score_var=-903] ~ ~ ~ summon minecraft:leash_knot 1089 39 0 {CustomName:"Admin Menu",CustomNameVisible:1,Silent:1}
+execute @e[type=armor_stand,name=vTime,score_var_min=-902,score_var=-600] ~ ~ ~ summon minecraft:leash_knot 1089 39 0 {CustomName:"Menu",CustomNameVisible:1,Silent:1}
 summon minecraft:leash_knot 1023 7 10 {CustomName:TNT,CustomNameVisible:1,Silent:1}
 summon minecraft:leash_knot 1038 16 -9 {CustomName:Power,CustomNameVisible:1,Silent:1}
 summon minecraft:leash_knot 1053 7 -7 {CustomName:Blocks,CustomNameVisible:1,Silent:1}

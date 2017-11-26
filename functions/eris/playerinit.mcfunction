@@ -12,7 +12,7 @@ effect @a[score_inGame_min=-1,score_inGame=-1] minecraft:regeneration 999999 0 t
 effect @a[score_inGame_min=-1,score_inGame=-1] minecraft:saturation 999999 0 true
 gamemode spectator @a[score_inGame_min=-1,score_inGame=-1]
 spawnpoint @a[score_inGame_min=-1,score_inGame=-1] 1098 25 0
-tp @a[score_inGame_min=-1,score_inGame=-1] 1098 25 0 -90 -10
+tp @a[score_inGame_min=-1,score_inGame=-1] 1008 13 0 -90 -36
 playsound entity.blaze.ambient master @a[score_inGame_min=-1,score_inGame=-1] 1098 25 1 0.7 0
 clear @a[score_inGame_min=-1,score_inGame=-1]
 scoreboard players set @a[score_inGame_min=-1,score_inGame=-1] menuVis 0

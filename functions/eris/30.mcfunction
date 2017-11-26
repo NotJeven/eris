@@ -4,6 +4,7 @@ tellraw @a[team=team1] [{"text":"The "},{"text":"Invaders","color":"dark_purple"
 title @a[team=team1] subtitle [{"text":"The "},{"text":"Invaders","color":"dark_purple"},{"text":" are inbound!"}]
 title @a reset
 kill @e[x=1100,y=50,z=0,r=200,type=item]
+kill @e[type=area_effect_cloud]
 function eris:spawneron
 function eris:eggs
 scoreboard players reset @a triggerTeam

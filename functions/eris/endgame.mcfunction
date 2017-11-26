@@ -3,9 +3,9 @@ setblock 1189 25 7 minecraft:stained_hardened_clay 7
 kill @e[type=item,name=BuikesLog]
 kill @e[type=item,name=MoeshLog]
 gamemode spectator @a
-clone 17 36 -1 21 40 25 1097 36 -1
+clone 8 38 -1 10 42 1 1088 38 -1
 scoreboard players set @e[name=vEndDisplayTimer] var 0
-summon item 1098 40 0 {Item:{id:redstone_block,Count:1},Age:-32768,PickupDelay:32767}
+summon item 1089 41 0 {Item:{id:redstone_block,Count:1},Age:-32768,PickupDelay:32767}
 scoreboard players set @a menuVis 1
 scoreboard players set @a activate 1
 function eris:spawneroff

@@ -10,10 +10,7 @@ html{
 a{color:#505050;}
 a:hover{color: #790000;}
 
-td{padding:0;}
-
-
-#header_image{
+.header_image{
   margin-bottom: 3%; 
   margin-left: auto; 
   margin-right: auto; 
@@ -26,9 +23,7 @@ td{padding:0;}
 
 header p{display:none;}
 
-header{
-  min-width:900px;
-}
+header{min-width:900px;}
 
 footer{
   color: white;
@@ -39,16 +34,16 @@ footer{
 
 footer a{color:white;}
 
-#sidebar div {
+.sidebar div {
   box-shadow: 0 0 7px 1px #0a0b13; 
   padding:3%;
   margin-bottom: 10%;
 }
 
-#sidebar p{text-align: center;}
-#sidebar h3{text-align:center;}
+.sidebar p{text-align: center;}
+.sidebar h3{text-align:center;}
 
-#content{
+.content{
   margin:auto;
   width:auto;
   background-color:white;
@@ -57,22 +52,30 @@ footer a{color:white;}
   max-width: 900px;
 }
 
-#sidebar{
+.sidebar{
   float: right;
   width: 25%; 
 }
 
-#main{
+.main{
   width:73%;
 }
 
-#image{
+.images{
   width:100%;
 }
 
-#youtube{
+.image{
+  max-width: 49%;
+  max-height: 49%;
+}
+
+.youtube{
   max-width:640px; 
   width:100%;
 }
 
-code{padding-left: 3%; display: block;}
+code{
+  padding-left: 3%; 
+  display: block;
+}

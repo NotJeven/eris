@@ -17,7 +17,7 @@ spawnpoint @a[team=team1] 1195 29 0
 tp @a[team=team2] 1011 15 0 -90 0
 playsound entity.ghast.warn master @a ~ ~ ~ 1 0 0
 scoreboard objectives setdisplay sidebar
-fill 1096 35 -2 1100 39 2 minecraft:air
+fill 1088 38 -2 1091 41 2 minecraft:air
 scoreboard players set @a[team=team1] inGame 1
 scoreboard players set @a[team=team2] inGame 1
 scoreboard players set @a menuVis 2

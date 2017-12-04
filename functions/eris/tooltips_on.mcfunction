@@ -16,7 +16,7 @@ summon area_effect_cloud 1138 17.25 0 {CustomNameVisible:1,Duration:216374,Custo
 
 summon area_effect_cloud 1160 18 0 {CustomNameVisible:1,Duration:216374,CustomName:"§nThe Core"}
 summon area_effect_cloud 1160 17.5 0 {CustomNameVisible:1,Duration:216374,CustomName:"The Invaders' objective is to destroy the redstone blocks of the core."}
-summon area_effect_cloud 1160 17.25 0 {CustomNameVisible:1,Duration:216374,CustomName:"The Defenders must let the core charge for 20 minutes to win."}
+summon area_effect_cloud 1160 17.25 0 {CustomNameVisible:1,Duration:216374,CustomName:"The Defenders must let the core charge for 15 minutes to win."}
 summon area_effect_cloud 1160 17 0 {CustomNameVisible:1,Duration:216374,CustomName:"Any blocks placed against the core will ignite and be destroyed."}
 
 summon area_effect_cloud 1195 30 0 {CustomNameVisible:1,Duration:216374,CustomName:"§nDefender Spawn"}
@@ -59,10 +59,10 @@ summon area_effect_cloud 1170 15.5 -13 {CustomNameVisible:1,Duration:216374,Cust
 summon area_effect_cloud 1170 15.25 -13 {CustomNameVisible:1,Duration:216374,CustomName:"20 seconds when active. Remove the"}
  summon area_effect_cloud 1170 15 -13 {CustomNameVisible:1,Duration:216374,CustomName:"redstone block to deactivate the spawner."}
 # defender top
-summon area_effect_cloud 1158 31 7 {CustomNameVisible:1,Duration:216374,CustomName:"§n§cActive TNT Spawner"}
-summon area_effect_cloud 1158 30.5 7 {CustomNameVisible:1,Duration:216374,CustomName:"§cThe TNT spawner will trigger every"}
-summon area_effect_cloud 1158 30.25 7 {CustomNameVisible:1,Duration:216374,CustomName:"§c20 seconds when active. Remove the"}
-summon area_effect_cloud 1158 30 7 {CustomNameVisible:1,Duration:216374,CustomName:"§credstone block to deactivate the spawner."}
+summon area_effect_cloud 1158 31 7 {CustomNameVisible:1,Duration:216374,CustomName:"§nActive TNT Spawner"}
+summon area_effect_cloud 1158 30.5 7 {CustomNameVisible:1,Duration:216374,CustomName:"The TNT spawner will trigger every"}
+summon area_effect_cloud 1158 30.25 7 {CustomNameVisible:1,Duration:216374,CustomName:"20 seconds when active. Remove the"}
+summon area_effect_cloud 1158 30 7 {CustomNameVisible:1,Duration:216374,CustomName:"redstone block to deactivate the spawner."}
 
 # invader side
 summon area_effect_cloud 1053 13 -7 {CustomNameVisible:1,Duration:216374,CustomName:"§nActive Block Spawner"}

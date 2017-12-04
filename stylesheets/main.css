@@ -7,8 +7,8 @@ html{
   background-attachment:fixed;
 }
 
-a{color:#505050;}
-a:hover{color: #790000;}
+a{color:#790000;}
+a:hover{color: #bb0000;}
 
 .header_image{
   margin-bottom: 3%; 

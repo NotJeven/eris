@@ -1,12 +1,8 @@
-=================================================================================
+### Eris
+by Jeven  
+v2.2
 
-	Eris
-	by Jeven
-	v2.2
-
-=================================================================================
-
-	About:
+### About
 
 Eris is an attack/defend destroy the core Minecraft PvP map where the objective as 
 the invaders is to destroy the redstone core before it becomes fully charged. The 
@@ -16,22 +12,20 @@ defenders will win!
 Eris is balanced to be played with 7 of your friends (4v4), but it will also 
 support gameplay for anywhere between a 3v3 to a 6v6.
 
-=================================================================================
+### Youtubers/Content Producers:
 
-	Youtubers/Content Producers:
-
-**Please add this template to your Youtube videos of Eris**
+*Please add this template to your Youtube videos of Eris*
 	
-	Map: Eris
-	Author: Jeven
-	Download: https://notjeven.github.io/eris
-
+```
+Map: Eris
+Author: Jeven
+Download: https://notjeven.github.io/eris
+```
 I also love watching other people play Eris, tweet your videos at me!
 	http://twitter.com/notjeven
 
-=================================================================================
+### Technical information
 
-	Technical information:
 To install, extract the folder "Eris 2.2" from the downloaded "Eris 2.2.zip".
 Then move the "Eris 2.2" folder into a Minecraft server directory.
 Finally set the server.properties "level-name" property to "Eris 2.2".
@@ -52,9 +46,8 @@ Any bugs/map issues, please report them to the @ErisUpdates Twitter account
 (http://twitter.com/erisupdates) or to the project github page 
 (github.com/notjeven/eris).
 
-=================================================================================
+### Changelog:
 
-	Changelog:
 v2.2
 - Updated tech to 1.12 and to mcfunctions
 - Added 'Toggle Reset' option to admin menu
@@ -87,9 +80,7 @@ v2.0
 - Swapped team colo(u)rs
 - Many gameplay balances
 
-=================================================================================
-
-	Links:
+### Links:
 
 Eris webpage
 	http://notjeven.github.io/eris
@@ -103,13 +94,9 @@ Eris 2 trailer
 Eris 2 map tour
 	http://youtu.be/Wq3NJ_AeNyE
 
-=================================================================================
-
-	Special Thanks:
+### Special Thanks:
 
 - Vanman; for hosting and supporting my endevours
 - Anster, Buikes, Colin, Dekameter, and friends; 
  for countless late night beta tests and inspiration
 - Moesh; for inspiring Eris, and his technical and gameplay assistance
-
-=================================================================================

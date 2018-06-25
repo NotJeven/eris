@@ -12,7 +12,7 @@ defenders will win!
 Eris is balanced to be played with 7 of your friends (4v4), but it will also 
 support gameplay for anywhere between a 3v3 to a 6v6.
 
-### Youtubers/Content Producers:
+### Youtubers/Content Producers
 
 *Please add this template to your Youtube videos of Eris*
 	
@@ -46,7 +46,7 @@ Any bugs/map issues, please report them to the @ErisUpdates Twitter account
 (http://twitter.com/erisupdates) or to the project github page 
 (github.com/notjeven/eris).
 
-### Changelog:
+### Changelog
 
 v2.2
 - Updated tech to 1.12 and to mcfunctions
@@ -80,7 +80,7 @@ v2.0
 - Swapped team colo(u)rs
 - Many gameplay balances
 
-### Links:
+### Links
 
 Eris webpage
 	http://notjeven.github.io/eris
@@ -94,7 +94,7 @@ Eris 2 trailer
 Eris 2 map tour
 	http://youtu.be/Wq3NJ_AeNyE
 
-### Special Thanks:
+### Special Thanks
 
 - Vanman; for hosting and supporting my endevours
 - Anster, Buikes, Colin, Dekameter, and friends; 

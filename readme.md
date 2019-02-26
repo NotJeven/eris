@@ -99,7 +99,7 @@ Eris 2 map tour
 
 ### Special Thanks
 
-- Vanman; for hosting and supporting my endevours
+- Vanman; for hosting and supporting my endeavours
 - Anster, Buikes, Colin, Dekameter, and friends; 
  for countless late night beta tests and inspiration
 - Moesh; for inspiring Eris, and his technical and gameplay assistance

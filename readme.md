@@ -1,6 +1,6 @@
 ### Eris
 by Jeven  
-v2.2
+v2.3
 
 ### About
 
@@ -26,13 +26,13 @@ I also love watching other people play Eris, tweet your videos at me!
 
 ### Technical information
 
-To install, extract the folder "Eris 2.2" from the downloaded "Eris 2.2.zip".
-Then move the "Eris 2.2" folder into a Minecraft server directory.
-Finally set the server.properties "level-name" property to "Eris 2.2".
-	level-name=Eris 2.2
+To install, extract the folder "Eris 2.3" from the downloaded "Eris 2.3.zip".
+Then move the "Eris 2.3" folder into a Minecraft server directory.
+Finally set the server.properties "level-name" property to "Eris 2.3".
+	level-name=Eris 2.3
 For installation help feel free to tweet me your questions (@NotJeven).
 	
-Eris v2.2 is released for unmodified (vanilla) Minecraft 1.12.2.
+Eris v2.3 is released for unmodified (vanilla) Minecraft 1.12.2.
 
 When a new snapshot or release of Minecraft is published, the Twitter account 
 @ErisUpdates (http://twitter.com/erisupdates) will post whether or not the map
@@ -47,6 +47,9 @@ Any bugs/map issues, please report them to the @ErisUpdates Twitter account
 (github.com/notjeven/eris).
 
 ### Changelog
+
+v2.3
+- Added tooltips to the lobby
 
 v2.2
 - Updated tech to 1.12 and to mcfunctions

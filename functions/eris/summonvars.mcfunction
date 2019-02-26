@@ -1,5 +1,4 @@
 kill @e[type=armor_stand]
-summon minecraft:armor_stand 0 15 0 {Marker:1,Invulnerable:1,NoGravity:1,CustomNameVisible:1,CustomName:"vTime"}
 summon minecraft:armor_stand 0 15 0 {Marker:1,Invulnerable:1,NoGravity:1,CustomNameVisible:1,CustomName:"vSwapTeam"}
 summon minecraft:armor_stand 0 15 0 {Marker:1,Invulnerable:1,NoGravity:1,CustomNameVisible:1,CustomName:"vResetSuccess"}
 summon minecraft:armor_stand 0 15 0 {Marker:1,Invulnerable:1,NoGravity:1,CustomNameVisible:1,CustomName:"vReady"}

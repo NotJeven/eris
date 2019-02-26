@@ -1,5 +1,6 @@
-scoreboard players set @a[x=1098,y=38,z=0,rm=1,score_menuGiven_min=1,score_menuGiven=1] menuGiven 0
-function eris:requestmenu if @a[x=1098,y=38,z=0,r=1,score_activate=0,score_menuGiven=0]
+function eris:tour_loop if @a[score_giveTour_min=1]
+scoreboard players set @a[x=1089,y=40,z=0,rm=1,score_menuGiven_min=1,score_menuGiven=1] menuGiven 0
+function eris:requestmenu if @a[x=1089,y=40,z=0,r=1,score_activate=0,score_menuGiven=0]
 function eris:left if @a[score_left_min=1,score_left=1]
 function eris:activate if @a[score_activate_min=1,score_activate=1,score_admin=0,score_menuVis=0]
 function eris:team0 if @a[score_triggerTeam_min=-1,score_triggerTeam=-1]

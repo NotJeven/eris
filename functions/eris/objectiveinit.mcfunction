@@ -23,6 +23,7 @@ scoreboard objectives add playerDeaths deathCount Deaths
 scoreboard objectives add redstoneRemoved stat.mineBlock.minecraft.redstone_block Redstone Derooted
 scoreboard objectives add damageTaken stat.damageTaken Damage Taken
 scoreboard objectives add damageDealt stat.damageDealt Damage Issued
+scoreboard objectives add giveTour dummy
 scoreboard players set 60 constant 60
 scoreboard players set 20 constant 20
 scoreboard players set 1200 constant 1200

@@ -62,7 +62,7 @@ clone -81 0 13 120 62 13 999 0 13
 clone -81 0 14 120 62 14 999 0 14
 clone -81 0 15 120 62 15 999 0 15
 clone -81 0 16 120 62 16 999 0 16
-summon item 1098 40 0 {Item:{id:redstone_block,Count:1},Age:-32768,PickupDelay:32767}
+summon item 1089 41 0 {Item:{id:redstone_block,Count:1},Age:-32768,PickupDelay:32767}
 summon Item 1170 13 14 {Item:{id:quartz_block,Count:16},Age:-32768,PickupDelay:32767,Passengers:[{id:Item,Item:{id:stone_slab,Count:2,Damage:7},Age:-32768,PickupDelay:32767,Passengers:[{id:Item,Item:{id:quartz_stairs,Count:2},Age:-32768,PickupDelay:32767}]}]}
 summon Item 1165 28 -8 {Item:{id:quartz_block,Count:16},Age:-32768,PickupDelay:32767,Passengers:[{id:Item,Item:{id:stone_slab,Count:2,Damage:7},Age:-32768,PickupDelay:32767,Passengers:[{id:Item,Item:{id:quartz_stairs,Count:2},Age:-32768,PickupDelay:32767}]}]}
 summon Item 1053 9 -7 {Item:{id:nether_brick,Count:16},Age:-32768,PickupDelay:32767,Passengers:[{id:Item,Item:{id:stone_slab,Count:2,Damage:6},Age:-32768,PickupDelay:32767,Passengers:[{id:Item,Item:{id:nether_brick_stairs,Count:2},Age:-32768,PickupDelay:32767}]}]}
@@ -73,6 +73,6 @@ summon Item 1158 27 7 {Item:{id:tnt,Count:8},Age:-32768,PickupDelay:32767,Passen
 summon Item 1023 9 10 {Item:{id:tnt,Count:8},Age:-32768,PickupDelay:32767,Passengers:[{id:Item,Item:{id:ice,Count:3},Age:-32768,PickupDelay:32767,Passengers:[{id:Item,Item:{id:stone_button,Count:1},Age:-32768,PickupDelay:32767,Passengers:[{id:Item,Item:{id:redstone,Count:3},Age:-32768,PickupDelay:32767}]}]}]}
 summon Item 1154 26 -4 {Item:{id:arrow,Count:20},Age:-32768,PickupDelay:32767}
 summon Item 1063 14 13 {Item:{id:arrow,Count:20},Age:-32768,PickupDelay:32767}
-summon Item 1098 40 0 {Item:{id:redstone_block,Count:0},Age:-32768,PickupDelay:32767}
+function eris:tooltips_on
 function eris:scorereset
 scoreboard players set @e[name=vTest] var 1

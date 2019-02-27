@@ -6,7 +6,7 @@ v2.3
 
 Eris is an attack/defend destroy the core Minecraft PvP map where the objective as 
 the invaders is to destroy the redstone core before it becomes fully charged. The 
-core will take 15 minutes to charge, and once maximum charged is reached, the 
+core will take 15 minutes to charge, and once maximum charge is reached, the 
 defenders will win!
 
 Eris is balanced to be played with 7 of your friends (4v4), but it will also 

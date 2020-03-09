@@ -8,7 +8,7 @@ scoreboard players set @e[type=armor_stand,name=vSpawnerActive7] var -1
 scoreboard players set @e[type=armor_stand,name=vSpawnerActive8] var -1
 scoreboard players set @e[type=armor_stand,name=vSpawnerActive9] var -1
 scoreboard players set @e[type=armor_stand,name=vSpawnerActive10] var -1
-scoreboard players set @e[type=armor_stand,name=vSpawnerActive11] var -1 
+scoreboard players set @e[type=armor_stand,name=vSpawnerActive11] var -1
 scoreboard players set @e[type=armor_stand,name=vSpawnerActive12] var -1
 scoreboard players set @e[type=armor_stand,name=vSpawnerActive13] var -1
 scoreboard players set @e[type=armor_stand,name=vSpawnerActive14] var -1

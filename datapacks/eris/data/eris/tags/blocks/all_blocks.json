@@ -1,0 +1,22 @@
+{
+	"values":
+	[
+		"#minecraft:stairs",
+		"#minecraft:slabs",
+		"#minecraft:ice",
+		"minecraft:tnt",
+		"minecraft:stone_button",
+		"minecraft:redstone_block",
+		"minecraft:nether_bricks",
+		"minecraft:nether_brick_fence",
+		"minecraft:quartz_block",
+		"minecraft:quartz_pillar",
+		"minecraft:chiseled_quartz_block",
+		"minecraft:smooth_quartz",
+		"minecraft:light_blue_terracotta",
+		"minecraft:white_terracotta",
+		"minecraft:black_terracotta",
+		"minecraft:gray_terracotta",
+		"minecraft:light_gray_terracotta"
+	]
+}

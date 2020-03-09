@@ -18,9 +18,9 @@ scoreboard players set @e[name=vAutoResetCount] var -101
 scoreboard players set §nDefenders lobbyDisplay 5
 scoreboard players set §nInvaders lobbyDisplay 3
 scoreboard players set §nSpectators lobbyDisplay 1
-scoreboard teams join ready §nSpectators
+team join ready §nSpectators
 scoreboard objectives setdisplay sidebar lobbyDisplay
 scoreboard players set @e[name=vResetSuccess] var 0
 scoreboard players set @e[name=vSwapTeam] var 0
-scoreboard teams leave §nInvaders
-scoreboard teams leave §nDefenders
+team leave §nInvaders
+team leave §nDefenders

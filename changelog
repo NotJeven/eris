@@ -1,5 +1,0 @@
-updated tech to 1.12 and to mcfunctions
-Added an Auto reset to admin options that resets the map 1 min after the game ends
-Health regeneration rules changed from 1 point/80 ticks (Minecraft 1.8) to 1 point/50 ticks
-Removed netherbrick fences from block spawners
-made the sign more readable

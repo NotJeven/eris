@@ -1,5 +1,5 @@
 scoreboard players set @a[scores={admin=7}] admin 2
-tellraw @a[scores={admin=2..}] {"text":"Reseting map...","color":"gray"}
+tellraw @a[scores={admin=2..}] {"text":"Resetting map...","color":"gray"}
 function eris:spawneroff
 scoreboard objectives setdisplay sidebar
 scoreboard players reset * lobbyDisplay

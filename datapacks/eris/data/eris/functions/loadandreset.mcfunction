@@ -1,32 +1,4 @@
-summon mooshroom 0 15 0 {CustomName:Moeshroom,Invulnerable:1b}
-spreadplayers 1000 -6 0 1 false @e[name=Moeshroom,type=mooshroom]
-execute as @e[name=Moeshroom,type=mooshroom] at @s run spreadplayers ~16 -6 0 1 false @e[name=Moeshroom,type=mooshroom]
-execute as @e[name=Moeshroom,type=mooshroom] at @s run spreadplayers ~16 -6 0 1 false @e[name=Moeshroom,type=mooshroom]
-execute as @e[name=Moeshroom,type=mooshroom] at @s run spreadplayers ~16 -6 0 1 false @e[name=Moeshroom,type=mooshroom]
-execute as @e[name=Moeshroom,type=mooshroom] at @s run spreadplayers ~16 -6 0 1 false @e[name=Moeshroom,type=mooshroom]
-execute as @e[name=Moeshroom,type=mooshroom] at @s run spreadplayers ~16 -6 0 1 false @e[name=Moeshroom,type=mooshroom]
-execute as @e[name=Moeshroom,type=mooshroom] at @s run spreadplayers ~16 -6 0 1 false @e[name=Moeshroom,type=mooshroom]
-execute as @e[name=Moeshroom,type=mooshroom] at @s run spreadplayers ~16 -6 0 1 false @e[name=Moeshroom,type=mooshroom]
-execute as @e[name=Moeshroom,type=mooshroom] at @s run spreadplayers ~16 -6 0 1 false @e[name=Moeshroom,type=mooshroom]
-execute as @e[name=Moeshroom,type=mooshroom] at @s run spreadplayers ~16 -6 0 1 false @e[name=Moeshroom,type=mooshroom]
-execute as @e[name=Moeshroom,type=mooshroom] at @s run spreadplayers ~16 -6 0 1 false @e[name=Moeshroom,type=mooshroom]
-execute as @e[name=Moeshroom,type=mooshroom] at @s run spreadplayers ~16 -6 0 1 false @e[name=Moeshroom,type=mooshroom]
-execute as @e[name=Moeshroom,type=mooshroom] at @s run spreadplayers ~16 -6 0 1 false @e[name=Moeshroom,type=mooshroom]
-spreadplayers 1000 6 0 1 false @e[name=Moeshroom,type=mooshroom]
-execute as @e[name=Moeshroom,type=mooshroom] at @s run spreadplayers ~16 6 0 1 false @e[name=Moeshroom,type=mooshroom]
-execute as @e[name=Moeshroom,type=mooshroom] at @s run spreadplayers ~16 6 0 1 false @e[name=Moeshroom,type=mooshroom]
-execute as @e[name=Moeshroom,type=mooshroom] at @s run spreadplayers ~16 6 0 1 false @e[name=Moeshroom,type=mooshroom]
-execute as @e[name=Moeshroom,type=mooshroom] at @s run spreadplayers ~16 6 0 1 false @e[name=Moeshroom,type=mooshroom]
-execute as @e[name=Moeshroom,type=mooshroom] at @s run spreadplayers ~16 6 0 1 false @e[name=Moeshroom,type=mooshroom]
-execute as @e[name=Moeshroom,type=mooshroom] at @s run spreadplayers ~16 6 0 1 false @e[name=Moeshroom,type=mooshroom]
-execute as @e[name=Moeshroom,type=mooshroom] at @s run spreadplayers ~16 6 0 1 false @e[name=Moeshroom,type=mooshroom]
-execute as @e[name=Moeshroom,type=mooshroom] at @s run spreadplayers ~16 6 0 1 false @e[name=Moeshroom,type=mooshroom]
-execute as @e[name=Moeshroom,type=mooshroom] at @s run spreadplayers ~16 6 0 1 false @e[name=Moeshroom,type=mooshroom]
-execute as @e[name=Moeshroom,type=mooshroom] at @s run spreadplayers ~16 6 0 1 false @e[name=Moeshroom,type=mooshroom]
-execute as @e[name=Moeshroom,type=mooshroom] at @s run spreadplayers ~16 6 0 1 false @e[name=Moeshroom,type=mooshroom]
-execute as @e[name=Moeshroom,type=mooshroom] at @s run spreadplayers ~16 6 0 1 false @e[name=Moeshroom,type=mooshroom]
-execute as @e[name=Moeshroom,type=mooshroom] at @s run spreadplayers ~16 6 0 1 false @e[name=Moeshroom,type=mooshroom]
-kill @e[name=Moeshroom,type=mooshroom]
+forceload add 1000 -16 1197 16
 kill @e[type=arrow]
 kill @e[x=1000.5,y=0,z=-14.5,dx=198,dy=50,dz=30,type=item]
 clone -81 0 -16 120 62 -16 999 0 -16
@@ -76,3 +48,4 @@ summon item 1063 14 13 {Item:{id:"minecraft:arrow",Count:20},Age:-32768,PickupDe
 function eris:tooltips_on
 function eris:scorereset
 scoreboard players set @e[name=vTest] var 1
+forceload remove 1000 -16 1197 16

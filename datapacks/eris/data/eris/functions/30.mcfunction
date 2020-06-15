@@ -7,8 +7,8 @@ kill @e[x=1100.5,y=50,z=0.5,type=item,distance=..200]
 kill @e[type=area_effect_cloud]
 function eris:spawneron
 function eris:eggs
-scoreboard players reset @a triggerTeam
-scoreboard players reset @a triggerOption
+scoreboard players reset * triggerTeam
+scoreboard players reset * triggerOption
 gamemode survival @a[team=team1]
 gamemode survival @a[team=team2]
 tp @a[team=team1] 1195 28 0 90 0

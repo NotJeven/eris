@@ -5,6 +5,7 @@ tellraw @a[team=,scores={activate=1,menuVis=..0,admin=2}] {"text":"[Team Selecti
 tellraw @a[team=!,scores={activate=1,menuVis=..0,admin=2}] {"text":"[Team Options] ","extra":[{"text":"Toggle Ready","color":"green","underlined":"true","clickEvent":{"action":"run_command","value":"/trigger triggerOption set 1"},"hoverEvent":{"action":"show_text","value":"Set your team as ready (or not)!"}},{"text":" | "},{"text":"Leave Team","color":"gray","underlined":"true","clickEvent":{"action":"run_command","value":"/trigger triggerTeam set -1"},"hoverEvent":{"action":"show_text","value":"Leave your team."}}]}
 scoreboard players enable @a[scores={activate=1,menuVis=..0,admin=2}] triggerTeam
 scoreboard players enable @a[scores={activate=1,menuVis=..0,admin=2}] triggerOption
+scoreboard players enable @a[scores={activate=1,menuVis=..0,admin=2}] triggerAdmin
 tellraw @a[scores={activate=1,admin=2,menuVis=0}] {"text":""}
 playsound entity.item.pickup master @a[scores={activate=1,menuVis=0..1}] ~ ~ ~ .2 1.3 .2
 scoreboard players set @a[scores={activate=1}] activate 0

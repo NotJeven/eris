@@ -27,7 +27,7 @@ execute if entity @a[scores={admin=7}] run function eris:startreset
 execute if entity @a[scores={activate=1,admin=2}] run function eris:activateadmin
 execute as @a[x=16.5,y=0,z=-96.5,dx=64,dy=20,dz=195,name=!notjeven] run scoreboard players set modded var 1
 execute if entity @a[scores={admin=3}] run function eris:randomteam
-execute if entity @a[scores={admin=8}] run function eris:removeadmin
+execute if entity @a[scores={triggerAdmin=1}] run function eris:removeadmin
 execute if entity @a[scores={admin=10}] run function eris:autoresettoggle
 execute as @e[type=armor_stand,name=vAutoReset,scores={var=1..2}] at @s run scoreboard players add @e[type=armor_stand,name=vAutoResetCount,scores={var=-100..1199}] var 1
 execute if entity @e[type=armor_stand,name=vAutoResetCount,scores={var=1}] run function eris:autoresetinfo

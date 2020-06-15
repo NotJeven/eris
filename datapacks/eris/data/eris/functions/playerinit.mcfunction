@@ -1,8 +1,10 @@
 tellraw @a[scores={inGame=-1}] [{"text":"Map: "},{"text":"Eris","color":"red"}]
 tellraw @a[scores={inGame=-1}] [{"text":"Author: "},{"text":"Jeven","color":"red"}]
-tellraw @a[scores={inGame=-1}] [{"text":"Verison: "},{"text":"2.4 Preview","color":"red"},{"text":" (Minecraft 1.15.2)"}]
+tellraw @a[scores={inGame=-1}] [{"text":"Download: "},{"text":"notjeven.github.io/eris","color":"red","clickEvent":{"action":"open_url","value":"https://notjeven.github.io/eris"},"hoverEvent":{"action":"show_text","value":"Go to the Eris webpage."}}]
 execute as @e[type=armor_stand,name=powerEd,scores={var=1}] run tellraw @a[scores={ingame=-1}] [{"text":"Powered by "},{"text":"Vantek Labs®","color":"red"}]
 tellraw @a[scores={inGame=-1}] {"text":""}
+tellraw @a[scores={inGame=-1}] [{"text":"Access the chat menu with '"},{"keybind":"key.chat","color":"red"},{"text":"' and click an option."}]
+tellraw @a[scores={inGame=-1}] ""
 #tellraw @a[score_inGame_min=-1,score_inGame=-1] [{"text":"Check out the Eris "},{"text":"webpage","underlined":"true","color":"dark_aqua","clickEvent":{"action":"open_url","value":"https://notjeven.github.io/eris/"},"hoverEvent":{"action":"show_text","value":"Youtube ->"}},{"text":"!","underlined":"false","color":"white"}]
 title @a[scores={inGame=-1}] subtitle [{"text":"Eris","color":"red"},{"text":" by ","color":"white"},{"text":"Jeven","color":"red"}]
 title @a[scores={inGame=-1}] reset

@@ -31,6 +31,7 @@ scoreboard objectives add left minecraft.custom:minecraft.leave_game
 scoreboard objectives add timeSinceDeath minecraft.custom:minecraft.time_since_death
 scoreboard objectives add triggerTeam trigger
 scoreboard objectives add triggerOption trigger
+scoreboard objectives add triggerAdmin trigger
 scoreboard objectives add usageBow minecraft.used:minecraft.bow "Arrows Shot"
 scoreboard objectives add usageSwordIron minecraft.used:minecraft.iron_sword "Iron Sword Usage"
 scoreboard objectives add usageSwordStone minecraft.used:minecraft.stone_sword "Stone Sword Usage"

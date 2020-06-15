@@ -7,9 +7,8 @@ execute as @e[type=armor_stand,name=vAutoReset,scores={var=10}] run title @a[sco
 execute as @e[type=armor_stand,name=vAutoReset,scores={var=11}] run title @a[scores={admin=1..}] subtitle [{"text":"Automatic map reset "},{"text":"enabled","color":"green"},{"text":"."}]
 title @a[scores={admin=1..}] reset
 
-
-execute as @e[type=armor_stand,name=vAutoReset,scores={var=11}] at @s run playsound block.brewing_stand.brew master @a[scores={admin=1..}] ~ ~ ~ 2 2 1
-execute as @e[type=armor_stand,name=vAutoReset,scores={var=10}] at @s run playsound entity.vex.hurt master @a[scores={admin=1..}] ~ ~ ~ 2 0 1
+execute as @e[type=armor_stand,name=vAutoReset,scores={var=11}] at @s run playsound minecraft:block.anvil.use master @a[scores={admin=1..}] ~ ~ ~ 1 0.4 1
+execute as @e[type=armor_stand,name=vAutoReset,scores={var=10}] at @s run playsound minecraft:entity.item.break master @a[scores={admin=1..}] ~ ~ ~ 1 0.4 1
 
 scoreboard players set @e[type=armor_stand,name=vAutoReset,scores={var=10}] var 0
 scoreboard players set @e[type=armor_stand,name=vAutoReset,scores={var=11}] var 1

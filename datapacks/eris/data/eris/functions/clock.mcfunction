@@ -7,14 +7,14 @@ execute if entity @a[scores={triggerTeam=-1}] run function eris:team0
 execute if entity @a[scores={triggerTeam=1}] run function eris:team1
 execute if entity @a[scores={triggerTeam=2}] run function eris:team2
 execute if entity @a[scores={triggerTeam=3}] run function eris:team3
-execute if entity @a[team=team1,scores={triggerOption=1}] run function eris:ready1
-execute if entity @a[team=team2,scores={triggerOption=1}] run function eris:ready2
-execute if entity @a[team=team3,scores={triggerOption=1}] run function eris:ready3
+execute if entity @e[type=armor_stand,name=vTime,scores={var=-902..-601}] if entity @a[team=team1,scores={triggerOption=1}] run function eris:ready1
+execute if entity @e[type=armor_stand,name=vTime,scores={var=-902..-601}] if entity @a[team=team2,scores={triggerOption=1}] run function eris:ready2
+execute if entity @e[type=armor_stand,name=vTime,scores={var=-902..-601}] if entity @a[team=team3,scores={triggerOption=1}] run function eris:ready3
 execute if entity @a[scores={admin=5}] run function eris:resetteam
 execute if entity @a[scores={admin=1}] run function eris:admin
 execute if entity @a[scores={admin=6}] run function eris:togglemenu
-execute if entity @e[type=armor_stand,name=vReady,scores={var=3}] run function eris:ready
-execute if entity @e[type=armor_stand,name=vReady,scores={var=5}] run function eris:ready
+execute if entity @e[type=armor_stand,name=vTime,scores={var=-902..-601}] if entity @e[type=armor_stand,name=vReady,scores={var=3}] run function eris:ready
+execute if entity @e[type=armor_stand,name=vTime,scores={var=-902..-601}] if entity @e[type=armor_stand,name=vReady,scores={var=5}] run function eris:ready
 execute as @e[type=armor_stand,name=vTime,scores={var=-901..}] run scoreboard players add @e[type=armor_stand,name=vTime] var 1
 execute if entity @a[scores={admin=4}] run function eris:adminstart
 execute if entity @e[type=armor_stand,name=vTime,scores={var=-300}] run function eris:15

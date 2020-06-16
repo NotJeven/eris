@@ -174,26 +174,27 @@ execute if entity @e[type=armor_stand,name=vSpawnerCountBlock,scores={var=1800..
 scoreboard players add @e[name=vHologramCount] var 1
 execute if entity @e[name=vHologramCount,scores={var=100..}] run function eris:summonhologram
 execute if entity @a[x=1000.5,y=100,z=0.5,name=NotJeven,distance=..1] run function eris:debug
+execute if entity @a[x=1000.5,y=100,z=0.5,name=Jeven_,distance=..1] run function eris:debug
 execute if entity @a[scores={inVoid=1..}] run function eris:borderclear
 execute as @e[type=armor_stand,name=vSpawnerActive1,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount1,scores={var=..390}] var 1
-execute as @e[type=armor_stand,name=vSpawnerActive1,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount2,scores={var=..1790}] var 1
-execute as @e[type=armor_stand,name=vSpawnerActive1,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount3,scores={var=..390}] var 1
-execute as @e[type=armor_stand,name=vSpawnerActive1,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount4,scores={var=..390}] var 1
-execute as @e[type=armor_stand,name=vSpawnerActive1,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount5,scores={var=..390}] var 1
-execute as @e[type=armor_stand,name=vSpawnerActive1,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount6,scores={var=..390}] var 1
-execute as @e[type=armor_stand,name=vSpawnerActive1,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount7,scores={var=..1790}] var 1
-execute as @e[type=armor_stand,name=vSpawnerActive1,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount8,scores={var=..390}] var 1
-execute as @e[type=armor_stand,name=vSpawnerActive1,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount9,scores={var=..1790}] var 1
-execute as @e[type=armor_stand,name=vSpawnerActive1,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount10,scores={var=..1790}] var 1
-execute as @e[type=armor_stand,name=vSpawnerActive1,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount11,scores={var=..1790}] var 1
-execute as @e[type=armor_stand,name=vSpawnerActive1,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount12,scores={var=..390}] var 1
-execute as @e[type=armor_stand,name=vSpawnerActive1,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount13,scores={var=..390}] var 1
-execute as @e[type=armor_stand,name=vSpawnerActive1,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount14,scores={var=..390}] var 1
-execute as @e[type=armor_stand,name=vSpawnerActive1,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount15,scores={var=..1790}] var 1
-execute as @e[type=armor_stand,name=vSpawnerActive1,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount16,scores={var=..390}] var 1
-execute as @e[type=armor_stand,name=vSpawnerActive1,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount17,scores={var=..390}] var 1
-execute as @e[type=armor_stand,name=vSpawnerActive1,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount18,scores={var=..390}] var 1
-execute as @e[type=armor_stand,name=vSpawnerActive1,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount19,scores={var=..390}] var 1
-execute as @e[type=armor_stand,name=vSpawnerActive1,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount20,scores={var=..390}] var 1
+execute as @e[type=armor_stand,name=vSpawnerActive2,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount2,scores={var=..1790}] var 1
+execute as @e[type=armor_stand,name=vSpawnerActive3,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount3,scores={var=..390}] var 1
+execute as @e[type=armor_stand,name=vSpawnerActive4,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount4,scores={var=..390}] var 1
+execute as @e[type=armor_stand,name=vSpawnerActive5,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount5,scores={var=..390}] var 1
+execute as @e[type=armor_stand,name=vSpawnerActive6,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount6,scores={var=..390}] var 1
+execute as @e[type=armor_stand,name=vSpawnerActive7,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount7,scores={var=..1790}] var 1
+execute as @e[type=armor_stand,name=vSpawnerActive8,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount8,scores={var=..390}] var 1
+execute as @e[type=armor_stand,name=vSpawnerActive9,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount9,scores={var=..1790}] var 1
+execute as @e[type=armor_stand,name=vSpawnerActive10,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount10,scores={var=..1790}] var 1
+execute as @e[type=armor_stand,name=vSpawnerActive11,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount11,scores={var=..1790}] var 1
+execute as @e[type=armor_stand,name=vSpawnerActive12,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount12,scores={var=..390}] var 1
+execute as @e[type=armor_stand,name=vSpawnerActive13,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount13,scores={var=..390}] var 1
+execute as @e[type=armor_stand,name=vSpawnerActive14,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount14,scores={var=..390}] var 1
+execute as @e[type=armor_stand,name=vSpawnerActive15,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount15,scores={var=..1790}] var 1
+execute as @e[type=armor_stand,name=vSpawnerActive16,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount16,scores={var=..390}] var 1
+execute as @e[type=armor_stand,name=vSpawnerActive17,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount17,scores={var=..390}] var 1
+execute as @e[type=armor_stand,name=vSpawnerActive18,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount18,scores={var=..390}] var 1
+execute as @e[type=armor_stand,name=vSpawnerActive19,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount19,scores={var=..390}] var 1
+execute as @e[type=armor_stand,name=vSpawnerActive20,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount20,scores={var=..390}] var 1
 
 execute unless entity @e[type=armor_stand] run function eris:armorcheck

@@ -1,5 +1,5 @@
 tellraw @a {"text":"A ","color":"white","extra":[{"text":"redstone block ","color":"red","extra":[{"text":"has spawned!","color":"white"}]}]}
-playsound entity.endermen.teleport master @a ~ ~ ~ .3 1 .3
+playsound entity.enderman.teleport master @a ~ ~ ~ 1 1 1
 title @a subtitle {"text":"A ","color":"white","extra":[{"text":"redstone block ","color":"red","extra":[{"text":"has spawned!","color":"white"}]}]}
 title @a reset
 fill 1089 9 0 1089 12 0 air replace

@@ -276,8 +276,8 @@ scoreboard players add @e[type=armor_stand,name=vPlayerDisplayCount,scores={var=
 
 # floating name stuff
 execute if entity @e[type=armor_stand,name=vPlayerDisplayCount,scores={var=200..}] run function eris:updateplayerdisplay
-scoreboard players add @e[name=vHologramCount] var 1
-execute if entity @e[name=vHologramCount,scores={var=100..}] run function eris:summonhologram
+
+# safe check that the variable armor stands still exist
 execute unless entity @e[type=armor_stand] run function eris:armorcheck
 
 # some debug stuff

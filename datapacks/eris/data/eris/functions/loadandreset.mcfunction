@@ -45,6 +45,7 @@ summon item 1158 27 7 {Item:{id:"minecraft:tnt",Count:8},Age:-32768,PickupDelay:
 summon item 1023 9 10 {Item:{id:"minecraft:tnt",Count:8},Age:-32768,PickupDelay:32767,Passengers:[{id:item,Item:{id:"minecraft:ice",Count:3},Age:-32768,PickupDelay:32767,Passengers:[{id:item,Item:{id:"minecraft:stone_button",Count:1},Age:-32768,PickupDelay:32767}]}]}
 summon item 1154 26 -4 {Item:{id:"minecraft:arrow",Count:20},Age:-32768,PickupDelay:32767}
 summon item 1063 14 13 {Item:{id:"minecraft:arrow",Count:20},Age:-32768,PickupDelay:32767}
+function eris:summonhologram
 function eris:tooltips_on
 function eris:scorereset
 scoreboard players set @e[name=vTest] var 1

@@ -6,6 +6,7 @@ gamemode spectator @a
 clone 8 38 -1 10 42 1 1088 38 -1
 scoreboard players set @e[name=vEndDisplayTimer] var 0
 summon item 1089 41 0 {Item:{id:"minecraft:redstone_block",Count:1},Age:-32768,PickupDelay:32767}
+function eris:summonhologram
 scoreboard players set @a menuVis 1
 scoreboard players set @a activate 1
 function eris:spawneroff

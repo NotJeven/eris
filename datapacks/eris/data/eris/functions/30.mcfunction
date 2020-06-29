@@ -3,7 +3,7 @@ tellraw @a [{"text":">>> ","color":"white"},{"text":"30","color":"green"}]
 title @a subtitle [{"text":"30","color":"green"}]
 title @a reset
 kill @e[x=1100.5,y=50,z=0.5,type=item,distance=..200]
-kill @e[type=area_effect_cloud]
+kill @e[type=area_effect_cloud,tag=!hologram_spawner]
 function eris:spawneron
 function eris:eggs
 scoreboard players reset * triggerTeam

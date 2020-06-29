@@ -248,12 +248,17 @@ fill 1170 14 -1 1171 18 -1 air replace
 effect give @a[x=1166.5,y=10,z=-3.5,dx=8,dy=12,dz=8,team=team1,scores={inGame=1}] minecraft:poison 1 4
 effect give @a[x=1000.5,y=0,z=-14.5,dx=85,dy=50,dz=31,team=team1,scores={inGame=1}] minecraft:weakness 1 10
 effect give @a[x=1000.5,y=0,z=-14.5,dx=55,dy=50,dz=31,team=team1,scores={inGame=1}] minecraft:slowness 1 0
-# map bounds
-effect give @a[x=1000.5,y=50,z=-14.5,dx=198,dy=50,dz=31,scores={inGame=1}] minecraft:wither 1 16
-execute as @a[x=1000.5,y=0,z=-18.5,dx=198,dy=100,dz=4,scores={inGame=1}] at @s if block ~ ~ ~-30.7 barrier run scoreboard players set @p inVoid 1
-execute as @a[x=1000.5,y=0,z=15.5,dx=198,dy=100,dz=4,scores={inGame=1}] at @s if block ~ ~ ~30.7 barrier run scoreboard players set @p inVoid 1
-execute as @a[x=996.5,y=0,z=-14.5,dx=5,dy=100,dz=31,scores={inGame=1}] at @s if block ~-30.7 ~ ~ barrier run scoreboard players set @p inVoid 1
-execute as @a[x=1197.5,y=0,z=-14.5,dx=5,dy=100,dz=31,scores={inGame=1}] at @s if block ~30.7 ~ ~ barrier run scoreboard players set @p inVoid 1
+# map bounds; toggleBounds = true when confirmed outside of play area
+tag @a[tag=inBounds] remove inBounds
+execute as @a[team=!,tag=!inBounds] at @s if entity @s[y=0,dy=49] if block ~ 250 ~ minecraft:barrier run tag @s add inBounds
+# in bounds but confirmed outside
+execute as @a[team=!,tag=inBounds,tag=toggleBounds] if entity @s run function eris:in_bounds
+# outside bounds but not confirmed
+execute as @a[team=!,tag=!inBounds,tag=!toggleBounds] if entity @s run function eris:out_bounds
+# still outside
+execute as @a[team=!,tag=!inBounds,tag=toggleBounds] if entity @s run title @s actionbar [{"text":"←","color":"dark_red"},{"text":" outside building area ","color":"white"},{"text":"→","color":"dark_red"}]
+# old autoref stuff tie in
+execute as @a[x=1000.5,y=0,z=15.5,dx=198,dy=100,dz=4,scores={inGame=1}] at @s if block ~ 250 ~ air run scoreboard players set @p inVoid 1
 scoreboard players set @a[scores={inVoid=1,respawn=..0},nbt={OnGround:1b}] inVoid 2
 kill @a[scores={respawn=..0,inVoid=2}]
 clear @a[scores={respawn=..0,inVoid=1..2}]

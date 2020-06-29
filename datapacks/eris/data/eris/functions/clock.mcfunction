@@ -258,10 +258,7 @@ execute as @a[team=!,tag=!inBounds,tag=!toggleBounds] if entity @s run function 
 # still outside
 execute as @a[team=!,tag=!inBounds,tag=toggleBounds] if entity @s run title @s actionbar [{"text":"←","color":"dark_red"},{"text":" outside building area ","color":"white"},{"text":"→","color":"dark_red"}]
 # old autoref stuff tie in
-execute as @a[x=1000.5,y=0,z=15.5,dx=198,dy=100,dz=4,scores={inGame=1}] at @s if block ~ 250 ~ air run scoreboard players set @p inVoid 1
-scoreboard players set @a[scores={inVoid=1,respawn=..0},nbt={OnGround:1b}] inVoid 2
-kill @a[scores={respawn=..0,inVoid=2}]
-clear @a[scores={respawn=..0,inVoid=1..2}]
+execute as @a[gamemode=adventure,scores={inGame=1}] at @s if block ~ 250 ~ air run scoreboard players set @p inVoid 1
 execute if entity @a[scores={inVoid=1..}] run function eris:borderclear
 # lobby bounds
 tp @a[x=1100.5,y=30,z=0.5,gamemode=spectator,distance=200..,scores={inGame=0..}] 1098 40 0

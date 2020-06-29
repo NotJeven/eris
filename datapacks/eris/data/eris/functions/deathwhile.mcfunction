@@ -1,18 +1,6 @@
-clear @a[scores={respawn=0,inGame=1..,timeSinceDeath=..0}] #eris:stained_hardened_clay 
-clear @a[scores={respawn=0,inGame=1..,timeSinceDeath=..0}] arrow 
-clear @a[scores={respawn=0,inGame=1..,timeSinceDeath=..0}] nether_brick 
-clear @a[scores={respawn=0,inGame=1..,timeSinceDeath=..0}] #eris:quartz_block 
-clear @a[scores={respawn=0,inGame=1..,timeSinceDeath=..0}] #eris:stone_slab 
-clear @a[scores={respawn=0,inGame=1..,timeSinceDeath=..0}] nether_brick_fence 
-clear @a[scores={respawn=0,inGame=1..,timeSinceDeath=..0}] quartz_stairs 
-clear @a[scores={respawn=0,inGame=1..,timeSinceDeath=..0}] nether_brick_stairs 
+clear @a[scores={respawn=0,inGame=1..,timeSinceDeath=..0}] #eris:all_items 
 clear @a[scores={respawn=0,inGame=1..,timeSinceDeath=..0}] bow{Damage:0s,Enchantments:[{id:"minecraft:power",lvl:2}]} 36
 clear @a[scores={respawn=0,inGame=1..,timeSinceDeath=..0}] bow{Damage:0s,Enchantments:[{id:"minecraft:flame",lvl:1}]} 36
-clear @a[scores={respawn=0,inGame=1..,timeSinceDeath=..0}] tnt 
-clear @a[scores={respawn=0,inGame=1..,timeSinceDeath=..0}] ice 
-clear @a[scores={respawn=0,inGame=1..,timeSinceDeath=..0}] stone_button 
-clear @a[scores={respawn=0,inGame=1..,timeSinceDeath=..0}] redstone 
-clear @a[scores={respawn=0,inGame=1..,timeSinceDeath=..0}] redstone_block 
 scoreboard players set @a[team=team1,scores={respawn=0,inGame=1..,timeSinceDeath=..0},nbt={Inventory:[{id:"minecraft:iron_sword"}]}] itemSword 1
 scoreboard players set @a[team=team2,scores={respawn=0,inGame=1..,timeSinceDeath=..0},nbt={Inventory:[{id:"minecraft:stone_sword"}]}] itemSword 1
 scoreboard players set @a[scores={respawn=0,inGame=1..,timeSinceDeath=..0},nbt={Inventory:[{id:"minecraft:stone_pickaxe"}]}] itemPick 1

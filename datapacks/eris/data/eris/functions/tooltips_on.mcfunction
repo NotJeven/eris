@@ -23,25 +23,65 @@ summon area_effect_cloud 1195 30 0 {CustomNameVisible:1,Duration:216374,CustomNa
 summon area_effect_cloud 1195 29.5 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"The Defenders will spawn here with only\"",Tags:["hologram","hologram_tooltip"]}
 summon area_effect_cloud 1195 29.25 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"an iron sword, bow, pick, and armor.\"",Tags:["hologram","hologram_tooltip"]}
 
-summon area_effect_cloud 1020 15 -30 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nThe Void\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1020 14.5 -30 {CustomNameVisible:1,Duration:216374,CustomName:"\"Players may not leave the battle field.\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1020 15 30 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nThe Void\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1020 14.5 30 {CustomNameVisible:1,Duration:216374,CustomName:"\"Players may not leave the battle field.\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1105 20 -30 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nThe Void\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1105 19.5 -30 {CustomNameVisible:1,Duration:216374,CustomName:"\"Players may not leave the battle field.\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1105 20 30 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nThe Void\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1105 19.5 30 {CustomNameVisible:1,Duration:216374,CustomName:"\"Players may not leave the battle field.\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1105 20 -30 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nThe Void\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1105 19.5 -30 {CustomNameVisible:1,Duration:216374,CustomName:"\"Players may not leave the battle field.\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1105 20 30 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nThe Void\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1105 19.5 30 {CustomNameVisible:1,Duration:216374,CustomName:"\"Players may not leave the battle field.\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1170 40 -30 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nThe Void\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1170 39.5 -30 {CustomNameVisible:1,Duration:216374,CustomName:"\"Players may not leave the battle field.\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1170 40 30 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nThe Void\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1170 39.5 30 {CustomNameVisible:1,Duration:216374,CustomName:"\"Players may not leave the battle field.\"",Tags:["hologram","hologram_tooltip"]}
 
-summon area_effect_cloud 1065 34 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nToxic Atmosphere\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1065 33.5 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"The atmosphere becomes toxic at higher altitudes.\"",Tags:["hologram","hologram_tooltip"]}
+# too far
+summon area_effect_cloud 1020 15 -25 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nOutside Building Area\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1020 14.5 -25 {CustomNameVisible:1,Duration:216374,CustomName:"\"Players are not able to build\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1020 14.25 -25 {CustomNameVisible:1,Duration:216374,CustomName:"\"outside the playing area.\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1020 14 -25 {CustomNameVisible:1,Duration:216374,CustomName:"\"z=-16\"",Tags:["hologram","hologram_tooltip"]}
+
+summon area_effect_cloud 1020 15 25 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nOutside Building Area\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1020 14.5 25 {CustomNameVisible:1,Duration:216374,CustomName:"\"Players are not able to build\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1020 14.25 25 {CustomNameVisible:1,Duration:216374,CustomName:"\"outside the playing area.\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1020 14 25 {CustomNameVisible:1,Duration:216374,CustomName:"\"z=16\"",Tags:["hologram","hologram_tooltip"]}
+
+summon area_effect_cloud 1120 25 -25 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nOutside Building Area\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1120 24.5 -25 {CustomNameVisible:1,Duration:216374,CustomName:"\"Players are not able to build\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1120 24.25 -25 {CustomNameVisible:1,Duration:216374,CustomName:"\"outside the playing area.\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1120 24 -25 {CustomNameVisible:1,Duration:216374,CustomName:"\"z=-16\"",Tags:["hologram","hologram_tooltip"]}
+
+summon area_effect_cloud 1120 25 25 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nOutside Building Area\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1120 24.5 25 {CustomNameVisible:1,Duration:216374,CustomName:"\"Players are not able to build\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1120 24.25 25 {CustomNameVisible:1,Duration:216374,CustomName:"\"outside the playing area.\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1120 24 25 {CustomNameVisible:1,Duration:216374,CustomName:"\"z=16\"",Tags:["hologram","hologram_tooltip"]}
+
+summon area_effect_cloud 1160 40 -25 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nOutside Building Area\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1160 39.5 -25 {CustomNameVisible:1,Duration:216374,CustomName:"\"Players are not able to build\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1160 39.25 -25 {CustomNameVisible:1,Duration:216374,CustomName:"\"outside the playing area.\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1160 39 -25 {CustomNameVisible:1,Duration:216374,CustomName:"\"z=-16\"",Tags:["hologram","hologram_tooltip"]}
+
+summon area_effect_cloud 1160 40 25 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nOutside Building Area\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1160 39.5 25 {CustomNameVisible:1,Duration:216374,CustomName:"\"Players are not able to build\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1160 39.25 25 {CustomNameVisible:1,Duration:216374,CustomName:"\"outside the playing area.\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1160 39 25 {CustomNameVisible:1,Duration:216374,CustomName:"\"z=-16\"",Tags:["hologram","hologram_tooltip"]}
+
+summon area_effect_cloud 1060 25 25 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nOutside Building Area\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1060 24.5 -25 {CustomNameVisible:1,Duration:216374,CustomName:"\"Players are not able to build\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1060 24.25 -25 {CustomNameVisible:1,Duration:216374,CustomName:"\"outside the playing area.\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1060 24 -25 {CustomNameVisible:1,Duration:216374,CustomName:"\"z=-16\"",Tags:["hologram","hologram_tooltip"]}
+
+summon area_effect_cloud 1060 25 25 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nOutside Building Area\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1060 24.5 25 {CustomNameVisible:1,Duration:216374,CustomName:"\"Players are not able to build\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1060 24.25 25 {CustomNameVisible:1,Duration:216374,CustomName:"\"outside the playing area.\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1060 24 25 {CustomNameVisible:1,Duration:216374,CustomName:"\"z=16\"",Tags:["hologram","hologram_tooltip"]}
+
+# too high
+summon area_effect_cloud 1060 52 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nOutside Building Area\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1060 51.5 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"Players are not able to build\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1060 51.25 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"outside the playing area.\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1060 51 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"y=50+\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1120 52 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nOutside Building Area\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1120 51.5 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"Players are not able to build\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1120 51.25 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"outside the playing area.\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1120 51 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"y=50+\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1020 52 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nOutside Building Area\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1020 51.5 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"Players are not able to build\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1020 51.25 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"outside the playing area.\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1020 51 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"y=50+\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1160 52 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nOutside Building Area\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1160 51.5 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"Players are not able to build\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1160 51.25 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"outside the playing area.\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1160 51 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"y=50+\"",Tags:["hologram","hologram_tooltip"]}
 
 summon area_effect_cloud 1075 17 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nA Defender's Weakness\"",Tags:["hologram","hologram_tooltip"]}
 summon area_effect_cloud 1075 16.5 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"As a Defender ventures further\"",Tags:["hologram","hologram_tooltip"]}

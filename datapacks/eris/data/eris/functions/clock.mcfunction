@@ -241,7 +241,7 @@ execute if entity @e[type=armor_stand,name=vSpawnerCountBlock,scores={var=1800..
 # no blocks on core
 fill 1169 14 -1 1169 18 0 air replace
 fill 1169 14 1 1170 18 1 air replace
-fill 1171 14 0 1171 18 0 air replace
+fill 1171 14 0 1171 18 1 air replace
 fill 1170 14 -1 1171 18 -1 air replace
 
 # invader bounds

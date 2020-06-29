@@ -239,10 +239,10 @@ execute as @e[type=armor_stand,name=vSpawnerActiveBlock,scores={var=1}] run scor
 execute if entity @e[type=armor_stand,name=vSpawnerCountBlock,scores={var=1800..}] run function eris:spawnerblock
 
 # no blocks on core
-fill 1169 14 -1 1169 18 0 air replace
-fill 1169 14 1 1170 18 1 air replace
-fill 1171 14 0 1171 18 1 air replace
-fill 1170 14 -1 1171 18 -1 air replace
+fill 1169 14 -1 1169 18 0 air replace #eris:clear_blocks
+fill 1169 14 1 1170 18 1 air replace #eris:clear_blocks
+fill 1171 14 0 1171 18 1 air replace #eris:clear_blocks
+fill 1170 14 -1 1171 18 -1 air replace #eris:clear_blocks
 
 # invader bounds
 effect give @a[x=1166.5,y=10,z=-3.5,dx=8,dy=12,dz=8,team=team1,scores={inGame=1}] minecraft:poison 1 4

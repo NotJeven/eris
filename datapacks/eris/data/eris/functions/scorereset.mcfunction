@@ -1,6 +1,8 @@
 clear @a
 team leave *
 team join ready §nSpectators
+team join notReady §nInvaders
+team join notReady §nDefenders
 scoreboard players reset * playerKills
 scoreboard players reset * playerDeaths
 scoreboard players reset * damageTaken

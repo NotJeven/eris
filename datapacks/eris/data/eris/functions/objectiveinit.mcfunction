@@ -3,7 +3,7 @@ scoreboard objectives add admin dummy
 scoreboard objectives add respawn dummy
 scoreboard objectives add inGame dummy
 scoreboard objectives add activate dummy
-scoreboard objectives add lobbyDisplay dummy "§cEris 2"
+scoreboard objectives add lobbyDisplay dummy "Eris 2"
 scoreboard objectives add inVoid dummy
 scoreboard objectives add var dummy
 scoreboard objectives add menuGiven dummy

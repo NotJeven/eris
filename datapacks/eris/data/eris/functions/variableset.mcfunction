@@ -22,5 +22,5 @@ team join ready §nSpectators
 scoreboard objectives setdisplay sidebar lobbyDisplay
 scoreboard players set @e[name=vResetSuccess] var 0
 scoreboard players set @e[name=vSwapTeam] var 0
-team leave §nInvaders
-team leave §nDefenders
+team join notReady §nInvaders
+team join notReady §nDefenders

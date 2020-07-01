@@ -1,10 +1,12 @@
 # builds the tool tips
 kill @e[type=area_effect_cloud,tag=hologram_tooltip]
 
+# places
 summon area_effect_cloud 1012 13 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nInvader Spawn\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1012 12.5 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"The Invaders will spawn here \"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1012 12.25 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"with only a stone sword, bow, pick\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1012 12 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"and projectile protection armor.\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1012 12.5 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"The Invaders will start the match here.\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1012 12.25 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"After death they will respawn here, but\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1012 12 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"items collected while alive will be lost.\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1012 11.75 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"Join a team to see the starting equipment.\"",Tags:["hologram","hologram_tooltip"]}
 
 summon area_effect_cloud 1105 21 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nThe White Wall\"",Tags:["hologram","hologram_tooltip"]}
 summon area_effect_cloud 1105 20.5 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"The Defenders' outer defence stronghold.\"",Tags:["hologram","hologram_tooltip"]}
@@ -15,16 +17,19 @@ summon area_effect_cloud 1138 17.5 0 {CustomNameVisible:1,Duration:216374,Custom
 summon area_effect_cloud 1138 17.25 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"The last defence before the core.\"",Tags:["hologram","hologram_tooltip"]}
 
 summon area_effect_cloud 1160 18 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nThe Core\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1160 17.5 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"The Invaders' objective is to destroy the redstone blocks of the core.\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1160 17.5 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"The Invaders' objective is to destroy a redstone blocks in the core.\"",Tags:["hologram","hologram_tooltip"]}
 summon area_effect_cloud 1160 17.25 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"The Defenders must let the core charge for 15 minutes to win.\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1160 17 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"Any blocks placed against the core will ignite and then be destroyed.\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1160 17 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"Blocks placed against the core will ignite and then be destroyed.\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1160 16.75 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"The Invaders will create fireworks when they are within 20 blocks.\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1160 16.50 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"The Defenders will be poisoned when they are within 4 blocks.\"",Tags:["hologram","hologram_tooltip"]}
 
-summon area_effect_cloud 1195 30 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nDefender Spawn\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1195 29.5 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"The Defenders will spawn here with only\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1195 29.25 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"an iron sword, bow, pick, and armor.\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1194 30 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nDefender Spawn\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1194 29.5 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"The Defenders will start the match here.\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1194 29.25 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"After death they will respawn here, but\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1194 29 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"items collected while alive will be lost.\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1194 28.75 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"Join a team to see the starting equipment.\"",Tags:["hologram","hologram_tooltip"]}
 
-
-# too far
+# outside
 summon area_effect_cloud 1020 15 -25 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nOutside Building Area\"",Tags:["hologram","hologram_tooltip"]}
 summon area_effect_cloud 1020 14.5 -25 {CustomNameVisible:1,Duration:216374,CustomName:"\"Players are not able to build\"",Tags:["hologram","hologram_tooltip"]}
 summon area_effect_cloud 1020 14.25 -25 {CustomNameVisible:1,Duration:216374,CustomName:"\"outside the playing area.\"",Tags:["hologram","hologram_tooltip"]}
@@ -69,26 +74,28 @@ summon area_effect_cloud 1060 24 25 {CustomNameVisible:1,Duration:216374,CustomN
 summon area_effect_cloud 1060 52 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nOutside Building Area\"",Tags:["hologram","hologram_tooltip"]}
 summon area_effect_cloud 1060 51.5 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"Players are not able to build\"",Tags:["hologram","hologram_tooltip"]}
 summon area_effect_cloud 1060 51.25 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"outside the playing area.\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1060 51 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"y=50+\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1060 51 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"y=50\"",Tags:["hologram","hologram_tooltip"]}
 
 summon area_effect_cloud 1120 52 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nOutside Building Area\"",Tags:["hologram","hologram_tooltip"]}
 summon area_effect_cloud 1120 51.5 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"Players are not able to build\"",Tags:["hologram","hologram_tooltip"]}
 summon area_effect_cloud 1120 51.25 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"outside the playing area.\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1120 51 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"y=50+\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1120 51 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"y=50\"",Tags:["hologram","hologram_tooltip"]}
 
 summon area_effect_cloud 1020 52 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nOutside Building Area\"",Tags:["hologram","hologram_tooltip"]}
 summon area_effect_cloud 1020 51.5 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"Players are not able to build\"",Tags:["hologram","hologram_tooltip"]}
 summon area_effect_cloud 1020 51.25 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"outside the playing area.\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1020 51 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"y=50+\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1020 51 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"y=50\"",Tags:["hologram","hologram_tooltip"]}
 
 summon area_effect_cloud 1160 52 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nOutside Building Area\"",Tags:["hologram","hologram_tooltip"]}
 summon area_effect_cloud 1160 51.5 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"Players are not able to build\"",Tags:["hologram","hologram_tooltip"]}
 summon area_effect_cloud 1160 51.25 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"outside the playing area.\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1160 51 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"y=50+\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1160 51 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"y=50\"",Tags:["hologram","hologram_tooltip"]}
 
-summon area_effect_cloud 1075 17 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nA Defender's Weakness\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1075 16.5 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"As a Defender ventures further\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1075 16.25 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"from the core they become weak.\"",Tags:["hologram","hologram_tooltip"]}
+# too far
+summon area_effect_cloud 1080 17 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nA Defender's Weakness\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1080 16.5 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"When a Defender is too far from\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1080 16.25 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"the core they become poisoned.\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1080 16 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"x=1080\"",Tags:["hologram","hologram_tooltip"]}
 
 
 # invader side

@@ -252,7 +252,7 @@ title @a[x=1166.5,y=10,z=-3.5,dx=8,dy=12,dz=8,team=team1] actionbar [{"text":"�
 # fireworks!
 execute as @a[x=1170.5,y=15,z=0.5,team=team2,distance=..20,scores={inGame=1}] at @s run scoreboard players add @e[type=armor_stand,name=vFireworkCount,scores={var=..19}] var 1
 execute if entity @e[type=armor_stand,name=vFireworkCount,scores={var=20}] run function eris:firework
-title @a[x=1170.5,y=15,z=0.5,team=team2,distance=..20] actionbar [{"text":"⚠","color":"red"},{"text":" lighting fireworks ","color":"white"},{"text":"⚠","color":"red"}]
+title @a[x=1170.5,y=15,z=0.5,team=team2,distance=..20] actionbar [{"text":"⚠","color":"red"},{"text":" creating fireworks ","color":"white"},{"text":"⚠","color":"red"}]
 # map bounds; toggleBounds = true when confirmed outside of play area
 tag @a[tag=inBounds] remove inBounds
 execute as @a[team=!,tag=!inBounds] at @s if entity @s[y=0,dy=49] if block ~ 250 ~ minecraft:barrier run tag @s add inBounds

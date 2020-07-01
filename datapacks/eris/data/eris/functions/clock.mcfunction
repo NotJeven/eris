@@ -245,9 +245,14 @@ fill 1171 14 0 1171 18 1 air replace #eris:clear_blocks
 fill 1170 14 -1 1171 18 -1 air replace #eris:clear_blocks
 
 # invader bounds
-effect give @a[x=1166.5,y=10,z=-3.5,dx=8,dy=12,dz=8,team=team1,scores={inGame=1}] minecraft:poison 1 4
-effect give @a[x=1000.5,y=0,z=-14.5,dx=85,dy=50,dz=31,team=team1,scores={inGame=1}] minecraft:weakness 1 10
-effect give @a[x=1000.5,y=0,z=-14.5,dx=55,dy=50,dz=31,team=team1,scores={inGame=1}] minecraft:slowness 1 0
+effect give @a[x=1166.5,y=10,z=-3.5,dx=8,dy=12,dz=8,team=team1,scores={inGame=1}] minecraft:poison 3 1
+effect give @a[x=1000,y=0,z=-16,dx=80,dy=55,dz=32,team=team1,scores={inGame=1}] minecraft:poison 3 1
+title @a[x=1000,y=0,z=-16,dx=80,dy=55,dz=32,team=team1] actionbar [{"text":"⚠","color":"red"},{"text":" too far from core ","color":"white"},{"text":"⚠","color":"red"}]
+title @a[x=1166.5,y=10,z=-3.5,dx=8,dy=12,dz=8,team=team1] actionbar [{"text":"⚠","color":"red"},{"text":" too close to core ","color":"white"},{"text":"⚠","color":"red"}]
+# fireworks!
+execute as @a[x=1170.5,y=15,z=0.5,team=team2,distance=..20,scores={inGame=1}] at @s run scoreboard players add @e[type=armor_stand,name=vFireworkCount,scores={var=..19}] var 1
+execute if entity @e[type=armor_stand,name=vFireworkCount,scores={var=20}] run function eris:firework
+title @a[x=1170.5,y=15,z=0.5,team=team2,distance=..20] actionbar [{"text":"⚠","color":"red"},{"text":" lighting fireworks ","color":"white"},{"text":"⚠","color":"red"}]
 # map bounds; toggleBounds = true when confirmed outside of play area
 tag @a[tag=inBounds] remove inBounds
 execute as @a[team=!,tag=!inBounds] at @s if entity @s[y=0,dy=49] if block ~ 250 ~ minecraft:barrier run tag @s add inBounds
@@ -256,16 +261,12 @@ execute as @a[team=!,tag=inBounds,tag=toggleBounds] if entity @s run function er
 # outside bounds but not confirmed
 execute as @a[team=!,tag=!inBounds,tag=!toggleBounds] if entity @s run function eris:out_bounds
 # still outside
-execute as @a[team=!,tag=!inBounds,tag=toggleBounds] if entity @s run title @s actionbar [{"text":"←","color":"dark_red"},{"text":" outside building area ","color":"white"},{"text":"→","color":"dark_red"}]
+title @a[team=!,tag=!inBounds,tag=toggleBounds] actionbar [{"text":"←","color":"dark_red"},{"text":" outside building area ","color":"white"},{"text":"→","color":"dark_red"}]
 # old autoref stuff tie in
 execute if entity @a[tag=!inBounds,scores={inGame=1}] run function eris:borderclear
 
 # lobby bounds
 tp @a[x=1100.5,y=30,z=0.5,gamemode=spectator,distance=200..,scores={inGame=0..}] 1098 40 0
-# fireworks!
-execute as @a[x=1170.5,y=15,z=0.5,team=team2,distance=..25,scores={inGame=1}] at @s run scoreboard players add @e[type=armor_stand,name=vFireworkCount,scores={var=..19}] var 1
-execute if entity @e[type=armor_stand,name=vFireworkCount,scores={var=20}] run function eris:firework
-
 # keep spawn points empty
 fill 1195 29 0 1195 30 0 air replace
 fill 1011 10 0 1011 11 0 air replace

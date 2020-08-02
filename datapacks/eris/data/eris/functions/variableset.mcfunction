@@ -2,7 +2,7 @@ scoreboard players set @e[name=vEndDisplayTimer] var -1
 scoreboard players set @e[name=vPlayerDisplayCount] var -1
 scoreboard players set @e[name=vIs1Second] var 0
 scoreboard players set @e[name=vRandomTeam] var 1
-scoreboard players set @e[type=armor_stand,name=vTime] var -902
+scoreboard players set @e[type=armor_stand,name=vTime] var -721
 scoreboard players set @e[name=vEndDisplayObjective] var -1
 scoreboard players set @e[name=vFireworkCount] var 0
 scoreboard players set @e[name=vIs1Minute] var 0

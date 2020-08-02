@@ -3,10 +3,11 @@ kill @e[type=area_effect_cloud,tag=hologram_tooltip]
 
 # places
 summon area_effect_cloud 1012 13 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nInvader Spawn\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1012 12.5 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"The Invaders will start the match here.\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1012 12.25 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"After death they will respawn here, with\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1012 12 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"only their sword, basic bow, pick, and armor.\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1012 11.75 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"Join a team to see the starting equipment.\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1012 12.5 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"The Invaders will start the match here,\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1012 12.25 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"30 seconds after the Defenders start.\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1012 12 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"After death they will respawn here, with\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1012 11.75 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"only their sword, basic bow, pick, and armor.\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1012 11.5 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"Join a team to see the starting equipment.\"",Tags:["hologram","hologram_tooltip"]}
 
 summon area_effect_cloud 1105 21 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nThe White Wall\"",Tags:["hologram","hologram_tooltip"]}
 summon area_effect_cloud 1105 20.5 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"The Defenders' outer stronghold.\"",Tags:["hologram","hologram_tooltip"]}
@@ -24,10 +25,11 @@ summon area_effect_cloud 1160 16.75 0 {CustomNameVisible:1,Duration:216374,Custo
 summon area_effect_cloud 1160 16.50 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"The Defenders will be poisoned when they are within 4 blocks.\"",Tags:["hologram","hologram_tooltip"]}
 
 summon area_effect_cloud 1194 30 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nDefender Spawn\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1194 29.5 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"The Defenders will start the match here.\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1194 29.25 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"After death they will respawn here, with\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1194 29 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"only their sword, basic bow, pick, and armor.\"",Tags:["hologram","hologram_tooltip"]}
-summon area_effect_cloud 1194 28.75 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"Join a team to see the starting equipment.\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1194 29.5 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"The Defenders will start the match here,\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1194 29.25 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"30 seconds before the Invaders arrive.\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1194 29 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"After death they will respawn here, with\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1194 28.75 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"only their sword, basic bow, pick, and armor.\"",Tags:["hologram","hologram_tooltip"]}
+summon area_effect_cloud 1194 28.5 0 {CustomNameVisible:1,Duration:216374,CustomName:"\"Join a team to see the starting equipment.\"",Tags:["hologram","hologram_tooltip"]}
 
 # outside
 summon area_effect_cloud 1020 15 -25 {CustomNameVisible:1,Duration:216374,CustomName:"\"§nOutside Building Area\"",Tags:["hologram","hologram_tooltip"]}

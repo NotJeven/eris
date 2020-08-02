@@ -40,6 +40,6 @@ scoreboard players set @a[scores={teamSwap=1..2}] teamSwap 0
 execute as @e[type=armor_stand,name=vSwapTeam,scores={var=1}] run tellraw @a [{"text":"Teams have been "},{"text":"swapped","color":"gold"},{"text":"!"}]
 execute as @e[type=armor_stand,name=vSwapTeam,scores={var=1}] run title @a subtitle [{"text":"Teams have been "},{"text":"swapped","color":"gold"},{"text":"!"}]
 scoreboard players reset * swapTeam
-title @a reset
+title @a title ""
 function eris:variableset
 playsound entity.cat.ambient master @a ~ ~ ~ 1 0 1

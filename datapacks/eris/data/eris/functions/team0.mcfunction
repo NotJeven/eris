@@ -1,6 +1,6 @@
 team leave @a[scores={triggerTeam=-1}]
 title @a[scores={triggerTeam=-1}] subtitle {"text":"You have ","extra":[{"text":"abandoned ","color":"gray","extra":[{"text":"your team.","color":"white"}]}]}
-title @a[scores={triggerTeam=-1}] reset
+title @a[scores={triggerTeam=-1}] title ""
 tellraw @a[scores={triggerTeam=-1}] {"text":"You have ","extra":[{"text":"abandoned ","color":"gray","extra":[{"text":"your team.","color":"white"}]}]}
 scoreboard players reset @a[scores={triggerTeam=-1}] lobbyDisplay
 playsound entity.ender_dragon.flap master @a[scores={triggerTeam=-1}] ~ ~ ~ 1 .7 1

@@ -1,6 +1,6 @@
 team join team2 @a[team=!team2,scores={triggerTeam=2}]
 title @a[team=team2,scores={triggerTeam=2}] subtitle {"text":"You have allied with the ","color":"white","extra":[{"text":"Invaders","color":"dark_purple","extra":[{"text":".","color":"white"}]}]}
-title @a[team=team2,scores={triggerTeam=2}] reset
+title @a[team=team2,scores={triggerTeam=2}] title ""
 execute if entity @e[type=armor_stand,name=vTime,scores={var=-720..}] run gamemode survival @a[team=team2,scores={triggerTeam=2},gamemode=!survival]
 execute if entity @e[type=armor_stand,name=vTime,scores={var=-720..}] run tp @a[team=team2,scores={triggerTeam=2}] 1011 15 0 -90 0
 tellraw @a[team=team2,scores={triggerTeam=2}] {"text":"You have allied with the ","color":"white","extra":[{"text":"Invaders","color":"dark_purple","extra":[{"text":".","color":"white"}]}]}

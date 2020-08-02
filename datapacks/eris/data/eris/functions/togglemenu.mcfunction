@@ -9,7 +9,7 @@ execute as @e[type=armor_stand,name=vToggleMenu,scores={var=10}] run scoreboard 
 execute as @e[type=armor_stand,name=vToggleMenu,scores={var=11}] run scoreboard players set @a menuVis 0
 execute as @e[type=armor_stand,name=vToggleMenu,scores={var=11}] run title @a subtitle {"text":"Menus have been ","color":"white","extra":[{"text":"enabled ","color":"green","extra":[{"text":"by an admin.","color":"white"}]}]}
 execute as @e[type=armor_stand,name=vToggleMenu,scores={var=10}] run title @a subtitle {"text":"Menus have been ","color":"white","extra":[{"text":"disabled ","color":"red","extra":[{"text":"by an admin.","color":"white"}]}]}
-title @a reset
+title @a title ""
 execute as @e[type=armor_stand,name=vToggleMenu,scores={var=11}] run tellraw @a {"text":"Menus have been ","color":"white","extra":[{"text":"enabled ","color":"green","extra":[{"text":"by an admin.","color":"white"}]}]}
 execute as @e[type=armor_stand,name=vToggleMenu,scores={var=10}] run tellraw @a {"text":"Menus have been ","color":"white","extra":[{"text":"disabled ","color":"red","extra":[{"text":"by an admin.","color":"white"}]}]}
 execute as @e[type=armor_stand,name=vToggleMenu,scores={var=11}] at @s run playsound block.chest.open master @a ~ ~ ~ 2 .6 1

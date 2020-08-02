@@ -1,7 +1,7 @@
 team leave @a[team=team1]
 team leave @a[team=team2]
 title @a subtitle [{"text":"Teams have been "},{"text":"reset","color":"gray"},{"text":"."}]
-title @a reset
+title @a title ""
 tellraw @a [{"text":"Teams have been "},{"text":"reset","color":"gray"},{"text":"."}]
 playsound minecraft:entity.ender_dragon.flap master @a ~ ~ ~ 1 0.7 1
 scoreboard players reset @a[scores={lobbyDisplay=2..4}] lobbyDisplay

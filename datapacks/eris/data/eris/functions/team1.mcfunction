@@ -1,6 +1,6 @@
 team join team1 @a[team=!team1,scores={triggerTeam=1}]
 title @a[team=team1,scores={triggerTeam=1}] subtitle {"text":"You have united with the ","color":"white","extra":[{"text":"Defenders","color":"aqua","extra":[{"text":".","color":"white"}]}]}
-title @a[team=team1,scores={triggerTeam=1}] reset
+title @a[team=team1,scores={triggerTeam=1}] title ""
 tellraw @a[team=team1,scores={triggerTeam=1}] {"text":"You have united with the ","color":"white","extra":[{"text":"Defenders","color":"aqua","extra":[{"text":".","color":"white"}]}]}
 execute if entity @e[type=armor_stand,name=vTime,scores={var=-720..}] run gamemode survival @a[team=team1,scores={triggerTeam=1},gamemode=!survival]
 execute if entity @e[type=armor_stand,name=vTime,scores={var=-720..}] run tp @a[team=team1,scores={triggerTeam=1}] 1193 30 0 90 0

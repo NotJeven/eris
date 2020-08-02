@@ -5,7 +5,7 @@ execute as @e[type=armor_stand,name=vAutoReset,scores={var=10}] run tellraw @a[s
 execute as @e[type=armor_stand,name=vAutoReset,scores={var=11}] run tellraw @a[scores={admin=1..}] [{"text":"Automatic map reset "},{"text":"enabled","color":"green"},{"text":"."}]
 execute as @e[type=armor_stand,name=vAutoReset,scores={var=10}] run title @a[scores={admin=1..}] subtitle [{"text":"Automatic map reset "},{"text":"disabled","color":"red"},{"text":"."}]
 execute as @e[type=armor_stand,name=vAutoReset,scores={var=11}] run title @a[scores={admin=1..}] subtitle [{"text":"Automatic map reset "},{"text":"enabled","color":"green"},{"text":"."}]
-title @a[scores={admin=1..}] reset
+title @a[scores={admin=1..}] title ""
 
 execute as @e[type=armor_stand,name=vAutoReset,scores={var=11}] at @s run playsound minecraft:block.anvil.use master @a[scores={admin=1..}] ~ ~ ~ 1 0.4 1
 execute as @e[type=armor_stand,name=vAutoReset,scores={var=10}] at @s run playsound minecraft:entity.item.break master @a[scores={admin=1..}] ~ ~ ~ 1 0.4 1

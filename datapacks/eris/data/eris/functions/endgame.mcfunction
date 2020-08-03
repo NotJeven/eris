@@ -12,7 +12,6 @@ scoreboard players set @a activate 1
 function eris:spawneroff
 scoreboard players operation @a[team=team1] usageSword = @a[team=team1] usageSwordIron
 scoreboard players operation @a[team=team2] usageSword = @a[team=team2] usageSwordStone
-scoreboard players set @e[type=armor_stand,name=vPlayerDisplayCount] var -1
 scoreboard objectives setdisplay belowName
 scoreboard players set @e[type=armor_stand,name=vCoreblock] var 0
 scoreboard players set @e[type=armor_stand,name=vTime] var -903

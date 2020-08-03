@@ -58,7 +58,6 @@ execute if entity @e[type=armor_stand,name=vTime,scores={var=-720}] run function
 execute as @e[type=armor_stand,name=vTime,scores={var=-720..}] run scoreboard players add @e[type=armor_stand,name=vTime] var 1
 # starting countdown
 execute if entity @e[type=armor_stand,name=vTime,scores={var=-700}] run function eris:35
-execute if entity @e[type=armor_stand,name=vTime,scores={var=-680}] run function eris:34
 execute if entity @e[type=armor_stand,name=vTime,scores={var=-660}] run function eris:33
 execute if entity @e[type=armor_stand,name=vTime,scores={var=-640}] run function eris:32
 execute if entity @e[type=armor_stand,name=vTime,scores={var=-620}] run function eris:31
@@ -72,6 +71,12 @@ execute if entity @e[type=armor_stand,name=vTime,scores={var=-40}] run function 
 execute if entity @e[type=armor_stand,name=vTime,scores={var=-20}] run function eris:1
 execute if entity @e[type=armor_stand,name=vTime,scores={var=0}] run function eris:0
 execute as @a[x=16.5,y=0,z=-96.5,dx=64,dy=20,dz=195,name=!notjeven] run scoreboard players set modded var 1
+
+# charge display
+#execute if entity @e[type=armor_stand,name=vTime,scores={var=0..}] run scoreboard players operation #chargeTimePercent var = @e[type=armor_stand,name=vTime] var
+#execute if entity @e[type=armor_stand,name=vTime,scores={var=0..}] run scoreboard players operation #chargeTimePercent var *= #100 var
+#execute if entity @e[type=armor_stand,name=vTime,scores={var=0..}] run scoreboard players operation #chargeTimePercent var /= #18000 var
+execute if entity @e[type=armor_stand,name=vTime,scores={var=-600..17999}] run function eris:updateplayerdisplay
 
 # reset stuff
 execute as @e[type=armor_stand,name=vAutoReset,scores={var=1..2}] at @s run scoreboard players add @e[type=armor_stand,name=vAutoResetCount,scores={var=-100..1199}] var 1
@@ -271,12 +276,6 @@ tp @a[x=1100.5,y=30,z=0.5,gamemode=spectator,distance=200..,scores={inGame=0..}]
 fill 1195 29 0 1195 30 0 air replace
 fill 1011 10 0 1011 11 0 air replace
 fill 1011 15 0 1011 16 0 air replace
-
-# undername time I think
-scoreboard players add @e[type=armor_stand,name=vPlayerDisplayCount,scores={var=0..}] var 1
-
-# floating name stuff
-execute if entity @e[type=armor_stand,name=vPlayerDisplayCount,scores={var=200..}] run function eris:updateplayerdisplay
 
 # safe check that the variable armor stands still exist
 execute unless entity @e[type=armor_stand] run function eris:armorcheck

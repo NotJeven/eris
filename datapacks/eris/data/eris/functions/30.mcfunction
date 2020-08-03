@@ -1,7 +1,7 @@
 tellraw @a [{"text":"Invaders","color":"dark_purple"},{"text":" arrive in...","color":"white"}]
 tellraw @a [{"text":">>> ","color":"white"},{"text":"30","color":"green"}]
 title @a subtitle [{"text":"30","color":"green"}]
-title @a reset
+title @a title ""
 kill @e[x=1100.5,y=50,z=0.5,type=item,distance=..200]
 kill @e[type=area_effect_cloud,tag=!hologram_spawner]
 function eris:spawneron

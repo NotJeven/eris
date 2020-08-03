@@ -24,6 +24,7 @@ support gameplay for anywhere between a 3v3 to a 6v6.
 ### Install
 
 Using Git, clone the repository to your Minecraft saves folder.
+
 ```git clone https://github.com/NotJeven/eris.git```
 
 List all tags.

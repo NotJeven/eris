@@ -29,7 +29,7 @@ Using Git, clone the repository to your Minecraft saves folder.
 
 List all tags.
 
-```git fetch --tags```
+```git tag --list```
 
 Checkout a version of your choice (for example).
 

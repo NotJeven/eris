@@ -68,6 +68,7 @@ v2.4 Preview
 - Reorganized admin menu
 - Added 'Random Captain' option back
 - Updated tooltips strings
+- Added actionbar countdown/removed undername countdown
 - Teams sent to spawn drop boxes at countdown start
 - Changed cannon slabs to stairs
 - Removed blue stained clay

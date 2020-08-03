@@ -237,7 +237,7 @@ execute as @e[type=armor_stand,name=vSpawnerActive15,scores={var=0..}] at @s run
 execute as @e[type=armor_stand,name=vSpawnerActive16,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount16,scores={var=..390}] var 1
 execute as @e[type=armor_stand,name=vSpawnerActive17,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount17,scores={var=..390}] var 1
 execute as @e[type=armor_stand,name=vSpawnerActive18,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount18,scores={var=..390}] var 1
-execute as @e[type=armor_stand,name=vSpawneActirve19,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount19,scores={var=..390}] var 1
+execute as @e[type=armor_stand,name=vSpawnerActive19,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount19,scores={var=..390}] var 1
 execute as @e[type=armor_stand,name=vSpawnerActive20,scores={var=0..}] at @s run scoreboard players add @e[type=armor_stand,name=vSpawnerCount20,scores={var=..390}] var 1
 # block spawner
 execute as @e[type=armor_stand,name=vSpawnerActiveBlock,scores={var=1}] run scoreboard players add @e[type=armor_stand,name=vSpawnerCountBlock] var 1

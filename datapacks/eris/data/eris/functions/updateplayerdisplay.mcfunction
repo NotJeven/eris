@@ -18,5 +18,3 @@ execute if score #displayTimeSecond var matches 0 run scoreboard players add #di
 
 execute if score #displayTimeSecond var matches 10.. run title @a actionbar [{"score":{"name":"#displayTimeMinute","objective":"var"},"color":"red"},{"text":":","color":"white"},{"score":{"name":"#displayTimeSecond","objective":"var"},"color":"red"}]
 execute if score #displayTimeSecond var matches ..9 run title @a actionbar [{"score":{"name":"#displayTimeMinute","objective":"var"},"color":"red"},{"text":":","color":"white"},{"text":"0","color":"red"},{"score":{"name":"#displayTimeSecond","objective":"var"},"color":"red"}]
-
-scoreboard players set @e[type=armor_stand,name=vPlayerDisplayCount] var 0

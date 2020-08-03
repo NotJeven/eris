@@ -16,5 +16,5 @@ scoreboard players operation #displayTimeSecond var -= #timeSecond var
 execute if score #displayTimeSecond var matches 60 run scoreboard players set #displayTimeSecond var 0
 execute if score #displayTimeSecond var matches 0 run scoreboard players add #displayTimeMinute var 1
 
-execute if score #displayTimeSecond var matches 10.. run title @a actionbar [{"score":{"name":"#displayTimeMinute","objective":"var"},"color":"red"},{"text":":","color":"white"},{"score":{"name":"#displayTimeSecond","objective":"var"},"color":"red"}]
-execute if score #displayTimeSecond var matches ..9 run title @a actionbar [{"score":{"name":"#displayTimeMinute","objective":"var"},"color":"red"},{"text":":","color":"white"},{"text":"0","color":"red"},{"score":{"name":"#displayTimeSecond","objective":"var"},"color":"red"}]
+execute if score #displayTimeSecond var matches 10.. run title @a[tag=freeActionBar] actionbar [{"score":{"name":"#displayTimeMinute","objective":"var"},"color":"red"},{"text":":","color":"white"},{"score":{"name":"#displayTimeSecond","objective":"var"},"color":"red"}]
+execute if score #displayTimeSecond var matches ..9 run title @a[tag=freeActionBar] actionbar [{"score":{"name":"#displayTimeMinute","objective":"var"},"color":"red"},{"text":":","color":"white"},{"text":"0","color":"red"},{"score":{"name":"#displayTimeSecond","objective":"var"},"color":"red"}]

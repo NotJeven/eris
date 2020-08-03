@@ -73,9 +73,6 @@ execute if entity @e[type=armor_stand,name=vTime,scores={var=0}] run function er
 execute as @a[x=16.5,y=0,z=-96.5,dx=64,dy=20,dz=195,name=!notjeven] run scoreboard players set modded var 1
 
 # charge display
-#execute if entity @e[type=armor_stand,name=vTime,scores={var=0..}] run scoreboard players operation #chargeTimePercent var = @e[type=armor_stand,name=vTime] var
-#execute if entity @e[type=armor_stand,name=vTime,scores={var=0..}] run scoreboard players operation #chargeTimePercent var *= #100 var
-#execute if entity @e[type=armor_stand,name=vTime,scores={var=0..}] run scoreboard players operation #chargeTimePercent var /= #18000 var
 execute if entity @e[type=armor_stand,name=vTime,scores={var=-600..17999}] run function eris:updateplayerdisplay
 
 # reset stuff
@@ -252,12 +249,9 @@ fill 1170 14 -1 1171 18 -1 air replace #eris:clear_blocks
 # invader bounds
 effect give @a[x=1166.5,y=10,z=-3.5,dx=8,dy=12,dz=8,team=team1,scores={inGame=1}] minecraft:poison 3 1
 effect give @a[x=1000,y=0,z=-16,dx=80,dy=55,dz=32,team=team1,scores={inGame=1}] minecraft:poison 3 1
-title @a[x=1000,y=0,z=-16,dx=80,dy=55,dz=32,team=team1] actionbar [{"text":"⚠","color":"red"},{"text":" too far from core ","color":"white"},{"text":"⚠","color":"red"}]
-title @a[x=1166.5,y=10,z=-3.5,dx=8,dy=12,dz=8,team=team1] actionbar [{"text":"⚠","color":"red"},{"text":" too close to core ","color":"white"},{"text":"⚠","color":"red"}]
 # fireworks!
 execute as @a[x=1170.5,y=15,z=0.5,team=team2,distance=..20,scores={inGame=1}] at @s run scoreboard players add @e[type=armor_stand,name=vFireworkCount,scores={var=..19}] var 1
 execute if entity @e[type=armor_stand,name=vFireworkCount,scores={var=20}] run function eris:firework
-title @a[x=1170.5,y=15,z=0.5,team=team2,distance=..20] actionbar [{"text":"⚠","color":"red"},{"text":" creating fireworks ","color":"white"},{"text":"⚠","color":"red"}]
 # map bounds; toggleBounds = true when confirmed outside of play area
 tag @a[tag=inBounds] remove inBounds
 execute as @a[team=!,tag=!inBounds] at @s if entity @s[y=0,dy=49] if block ~ 250 ~ minecraft:barrier run tag @s add inBounds
@@ -269,6 +263,8 @@ execute as @a[team=!,tag=!inBounds,tag=!toggleBounds] if entity @s run function 
 title @a[team=!,tag=!inBounds,tag=toggleBounds] actionbar [{"text":"←","color":"dark_red"},{"text":" outside building area ","color":"white"},{"text":"→","color":"dark_red"}]
 # old autoref stuff tie in
 execute if entity @a[tag=!inBounds,scores={inGame=1}] run function eris:borderclear
+
+function eris:actionbar
 
 # lobby bounds
 tp @a[x=1100.5,y=30,z=0.5,gamemode=spectator,distance=200..,scores={inGame=0..}] 1098 40 0

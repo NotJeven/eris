@@ -27,17 +27,22 @@ Using Git, clone the repository to your Minecraft saves folder.
 ```git clone https://github.com/NotJeven/eris.git```
 
 List all tags.
+
 ```git fetch --tags```
 
 Checkout a version of your choice (for example).
+
 ```git checkout v0.24```
 
 Update the repository (if local repository is named "origin").
+
 ```git pull origin```
 
 Otherwise you can download the live zip archives.
 
 If using on a server, set the server.properties "level-name" property to the repository.
+
+
 ```level-name=eris```
 
 For installation help feel free to tweet me your questions (@NotJeven).

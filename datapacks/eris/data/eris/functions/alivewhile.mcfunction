@@ -1,6 +1,5 @@
 effect give @a[scores={timeSinceDeath=1..,inGame=1,respawn=1}] minecraft:saturation 999999 0 true
 effect give @a[scores={timeSinceDeath=1..,inGame=1,respawn=1}] minecraft:night_vision 999999 0 true
-effect give @a[scores={timeSinceDeath=1..,inGame=1,respawn=1}] minecraft:regeneration 999999 0 true
 gamemode survival @a[team=!team3,scores={timeSinceDeath=..0,inGame=1,respawn=1}]
 gamemode spectator @a[team=team3,scores={timeSinceDeath=..0,inGame=1,respawn=1}]
 execute as @a[team=team2,scores={timeSinceDeath=1..,inGame=1,respawn=1}] at @s run tp @s ~ ~ ~ -90 0

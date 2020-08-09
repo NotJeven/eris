@@ -1,6 +1,6 @@
 clear @a[scores={respawn=0,inGame=1..,timeSinceDeath=..0}] #eris:all_items 
-clear @a[scores={respawn=0,inGame=1..,timeSinceDeath=..0}] bow{Damage:0s,Enchantments:[{id:"minecraft:power",lvl:2}]} 36
-clear @a[scores={respawn=0,inGame=1..,timeSinceDeath=..0}] bow{Damage:0s,Enchantments:[{id:"minecraft:flame",lvl:1}]} 36
+clear @a[scores={respawn=0,inGame=1..,timeSinceDeath=..0}] bow{Enchantments:[{id:"minecraft:power",lvl:2}]}
+clear @a[scores={respawn=0,inGame=1..,timeSinceDeath=..0}] bow{Enchantments:[{id:"minecraft:flame",lvl:1}]}
 scoreboard players set @a[team=team1,scores={respawn=0,inGame=1..,timeSinceDeath=..0},nbt={Inventory:[{id:"minecraft:iron_sword"}]}] itemSword 1
 scoreboard players set @a[team=team2,scores={respawn=0,inGame=1..,timeSinceDeath=..0},nbt={Inventory:[{id:"minecraft:stone_sword"}]}] itemSword 1
 scoreboard players set @a[scores={respawn=0,inGame=1..,timeSinceDeath=..0},nbt={Inventory:[{id:"minecraft:stone_pickaxe"}]}] itemPick 1

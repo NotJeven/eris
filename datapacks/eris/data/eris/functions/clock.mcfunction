@@ -25,7 +25,7 @@ execute if entity @a[scores={giveTour=1..}] run function eris:tour_loop
 scoreboard players set @a[x=1089.5,y=40,z=0.5,distance=1..,scores={menuGiven=1}] menuGiven 0
 execute if entity @a[x=1089.5,y=40,z=0.5,distance=..1,scores={activate=..0,menuGiven=..0}] run function eris:requestmenu
 execute if entity @a[scores={left=1}] run function eris:left
-execute if entity @a[scores={activate=1,admin=..0,menuVis=..0}] run function eris:activate
+execute if entity @e[type=armor_stand,name=vTime,scores={var=..-601}] if entity @a[scores={activate=1,admin=..0,menuVis=..0}] run function eris:activate
 
 # teams
 execute if entity @a[scores={triggerTeam=-1}] run function eris:team0

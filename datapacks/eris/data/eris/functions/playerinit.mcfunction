@@ -13,7 +13,7 @@ execute if score #regenToggle var matches 1 run effect give @a[scores={inGame=-1
 gamemode spectator @a[scores={inGame=-1}]
 spawnpoint @a[scores={inGame=-1}] 1098 25 0
 tp @a[scores={inGame=-1}] 1008 13 0 -90 -36
-playsound entity.blaze.ambient master @a[scores={inGame=-1}] ~ ~ ~ 1 1
+execute as @a[scores={inGame=-1}] at @s run playsound entity.blaze.ambient master @s ~ ~ ~ 1 1
 clear @a[scores={inGame=-1}]
 scoreboard players set @a[scores={inGame=-1}] menuVis 0
 scoreboard players set @a[scores={inGame=-1}] admin 0

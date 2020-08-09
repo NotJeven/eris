@@ -9,4 +9,4 @@ replaceitem entity Anster armor.head player_head{SkullOwner:MHF_OakLog,display:{
 execute as @a[team=team2,scores={health=..19,crouch=1..}] run me plays the best Minecraft record "Wait" by C418!
 execute as @p[team=team2,scores={health=..19,crouch=1..}] at @s run playsound records.wait master @a ~ ~ ~ 100 1 0
 tellraw @a[name=Moesh,team=team1] [{"text":"<"},{"text":"Eris","color":"red"},{"text":">"},{"text":" It would be best for the both of us if you just stayed away from the core. We don't want any accidents again..."}]
-exeute as cordnog run setblock 1153 11 9 minecraft:acacia_wall_sign[facing=west]{"Text2":"\"no\"","Text3":"\"g\""}
+execute as cordnog run setblock 1153 11 9 minecraft:acacia_wall_sign[facing=west]{"Text2":"\"no\"","Text3":"\"g\""}

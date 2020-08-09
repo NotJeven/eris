@@ -37,8 +37,8 @@ tellraw @a {"text":""}
 execute as @e[type=armor_stand,name=vSwapTeam,scores={var=0}] run tellraw @a [{"text":"The map has been "},{"text":"reset","color":"light_purple"},{"text":"!"}]
 execute as @e[type=armor_stand,name=vSwapTeam,scores={var=0}] run title @a subtitle [{"text":"The map has been "},{"text":"reset","color":"light_purple"},{"text":"!"}]
 scoreboard players set @a[scores={teamSwap=1..2}] teamSwap 0
-execute as @e[type=armor_stand,name=vSwapTeam,scores={var=1}] run tellraw @a [{"text":"Teams have been "},{"text":"swapped","color":"gold"},{"text":"!"}]
-execute as @e[type=armor_stand,name=vSwapTeam,scores={var=1}] run title @a subtitle [{"text":"Teams have been "},{"text":"swapped","color":"gold"},{"text":"!"}]
+execute as @e[type=armor_stand,name=vSwapTeam,scores={var=1}] run tellraw @a [{"text":"Teams have been "},{"text":"switched","color":"#FF9FD6"},{"text":"!"}]
+execute as @e[type=armor_stand,name=vSwapTeam,scores={var=1}] run title @a subtitle [{"text":"Teams have been "},{"text":"switched","color":"#FF9FD6"},{"text":"!"}]
 scoreboard players reset * swapTeam
 title @a title ""
 function eris:variableset

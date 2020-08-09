@@ -18,7 +18,6 @@ execute if entity @a[scores={swapTeam=1..2}] run function eris:teamset
 scoreboard players set * inGame -1
 scoreboard players set @a inGame 0
 scoreboard players set @a respawn 0
-scoreboard players set @a activate 1
 execute as @e[type=armor_stand,name=vToggleMenu,scores={var=1}] run scoreboard players set * menuVis 0
 execute as @e[type=armor_stand,name=vToggleMenu,scores={var=0}] run scoreboard players set * menuVis 1
 scoreboard players set @a itemSword 0
@@ -43,3 +42,4 @@ scoreboard players reset * swapTeam
 title @a title ""
 function eris:variableset
 playsound entity.cat.ambient master @a ~ ~ ~ 1 0 1
+scoreboard players set @a activate 1

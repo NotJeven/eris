@@ -1,10 +1,6 @@
 ### Eris
 by Jeven  
-Preview
-
-This ```dev``` branch contains live/hot updates. Playtest and somewhat stable
-versions are tagged as "v0.X". Release and release candidates can be found on
-the ```master``` branch, tagged as "v2.X" for Eris 2. 
+v2.4
 
 ### About
 
@@ -23,39 +19,19 @@ support gameplay for anywhere between a 3v3 to a 6v6.
 
 ### Install
 
-Using Git, clone the repository to your Minecraft saves folder.
-
-```git clone https://github.com/NotJeven/eris.git```
-
-List all tags.
-
-```git tag --list```
-
-Checkout a version of your choice (for example).
-
-```git checkout v0.24```
-
-Update the repository (if local repository is named "origin").
-
-```git pull origin```
-
-Otherwise you can download the live zip archives.
-
-If using on a server, set the server.properties "level-name" property to the repository.
-
-
-```level-name=eris```
-
+To install, extract the folder "eris-2.4" into a Minecraft server directory.
+Set the server.properties "level-name" property to "eris-2.4".
+	level-name=eris-2.4
 For installation help feel free to tweet me your questions (@NotJeven).
 	
-Eris is built for unmodified (vanilla) Minecraft.
+Eris v2.4 is released for unmodified (vanilla) Minecraft 1.16, 1.15, 1.14 and 1.13.
 
 Any bugs/map issues, please report them to the project github page.
 	https://github.com/notjeven/eris
 
 ### Changelog
 
-v2.4 Preview
+v2.4
 - Updated tech to 1.13+ standard
 - Removed redstone dust from spawners
 - Removed slabs from spawners
@@ -67,13 +43,63 @@ v2.4 Preview
 - New Admin managment system
 - Reorganized admin menu
 - Added 'Random Captain' option back
+- Added 'Toggle Regeneration' option
 - Updated tooltips strings
-- Added actionbar countdown/removed undername countdown
 - Teams sent to spawn drop boxes at countdown start
 - Changed cannon slabs to stairs
 - Removed blue stained clay
+
+v2.3
+- Added tooltips to the lobby
+
+v2.2
+- Updated tech to 1.12 and to mcfunctions
+- Added 'Toggle Reset' option to admin menu
+- Health regen rules changed from 1 point/80 ticks (MC 1.8) to 1 point/50 ticks
+- Removed netherbrick fences from block spawners
+- Made the sign more readable
+- Minecraft 1.12 release support
+
+v2.1
+- Improved and updated backend performance
+- Added Autoref style void detection
+- Added 'Swap Teams' option to admin menu
+- Added 'Start Game' option to admin Menu
+- Removed 'Random Captains' option from admin menu
+- Minecraft 1.8 release support
+
+v2.0
+- Added item spawners
+- Removed classes
+- Added basic spawn kit
+- New lobby handling
+- Made Defender debufs weaker
+- Rebuilt the core room
+- Adjusted void sizes
+- Rebuilt the first white wall
+- Added void choke point in front of wall
+- Tweaked the Invader side mountain
+- Redesigned Invader spawn
+- Updated redstone mechanics
+- Swapped team colo(u)rs
+- Many gameplay balances
+
+### Attribution
+
+*Please add this template to your Youtube videos of Eris*
+	
+```
+Map: Eris
+Author: Jeven
+Download: https://notjeven.github.io/eris
+```
+I also love watching other people play Eris, tweet your videos at me!
+	https://twitter.com/notjeven
 
 ### Links
 
 Eris webpage/download
 	https://notjeven.github.io/eris
+
+Eris 2 map tour
+	https://youtu.be/Wq3NJ_AeNyE

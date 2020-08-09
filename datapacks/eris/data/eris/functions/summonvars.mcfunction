@@ -63,4 +63,4 @@ summon minecraft:armor_stand 0 15 0 {Marker:1,Invulnerable:1,NoGravity:1,CustomN
 scoreboard players set @e[name=powerEd] var 0
 scoreboard players set @e[name=vToggleMenu] var 1
 scoreboard players set @e[name=vAutoReset] var 0
-scoreboard players set #regenToggle var 1
+scoreboard players set #toggleRegen var 1

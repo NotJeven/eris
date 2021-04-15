@@ -21,6 +21,10 @@
 # some tour I wanted to do for realms; never finished
 execute if entity @a[scores={giveTour=1..}] run function eris:tour_loop
 
+# LET THEM EAT CAKE
+effect give @a[scores={food=..19}] minecraft:saturation 1 0 false
+effect clear @a[scores={food=20}] minecraft:saturation
+
 # menu giving
 scoreboard players set @a[x=1089.5,y=40,z=0.5,distance=1..,scores={menuGiven=1}] menuGiven 0
 execute if entity @a[x=1089.5,y=40,z=0.5,distance=..1,scores={activate=..0,menuGiven=..0}] run function eris:requestmenu

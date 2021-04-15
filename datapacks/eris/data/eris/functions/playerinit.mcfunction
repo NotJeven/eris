@@ -8,7 +8,6 @@ tellraw @a[scores={inGame=-1}] [{"text":"Access the chat menu with '"},{"keybind
 title @a[scores={inGame=-1}] subtitle [{"text":"Eris","color":"red"},{"text":" by ","color":"white"},{"text":"Jeven","color":"red"}]
 title @a[scores={inGame=-1}] reset
 effect give @a[scores={inGame=-1}] minecraft:night_vision 999999 0 true
-effect give @a[scores={inGame=-1}] minecraft:saturation 999999 0 true
 execute if score #toggleRegen var matches 1 run effect give @a[scores={inGame=-1}] minecraft:regeneration 999999 0 true
 gamemode spectator @a[scores={inGame=-1}]
 spawnpoint @a[scores={inGame=-1}] 1098 25 0

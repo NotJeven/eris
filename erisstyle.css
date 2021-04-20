@@ -91,6 +91,8 @@ img{
 	flex-grow: 1;
 	display: inline-block;
 	margin:.25em;
+	width:0;
+	min-width:100%;
 
 }
 

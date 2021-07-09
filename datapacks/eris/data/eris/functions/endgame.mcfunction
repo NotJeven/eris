@@ -10,8 +10,8 @@ function eris:summonhologram
 scoreboard players set @a menuVis 1
 scoreboard players set @a activate 1
 function eris:spawneroff
-scoreboard players operation @a[team=team1] usageSword = @a[team=team1] usageSwordIron
-scoreboard players operation @a[team=team2] usageSword = @a[team=team2] usageSwordStone
+execute as @a[team=team1] run scoreboard players operation @s usageSword = @s usageSwordIron
+execute as @a[team=team2] run scoreboard players operation @s usageSword = @s usageSwordStone
 scoreboard objectives setdisplay belowName
 scoreboard players set @e[type=armor_stand,name=vCoreblock] var 0
 scoreboard players set @e[type=armor_stand,name=vTime] var -903

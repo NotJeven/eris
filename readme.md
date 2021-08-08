@@ -1,6 +1,6 @@
 ### Eris
 by Jeven  
-v2.4
+v2.5
 
 ### About
 
@@ -19,17 +19,23 @@ support gameplay for anywhere between a 3v3 to a 6v6.
 
 ### Install
 
-To install, extract the folder "eris-2.4" into a Minecraft server directory.
-Set the server.properties "level-name" property to "eris-2.4".
-	level-name=eris-2.4
+To install, extract the folder "eris-2.5" into a Minecraft server directory.
+Set the server.properties "level-name" property to "eris-2.5".
+	level-name=eris-2.5
 For installation help feel free to tweet me your questions (@NotJeven).
 	
-Eris v2.4 is released for unmodified (vanilla) Minecraft 1.16, 1.15, 1.14 and 1.13.
+Eris v2.5 is released for unmodified (vanilla) Minecraft 1.17.
 
 Any bugs/map issues, please report them to the project github page.
 	https://github.com/notjeven/eris
 
 ### Changelog
+
+v2.5
+- Updated tech to 1.17
+- Removed 'Toggle Regeneration' option
+- Removed 1 point/50 ticks regeneration rule
+- Set regeneration rate to 1 point/80 ticks (MC 1.8) 
 
 v2.4
 - Updated tech to 1.13+ standard
@@ -86,8 +92,6 @@ v2.0
 
 ### Attribution
 
-*Please add this template to your Youtube videos of Eris*
-	
 ```
 Map: Eris
 Author: Jeven
